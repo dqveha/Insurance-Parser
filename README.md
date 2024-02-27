@@ -94,14 +94,14 @@ Can improve with:
 3.  Incorporate database
 4.  Consistent capitalization of keys
 5.  Testing framework such as Jest
-6.  Within much of the parsing function can be DRY'd
+6.  DRY'ing within the parsing function
 7.  Further type-checking
 
 What I've learned:
 
-1.  Even with the unparsed leftover as an internal validator, it's not perfect - such as the name being "Other or Additional Payor" and not accounting for multitudes of it (e.g. Med A, Med B). Or its additional information.
+1.  Even with the unparsed leftover as an internal validator, it's not perfect. I've come across many edge cases that come from looking manually at the results. At the least, it's another method to help me find the gaps.
 2.  Recently read a post about 10 software engineering golden rules, and the one I resonated with most regarding this project is this: `"There are no universal solutions. Evaluate tradeoffs for each context".`
-3.  Going off from (2), there are so many variations of what a benefit input looks like and its type. It would be excruciating long to organize that.
+3.  Going off from (2), there are so many variations of what a benefit input looks like. That's also why within the function, it appears to have redundant if/else statements when in actuality, they all serve a purpose due to the edge cases.
 
 #
 
