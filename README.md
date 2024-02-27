@@ -14,7 +14,7 @@ Two outputs are console logged.
 - NOTE: Requires node installed
 
 1. Clone this repo.
-2. `cd` into `InsuranceParser` and `npm install`.
+2. `cd` into `Insurance-Parser` and `npm install`.
 3. Change ID of eligibility on line 1 of `src/app.ts` to desired Change Healthcare Eligibility example, save, then run `npm run test` in terminal for results.
 4. There should be two console log outputs for review: `(a) - UNPARSED LEFTOVER` and `(b) - BENEFIT SUMMARY`
 
