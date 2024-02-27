@@ -85,6 +85,8 @@ Two outputs are console logged.
 
 - `trailerLoopIdentifierCode` and `headerLoopIdentifierCode` is noise since there are two 2120 ([C - Subscriber Benefit Related Entity Name Loop](https://www.stedi.com/app/guides/view/hipaa/health-care-eligibility-benefit-response-x279a1/01GS66YHZPB37ABF34DBPSR213#properties.detail.properties.information_source_level_HL_loop.items.properties.information_receiver_level_HL_loop.items.properties.subscriber_level_HL_loop.items.properties.subscriber_name_NM1_loop.properties.subscriber_eligibility_or_benefit_information_EB_loop.items.properties.subscriber_benefit_related_entity_name_NM1_loop) / [D - Dependent Benefit Related Entity Name Loop](https://www.stedi.com/app/guides/view/hipaa/health-care-eligibility-benefit-response-x279a1/01GS66YHZPB37ABF34DBPSR213#properties.detail.properties.information_source_level_HL_loop.items.properties.information_receiver_level_HL_loop.items.properties.subscriber_level_HL_loop.items.properties.dependent_level_HL_loop.items.properties.dependent_name_NM1_loop.properties.dependent_eligibility_or_benefit_information_EB_loop.items.properties.dependent_benefit_related_entity_name_NM1_loop)), but Change Healthcare's API doesn't specify which 2120 loop it is.
 
+### Reflection
+
 Can improve with:
 
 1.  Commits -- Should've started with this! Almost feels sacrilegious in hindsight - hah
@@ -95,11 +97,12 @@ Can improve with:
 6.  Within much of the parsing function can be DRY'd
 7.  Further type-checking
 
-What I've learned while doing this project:
+What I've learned:
 
 1.  Even with the unparsed leftover as an internal validator, it's not perfect - such as the name being "Other or Additional Payor" and not accounting for multitudes of it (e.g. Med A, Med B). Or its additional information.
 2.  Recently read a post about 10 software engineering golden rules, and the one I resonated with most regarding this project is this: `"There are no universal solutions. Evaluate tradeoffs for each context".`
 3.  Going off from (2), there are so many variations of what a benefit input looks like and its type. It would be excruciating long to organize that.
 
-Authored by:
-Dave Lindqvist
+#
+
+#### Authored by: Dave Lindqvist
