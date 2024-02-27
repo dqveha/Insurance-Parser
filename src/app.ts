@@ -1,4 +1,4 @@
-import * as response from "./Eligibilities/00036.json";
+import * as response from "./Eligibilities/000051.json";
 import { Benefit } from "./types/Benefit";
 import { Eligibility } from "./types/Eligibility";
 import { networkMap } from "./maps/networkMap";
@@ -168,9 +168,12 @@ const parseBenefits = (eligibility: Eligibility) => {
               if (timeQualifier && additionalInformation) {
                 benefitsSummary[network][coverage][service][name] = {
                   ...benefitsSummary[network][coverage][service][name],
-                  [timeQualifier]: { [quantityQualifier]: benefitQuantity },
-                  additionalInformation,
+                  [timeQualifier]: {
+                    [quantityQualifier]: benefitQuantity,
+                    additionalInformation,
+                  },
                 };
+                console.log(benefitsSummary[network][coverage][service][name]);
               } else if (timeQualifier && !additionalInformation) {
                 benefitsSummary[network][coverage][service][name] = {
                   ...benefitsSummary[network][coverage][service][name],
