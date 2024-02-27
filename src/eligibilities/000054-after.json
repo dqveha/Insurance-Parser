@@ -1,0 +1,1402 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "030c7a88-706b-c842-2dd0-493befbd81df"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000054",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "11111111"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000054"
+  },
+  "planInformation": {
+    "groupNumber": "11111111",
+    "groupDescription": "UNIVERSITY OF ABC",
+    "idCardNumber": "XX"
+  },
+  "planDateInformation": {
+    "plan": "20160101-99991231"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "YOUR PPO PLAN P3",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["1{AL{XX"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "PHARMACY PLAN $10/20%/35%",
+      "serviceTypeCodes": ["88"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "YOUR PPO PLAN P3",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "name": "TEST UTILZ MGMT",
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "contactInformation": {
+            "name": "TEST UTILZ MGMT",
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "PHARMACY PLAN $10/20%/35%"
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "UNLESS OTHERWISE REQUIRED BY STATE LAW,THIS NOTICE IS NOT A GUARANTEE OF PAYMENT.BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBERS STATUS ON THE DATE OF SERVICE.ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "800",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "400",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1600",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "1600",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1200",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "4800",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "4400",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2500",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1619.33",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "5000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "4119.33",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "4000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3119.33",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "8000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "7119.33",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "CHIROPRACTIC CARE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "CHIROPRACTIC CARE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospitalization"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INPATIENT - MEDICAL/SURGICAL - IP FACILITY"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospitalization"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "INPATIENT - MEDICAL/SURGICAL - IP FACILITY"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OBSERVATION STAY (MOVED FROM HOSP. INPATIENT)"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OBSERVATION STAY (MOVED FROM HOSP. INPATIENT)"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OP SURGERY, PHYSICIAN"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OP SURGERY, PHYSICIAN"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - IP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - IP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OFFICE VISITS"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OFFICE VISITS"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DIABETIC EDUCATION - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "DIABETIC EDUCATION - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OFFICE VISIT PCP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OFFICE VISIT PCP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC EYE EXAMS OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC EYE EXAMS OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "ROUTINE EYE EXAM OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "ROUTINE EYE EXAM OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "ROUTINE EYE EXAM OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "ROUTINE EYE EXAM OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "VISION THERAPY"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR CATARACT AFTERCARE OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR CATARACT AFTERCARE OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR REPLACEMENTS - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR REPLACEMENTS - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR REPLACEMENTS - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EYEWEAR REPLACEMENTS - OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "GLAUCOMA SCREENING - OV"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "GLAUCOMA SCREENING - OV"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "ADULT ROUTINE PHYSICAL OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "ADULT ROUTINE PHYSICAL OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "ADULT ROUTINE PHYSICAL OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "ADULT ROUTINE PHYSICAL OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "ADULT ROUTINE PHYSICAL OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "ADULT ROUTINE PHYSICAL OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "ADULT ROUTINE PHYSICAL OFFICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "WELL CHILD VISITS AGES 7-19"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "WELL CHILD VISITS AGES 7-19"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "WELL CHILD VISITS AGES 7-19"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "WELL CHILD VISITS AGES 7-19"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "WELL CHILD VISITS AGES 7-19"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "WELL CHILD VISITS AGES 7-19"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "WELL CHILD VISITS AGES 7-19"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "URGENT CARE VISIT"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "URGENT CARE VISIT"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "URGENT CARE PROFESSIONAL - PCP - AGE 0-4"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "URGENT CARE PROFESSIONAL - PCP - AGE 0-4"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "URGENT CARE PROFESSIONAL - SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "URGENT CARE PROFESSIONAL - SPECIALIST"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0533*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*674608972*005010X279A1~BHT*0022*11*030c7a88-706b-c842-2dd0-493befbd81df*20240220*0533~HL*1**20*1~NM1*PR*2*Unknown*****PI*000054~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*6P*11111111*UNIVERSITY OF ABC~REF*HJ*XX~N3*~N4***~DMG*D8**~DTP*291*RD8*20160101-99991231~EB*1*FAM*30*PR*YOUR PPO PLAN P3*******U~LS*2120~NM1*PR*2*Unknown~PER*IC*TEST UTILZ MGMT*TE*1111111111~LE*2120~EB*1*FAM*88*PR*PHARMACY PLAN $10/20%/35%~EB*1*IND*1{AL{XX*********X~EB*P~MSG*UNLESS OTHERWISE REQUIRED BY STATE LAW,THIS NOTICE IS NOT A GUARANTEE OF PAYMENT.BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBERS STATUS ON THE DATE OF SERVICE.ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED~EB*C*IND*30***25*800*****Y~EB*C*IND*30***29*400*****Y~EB*C*FAM*30***25*2000*****Y~EB*C*FAM*30***29*1600*****Y~EB*C*IND*30***25*1600*****N~EB*C*IND*30***29*1200*****N~EB*C*FAM*30***25*4800*****N~EB*C*FAM*30***29*4400*****N~EB*G*IND*30***25*2500*****Y~EB*G*IND*30***29*1619.33*****Y~EB*G*FAM*30***25*5000*****Y~EB*G*FAM*30***29*4119.33*****Y~EB*G*IND*30***25*4000*****N~EB*G*IND*30***29*3119.33*****N~EB*G*FAM*30***25*8000*****N~EB*G*FAM*30***29*7119.33*****N~EB*B*IND*33***27*30*****Y~MSG*CHIROPRACTIC CARE~EB*A*IND*33*****.4****N~MSG*CHIROPRACTIC CARE~EB*A*IND*47{48*****.2****Y~MSG*INPATIENT - MEDICAL/SURGICAL - IP FACILITY~EB*A*IND*47{48*****.4****N~MSG*INPATIENT - MEDICAL/SURGICAL - IP FACILITY~EB*A*IND*50*****.2****Y~MSG*OBSERVATION STAY (MOVED FROM HOSP. INPATIENT)~EB*A*IND*50*****.4****N~MSG*OBSERVATION STAY (MOVED FROM HOSP. INPATIENT)~EB*A*IND*50*****.2****Y~MSG*OP SURGERY, PHYSICIAN~EB*A*IND*50*****.4****N~MSG*OP SURGERY, PHYSICIAN~EB*A*IND*98*****.2****Y~MSG*DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - IP~EB*A*IND*98*****.4****N~MSG*DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - IP~EB*A*IND*98*****0****Y~MSG*DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE~EB*B*IND*98***27*0*****Y~MSG*DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE~EB*C*IND*98***25*0*****Y~MSG*DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE~EB*G*IND*98***25*0*****Y~MSG*DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE~EB*A*IND*98*****.4****N~MSG*DIAGNOSTIC/PHYSICIAN - NON FACE TO FACE - OFFICE~EB*B*IND*98***27*60*****Y~MSG*OFFICE VISITS~EB*A*IND*98*****.4****N~MSG*OFFICE VISITS~EB*B*IND*98***27*30*****Y~MSG*DIABETIC EDUCATION - OFFICE~EB*A*IND*98*****.4****N~MSG*DIABETIC EDUCATION - OFFICE~EB*B*IND*98***27*30*****Y~MSG*OFFICE VISIT PCP~EB*A*IND*98*****.4****N~MSG*OFFICE VISIT PCP~EB*B*IND*AL***27*60*****Y~MSG*DIAGNOSTIC EYE EXAMS OFFICE~EB*A*IND*AL*****.4****N~MSG*DIAGNOSTIC EYE EXAMS OFFICE~EB*A*IND*AL*****0****W~MSG*EYEWEAR OFFICE~EB*B*IND*AL***27*0*****W~MSG*EYEWEAR OFFICE~EB*C*IND*AL***25*0*****W~MSG*EYEWEAR OFFICE~EB*G*IND*AL***25*0*****W~MSG*EYEWEAR OFFICE~EB*F*IND*AL***25*60*****W~MSG*EYEWEAR OFFICE~EB*F*IND*AL***29*60*****W~MSG*EYEWEAR OFFICE~EB*B*IND*AL***27*60*****Y~MSG*ROUTINE EYE EXAM OFFICE~EB*A*IND*AL*****.4****N~MSG*ROUTINE EYE EXAM OFFICE~EB*F*IND*AL***25***DY*1**W~MSG*ROUTINE EYE EXAM OFFICE~EB*F*IND*AL***29***DY*1**W~MSG*ROUTINE EYE EXAM OFFICE~EB*I*IND*AL*********W~MSG*VISION THERAPY~EB*A*IND*AL*****.2****Y~MSG*EYEWEAR CATARACT AFTERCARE OFFICE~EB*A*IND*AL*****.4****N~MSG*EYEWEAR CATARACT AFTERCARE OFFICE~EB*A*IND*AL*****0****W~MSG*EYEWEAR REPLACEMENTS - OFFICE~EB*B*IND*AL***27*0*****W~MSG*EYEWEAR REPLACEMENTS - OFFICE~EB*C*IND*AL***25*0*****W~MSG*EYEWEAR REPLACEMENTS - OFFICE~EB*G*IND*AL***25*0*****W~MSG*EYEWEAR REPLACEMENTS - OFFICE~EB*B*IND*AL***27*60*****Y~MSG*GLAUCOMA SCREENING - OV~EB*A*IND*AL*****.4****N~MSG*GLAUCOMA SCREENING - OV~EB*A*IND*BZ*****0****Y~MSG*ADULT ROUTINE PHYSICAL OFFICE~EB*B*IND*BZ***27*0*****Y~MSG*ADULT ROUTINE PHYSICAL OFFICE~EB*C*IND*BZ***25*0*****Y~MSG*ADULT ROUTINE PHYSICAL OFFICE~EB*G*IND*BZ***25*0*****Y~MSG*ADULT ROUTINE PHYSICAL OFFICE~EB*F*IND*BZ***25***VS*1**Y~MSG*ADULT ROUTINE PHYSICAL OFFICE~EB*F*IND*BZ***29***VS*1**Y~MSG*ADULT ROUTINE PHYSICAL OFFICE~EB*I*IND*BZ*********N~MSG*ADULT ROUTINE PHYSICAL OFFICE~EB*A*IND*BZ*****0****Y~MSG*WELL CHILD VISITS AGES 7-19~EB*B*IND*BZ***27*0*****Y~MSG*WELL CHILD VISITS AGES 7-19~EB*C*IND*BZ***25*0*****Y~MSG*WELL CHILD VISITS AGES 7-19~EB*G*IND*BZ***25*0*****Y~MSG*WELL CHILD VISITS AGES 7-19~EB*F*IND*BZ***25***VS*1**Y~MSG*WELL CHILD VISITS AGES 7-19~EB*F*IND*BZ***29***VS*1**Y~MSG*WELL CHILD VISITS AGES 7-19~EB*I*IND*BZ*********N~MSG*WELL CHILD VISITS AGES 7-19~EB*A*IND*UC*****.2****Y~MSG*URGENT CARE VISIT~EB*A*IND*UC*****.4****N~MSG*URGENT CARE VISIT~EB*B*IND*UC***27*30*****Y~MSG*URGENT CARE PROFESSIONAL - PCP - AGE 0-4~EB*A*IND*UC*****.4****N~MSG*URGENT CARE PROFESSIONAL - PCP - AGE 0-4~EB*B*IND*UC***27*60*****Y~MSG*URGENT CARE PROFESSIONAL - SPECIALIST~EB*A*IND*UC*****.4****N~MSG*URGENT CARE PROFESSIONAL - SPECIALIST~SE*165*674608972~GE*1*000000001~IEA*1*000000001~"
+}

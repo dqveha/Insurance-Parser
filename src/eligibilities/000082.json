@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "ca35ff97-32fc-6792-d1a7-1e518c2609a8"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000082",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "00000000",
+    "planNumber": "000",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "address": {
+      "address1": "123 address1",
+      "city": "city1",
+      "state": "wa",
+      "postalCode": "981010000"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "197523351",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "BLUE CROSS BLUE SHIELD OF GEORGIA",
+    "payorIdentification": "BCGAC"
+  },
+  "planInformation": {
+    "planNumber": "000",
+    "planDescription": "US WORLDMEDS, LLC",
+    "caseNumber": "AAAAAAAA",
+    "groupNumber": "00000000",
+    "groupDescription": "US WORLDMEDS, LLC"
+  },
+  "planDateInformation": {
+    "plan": "20170103-99991231"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "BLUE ACCESS FOR HEALTH SAVINGS ACCOUNT",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "BLUE VIEW VISION",
+      "serviceTypeCodes": ["AL"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "86",
+        "88",
+        "98",
+        "BZ",
+        "MH",
+        "UC",
+        "98"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "BLUE ACCESS FOR HEALTH SAVINGS ACCOUNT"
+    },
+    {
+      "code": "D",
+      "name": "Benefit Description",
+      "additionalInformation": [
+        {
+          "description": "THIS PATIENT MAY HAVE HRA/HSA/HIA DOLLARS TO USE TOWARD DEDUCTIBLE AND OUT OF POCKET EXPENSES"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "3000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "2982.3",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1417.78",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "5935.2",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "12000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "11935.2",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "plan": "20170103-20171231"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "4000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3982.3",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "8000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3327.78",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "12000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "11935.2",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "24000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "23935.2",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "86",
+        "88",
+        "98",
+        "BZ",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Pharmacy",
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33", "98", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33", "98", "BZ", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "benefitPercent": ".3",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "12",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "MANIPULATION THERAPY"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "12",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "MANIPULATION THERAPY"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47", "48", "50"],
+      "serviceTypes": [
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient"
+      ],
+      "benefitPercent": "0",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Utilization Management Organization",
+        "entityType": "Non-Person Entity",
+        "entityName": "TEST ORGANIZATION",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Utilization Management Organization",
+          "entityType": "Non-Person Entity",
+          "entityName": "TEST ORGANIZATION",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47", "48", "50"],
+      "serviceTypes": [
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient"
+      ],
+      "benefitPercent": ".3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52", "86"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Emergency Services"
+      ],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".3",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "benefit": "20170103-20171231"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "planCoverage": "BLUE VIEW VISION",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITATIONS AND THE MEMBERS ELIGIBILITY STATUS ON THE DATE OF SERVICE. FOR ANY QUESTIONS PLEASE CALL PHONE NUMBER ON BACK OF MEMBERS CARD."
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0534*{*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*197523351*005010X279A1~BHT*0022*11*197523351*20170522*1125~HL*1**20*1~NM1*PR*2*BLUE CROSS BLUE SHIELD OF GEORGIA*****PI*BCGAC~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*197523351*9EMDEON999~NM1*IL*1*******01234567890~REF*3H*AAAAAAAA~REF*6P*00000000*US WORLDMEDS, LLC~REF*18*000*US WORLDMEDS, LLC~N3*123 address1~N4*city1*wa*981010000~DMG*D8**~INS*Y*18~DTP*291*RD8*20170103-99991231~EB*1*FAM*30*PR*BLUE ACCESS FOR HEALTH SAVINGS ACCOUNT~EB*D~MSG*THIS PATIENT MAY HAVE HRA/HSA/HIA DOLLARS TO USE TOWARD DEDUCTIBLE AND OUT OF POCKET EXPENSES~EB*C*IND*30***22*3000*****Y~DTP*291*RD8*20170103-20171231~EB*C*IND*30***29*2982.3*****Y~DTP*291*RD8*20170103-20171231~EB*C*FAM*30***22*6000*****Y~DTP*291*RD8*20170103-20171231~EB*C*FAM*30***29*1417.78*****Y~DTP*291*RD8*20170103-20171231~EB*C*IND*30***22*6000*****N~DTP*291*RD8*20170103-20171231~EB*C*IND*30***29*5935.2*****N~DTP*291*RD8*20170103-20171231~EB*C*FAM*30***22*12000*****N~DTP*291*RD8*20170103-20171231~EB*C*FAM*30***29*11935.2*****N~DTP*291*RD8*20170103-20171231~EB*G*IND*30***22*4000*****Y~EB*G*IND*30***29*3982.3*****Y~EB*G*FAM*30***22*8000*****Y~EB*G*FAM*30***29*3327.78*****Y~EB*G*IND*30***22*12000*****N~EB*G*IND*30***29*11935.2*****N~EB*G*FAM*30***22*24000*****N~EB*G*FAM*30***29*23935.2*****N~EB*1**1{33{47{48{50{51{52{86{88{98{BZ{MH{UC*********W~EB*1**98*********W~MSG*SPECIALIST~EB*A*IND*33{98{UC*****0****Y~EB*A*IND*33{98{BZ{UC*****.3****N~EB*F**33***22***VS*12**W~MSG*MANIPULATION THERAPY~EB*F**33***29***VS*12**W~MSG*MANIPULATION THERAPY~EB*A*IND*47{48{50*****0***U*Y~LS*2120~NM1*X3*2*TEST ORGANIZATION~PER*IC**TE*1111111111~LE*2120~EB*A*IND*47{48{50*****.3***U*N~EB*A*IND*51{52{86*****0****W~EB*A*IND*98*****0****Y~MSG*SPECIALIST~EB*A*IND*98*****.3****N~MSG*SPECIALIST~EB*C*IND*BZ***22*0*****Y~DTP*292*RD8*20170103-20171231~EB*B*IND*BZ****0*****Y~EB*1*FAM*AL**BLUE VIEW VISION*******W~EB*P~MSG*UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITATIONS AND THE MEMBERS ELIGIBILITY STATUS ON THE DATE OF SERVICE. FOR ANY QUESTIONS PLEASE CALL PHONE NUMBER ON BACK OF MEMBERS CARD.~SE*71*197523351~GE*1*000000001~IEA*1*000000001~"
+}

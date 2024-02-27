@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "df2ada68-437d-15f3-f6fd-f3740a2d6302"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000070",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "277833030",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Test health Plan",
+    "payorIdentification": "00000",
+    "contactInformation": {
+      "contacts": [
+        {
+          "communicationMode": "Uniform Resource Locator (URL)",
+          "communicationNumber": "www.xxxx.com"
+        }
+      ]
+    }
+  },
+  "planDateInformation": {
+    "planBegin": "20160301-20170228"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "HMO, FREEDOM",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["1", "47", "48", "50", "86", "98", "MH", "UC"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "planCoverage": "HMO, FREEDOM"
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "additionalInformation": [
+        {
+          "description": "Information provided herein is not a guarantee of payment or of coverage. Benefit determinations depend on a number of factors, including medical necessity. Oxford expressly reserves the right to change any information provided."
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["1", "47", "48", "50", "86", "98", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Provider Role FAC"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["35"],
+      "serviceTypes": ["Dental Care"],
+      "authOrCertIndicator": "N",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Vendor",
+        "entityType": "Non-Person Entity",
+        "entityName": "TEST DENTAL",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Uniform Resource Locator (URL)",
+              "communicationNumber": "WWW.BBBB.COM"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Vendor",
+          "entityType": "Non-Person Entity",
+          "entityName": "TEST DENTAL",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Uniform Resource Locator (URL)",
+                "communicationNumber": "WWW.BBBB.COM"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "authOrCertIndicator": "N",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Vendor",
+        "entityType": "Non-Person Entity",
+        "entityName": "TEST VISION",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Uniform Resource Locator (URL)",
+              "communicationNumber": "WWW.XXXX.COM"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Vendor",
+          "entityType": "Non-Person Entity",
+          "entityName": "TEST VISION",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Uniform Resource Locator (URL)",
+                "communicationNumber": "WWW.XXXX.COM"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0534*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*000000001*005010X279A1~BHT*0022*11*df2ada68-437d-15f3-f6fd-f3740a2d6302*20240220*0534~HL*1**20*1~NM1*PR*2*Test health Plan*****PI*00000~PER*IC**UR*www.xxxx.com~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*277833030*9EMDEON999~NM1*IL*1*******01234567890~N3*~N4***~DMG*D8**~DTP*346*RD8*20160301-20170228~EB*1*IND*30*C1*HMO, FREEDOM~EB*P**30~MSG*Information provided herein is not a guarantee of payment or of coverage. Benefit determinations depend on a number of factors, including medical necessity. Oxford expressly reserves the right to change any information provided.~EB*1*IND*1^47^48^50^86^98^MH^UC********N*Y~EB*B*IND*48****0*****Y~MSG*Provider Role FAC~EB*U*IND*35********N~LS*2120~NM1*VN*2*TEST DENTAL~PER*IC**UR*WWW.BBBB.COM~LE*2120~EB*U*IND*AL********N~LS*2120~NM1*VN*2*TEST VISION~PER*IC**UR*WWW.XXXX.COM~LE*2120~SE*31*000000001~GE*1*000000001~IEA*1*000000001~"
+}

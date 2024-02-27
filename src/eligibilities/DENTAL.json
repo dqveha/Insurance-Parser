@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "2c71c8fe-fb8f-e2b7-9de8-c064577b8c50"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "DENTAL",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "00000-11111"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "636775252",
+      "originatingCompanyIdentifier": "9CT EMDEON",
+      "secondaryReferenceIdentification": "DENTAL"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "636775252",
+      "originatingCompanyIdentifier": "9CT EMDEON",
+      "secondaryReferenceIdentification": "DENTAL"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Dental Benefits Payer",
+    "payorIdentification": "11111",
+    "contactInformation": {
+      "name": "Member Services",
+      "contacts": [
+        {
+          "communicationMode": "Telephone",
+          "communicationNumber": "8888888888"
+        }
+      ]
+    }
+  },
+  "planInformation": {
+    "groupNumber": "00000-11111",
+    "groupDescription": "Test Inc.",
+    "federalTaxpayersIdentificationNumber": "000000000"
+  },
+  "planDateInformation": {
+    "plan": "20170101-20171231",
+    "eligibility": "20160101"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Dental PPO"
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "EMP",
+      "coverageLevel": "Employee Only",
+      "insuranceTypeCode": "GP",
+      "insuranceType": "Group Policy",
+      "planCoverage": "Dental PPO",
+      "additionalInformation": [
+        {
+          "description": "URL=http%3A%2F%2Ftestdentals.com"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["39"],
+      "serviceTypes": ["Prosthodontics"],
+      "planCoverage": "Participating Provider Organization",
+      "benefitPercent": ".6"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["23"],
+      "serviceTypes": ["Diagnostic Dental"],
+      "planCoverage": "Participating Provider Organization",
+      "benefitPercent": "1"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "planCoverage": "Participating Provider Organization",
+      "benefitPercent": ".5"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["36"],
+      "serviceTypes": ["Dental Crowns"],
+      "planCoverage": "Participating Provider Organization",
+      "benefitPercent": ".6"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["GE"],
+      "serviceTypes": [null],
+      "planCoverage": "Participating Provider Organization",
+      "benefitPercent": ".9"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["39"],
+      "serviceTypes": ["Prosthodontics"],
+      "planCoverage": "Non-Par",
+      "benefitPercent": ".6"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["23"],
+      "serviceTypes": ["Diagnostic Dental"],
+      "planCoverage": "Non-Par",
+      "benefitPercent": "1"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "planCoverage": "Non-Par",
+      "benefitPercent": ".5"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["36"],
+      "serviceTypes": ["Dental Crowns"],
+      "planCoverage": "Non-Par",
+      "benefitPercent": ".6"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["GE"],
+      "serviceTypes": [null],
+      "planCoverage": "Non-Par",
+      "benefitPercent": ".9"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["39"],
+      "serviceTypes": ["Prosthodontics"],
+      "planCoverage": "Premier",
+      "benefitPercent": ".6"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["23"],
+      "serviceTypes": ["Diagnostic Dental"],
+      "planCoverage": "Premier",
+      "benefitPercent": "1"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "planCoverage": "Premier",
+      "benefitPercent": ".5"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["36"],
+      "serviceTypes": ["Dental Crowns"],
+      "planCoverage": "Premier",
+      "benefitPercent": ".6"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["GE"],
+      "serviceTypes": [null],
+      "planCoverage": "Premier",
+      "benefitPercent": ".9"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Participating Provider Organization",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Non-Par",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Premier",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "planCoverage": "Participating Provider Organization",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "planCoverage": "Non-Par",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "planCoverage": "Premier",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Participating Provider Organization",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Non-Par",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Premier",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3500.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "planCoverage": "Participating Provider Organization",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "250.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "planCoverage": "Non-Par",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "250.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "planCoverage": "Premier",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "250.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Participating Provider Organization",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "50.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Non-Par",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "50.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Premier",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "50.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "planCoverage": "Participating Provider Organization",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "250.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "planCoverage": "Non-Par",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "250.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "planCoverage": "Premier",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "250.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Participating Provider Organization",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "50.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Non-Par",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "50.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "planCoverage": "Premier",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "50.00"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0544*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*111111111*005010X279A1~BHT*0022*11*2c71c8fe-fb8f-e2b7-9de8-c064577b8c50*20240220*0544~HL*1**20*1~NM1*PR*2*Dental Benefits Payer*****PI*11111~PER*IC*Member Services*TE*8888888888~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~REF*TJ*000000000~HL*3*2*22*0~TRN*1*636775252*9CT EMDEON*DENTAL~TRN*1*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*6P*00000-11111*Test Inc.~N3*~N4***~DMG*D8**~DTP*307*D8*20160101~DTP*291*RD8*20170101-20171231~EB*1*EMP**GP*Dental PPO~MSG*URL=http%3A%2F%2Ftestdentals.com~EB*A**39**Participating Provider Organization***.6~EB*A**23**Participating Provider Organization***1~EB*A**38**Participating Provider Organization***.5~EB*A**36**Participating Provider Organization***.6~EB*A**GE**Participating Provider Organization***.9~EB*A**39**Non-Par***.6~EB*A**23**Non-Par***1~EB*A**38**Non-Par***.5~EB*A**36**Non-Par***.6~EB*A**GE**Non-Par***.9~EB*A**39**Premier***.6~EB*A**23**Premier***1~EB*A**38**Premier***.5~EB*A**36**Premier***.6~EB*A**GE**Premier***.9~EB*F*IND***Participating Provider Organization*25*3500.00~EB*F*IND***Non-Par*25*3500.00~EB*F*IND***Premier*25*3500.00~EB*F*IND*38**Participating Provider Organization*32*3500.00~EB*F*IND*38**Non-Par*32*3500.00~EB*F*IND*38**Premier*32*3500.00~EB*F*IND***Participating Provider Organization*29*3500.00~EB*F*IND***Non-Par*29*3500.00~EB*F*IND***Premier*29*3500.00~EB*C*FAM***Participating Provider Organization*25*250.00~EB*C*FAM***Non-Par*25*250.00~EB*C*FAM***Premier*25*250.00~EB*C*IND***Participating Provider Organization*25*50.00~EB*C*IND***Non-Par*25*50.00~EB*C*IND***Premier*25*50.00~EB*C*FAM***Participating Provider Organization*29*250.00~EB*C*FAM***Non-Par*29*250.00~EB*C*FAM***Premier*29*250.00~EB*C*IND***Participating Provider Organization*29*50.00~EB*C*IND***Non-Par*29*50.00~EB*C*IND***Premier*29*50.00~SE*57*111111111~GE*1*000000001~IEA*1*000000001~"
+}

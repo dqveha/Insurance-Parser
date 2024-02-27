@@ -1,0 +1,1348 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "4bc9fdb5-d942-0e67-e165-5175162b4a7c"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "TXBCBS",
+  "provider": {
+    "providerName": " HAPPY DOCTORS GROUP PRACTICE ",
+    "entityIdentifier": "Provider",
+    "entityType": "Non-Person Entity",
+    "npi": "1234567893",
+    "address": {
+      "address1": "123 address1",
+      "city": "NASHVILLE",
+      "state": "TN",
+      "postalCode": "372030000"
+    }
+  },
+  "subscriber": {
+    "memberId": "0000000000",
+    "firstName": "JANEONE",
+    "lastName": "DOEONE",
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "dependents": [
+    {
+      "firstName": "JANEONE",
+      "lastName": "DOEONE",
+      "gender": "F",
+      "entityType": "Person",
+      "dateOfBirth": "18800102",
+      "groupNumber": "0000000000",
+      "relationToSubscriber": "Spouse",
+      "relationToSubscriberCode": "01",
+      "insuredIndicator": "N",
+      "address": {
+        "address1": "123 ADDRESS1",
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37203"
+      }
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "TEXAS BLUE CROSS BLUE SHIELD",
+    "payorIdentification": "TXBCBS"
+  },
+  "planInformation": {
+    "groupNumber": "0000000000"
+  },
+  "planDateInformation": {
+    "plan": "20210901-99991231",
+    "premiumPaidToDateEnd": "20211130"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Blue Advantage HMO",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["1", "88", "MH"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HM",
+      "insuranceType": "Health Maintenance Organization (HMO)",
+      "planCoverage": "Blue Advantage HMO"
+    },
+    {
+      "code": "D",
+      "name": "Benefit Description",
+      "serviceTypeCodes": ["30", "51", "UC", "52", "33", "98", "BZ"],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Hospital - Emergency Accident",
+        "Urgent Care",
+        "Hospital - Emergency Medical",
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well"
+      ],
+      "additionalInformation": [
+        {
+          "description": "THE PATIENT'S POLICY REQUIRES THAT SERVICES BE PERFORMED BY OR REFERRED BY THE PATIENT'S PRIMARY CARE PHYSICIAN IN ORDER TO RECEIVE NETWORK BENEFITS."
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["1", "88", "MH"],
+      "serviceTypes": ["Medical Care", "Pharmacy", "Mental Health"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "D",
+      "name": "Benefit Description",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["UC", "33", "98", "BZ"],
+      "serviceTypes": [
+        "Urgent Care",
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well"
+      ],
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SERVICES NOT PERFORMED BY THE PATIENT'S PRIMARY CARE PHYSICIAN OR AN OBSTETRICIAN/GYNECOLOGIST IN THE SAME LIMITED PROVIDER HMO NETWORK AS THE PRIMARY CARE PHYSICIAN MAY REQUIRE A REFERRAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SERVICES NOT PERFORMED BY THE PATIENT'S PRIMARY CARE PHYSICIAN OR AN OBSTETRICIAN/GYNECOLOGIST IN THE SAME LIMITED PROVIDER HMO NETWORK AS THE PRIMARY CARE PHYSICIAN MAY REQUIRE A REFERRAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["UC", "33", "98", "BZ"],
+      "serviceTypes": [
+        "Urgent Care",
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well"
+      ],
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Utilization Management Organization",
+        "entityType": "Non-Person Entity",
+        "entityName": "CUSTOMER SERVICE",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "8004510287"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Utilization Management Organization",
+          "entityType": "Non-Person Entity",
+          "entityName": "CUSTOMER SERVICE",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "8004510287"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "2700",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "900",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Emergency Room - Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Emergency Room - Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Emergency Room - Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Emergency Room - Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY MEDICAL CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY MEDICAL CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY MEDICAL CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Emergency Room - Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Emergency Room - Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY MEDICAL CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Emergency Room - Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Emergency Room - Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "P6",
+      "quantityQualifier": "Number of Services or Procedures",
+      "benefitQuantity": "35",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "P6",
+      "quantityQualifier": "Number of Services or Procedures",
+      "benefitQuantity": "35",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0.3",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OFFICE VISIT - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OFFICE VISIT - PROFESSIONAL"
+        },
+        {
+          "description": "1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PHYSICAL HISTORY - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Emergency Room - Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Emergency Room - Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51"],
+      "serviceTypes": ["Hospital - Emergency Accident"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY MEDICAL CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY MEDICAL CARE - PROFESSIONAL"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Emergency Room - Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Emergency Room - Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "P6",
+      "quantityQualifier": "Number of Services or Procedures",
+      "benefitQuantity": "35",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "P6",
+      "quantityQualifier": "Number of Services or Procedures",
+      "benefitQuantity": "35",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MUSCLE MANIPULATION - PROFESSIONAL"
+        },
+        {
+          "description": "1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "U",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OFFICE VISIT - PROFESSIONAL"
+        },
+        {
+          "description": "1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "DOEONE",
+        "entityFirstname": "JOHNONE",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "1234567893",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "0000000001"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "DOEONE",
+          "entityFirstname": "JOHNONE",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "1234567893",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "0000000001"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBER'S STATUS ON THE DATE OF SERVICE. ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED."
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0546*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*4bc9fdb5-d942-0e67-e165-5175162b4a7c*20240220*0546~HL*1**20*1~NM1*PR*2*TEXAS BLUE CROSS BLUE SHIELD*****PI*TXBCBS~HL*2*1*21*1~NM1*1P*2* HAPPY DOCTORS GROUP PRACTICE *****XX*1234567893~N3*123 address1~N4*NASHVILLE*TN*372030000~HL*3*2*22*1~NM1*IL*1*DOEONE*JANEONE****MI*0000000000~HL*4*3*23*0~TRN*2*111111111*9877281234~NM1*03*1*DOEONE*JANEONE~REF*6P*0000000000~N3*123 ADDRESS1~N4*NASHVILLE*TN*37203~DMG*D8*18800102*F~INS*N*01~DTP*291*RD8*20210901-99991231~DTP*343*D8*20211130~EB*1**30*HM*Blue Advantage HMO~EB*D**30^51^UC^52^33^98^BZ~MSG*THE PATIENT'S POLICY REQUIRES THAT SERVICES BE PERFORMED BY OR REFERRED BY THE PATIENT'S PRIMARY CARE PHYSICIAN IN ORDER TO RECEIVE NETWORK BENEFITS.~EB*1**1^88^MH*********W~EB*D**30~MSG*PHYSICIAN BENEFIT~EB*U**UC^33^98^BZ********U*W~MSG*SERVICES NOT PERFORMED BY THE PATIENT'S PRIMARY CARE PHYSICIAN OR AN OBSTETRICIAN/GYNECOLOGIST IN THE SAME LIMITED PROVIDER HMO NETWORK AS THE PRIMARY CARE PHYSICIAN MAY REQUIRE A REFERRAL~III*ZZ*11~EB*U**33********U*W~MSG*SERVICES NOT PERFORMED BY THE PATIENT'S PRIMARY CARE PHYSICIAN OR AN OBSTETRICIAN/GYNECOLOGIST IN THE SAME LIMITED PROVIDER HMO NETWORK AS THE PRIMARY CARE PHYSICIAN MAY REQUIRE A REFERRAL~III*ZZ*22~EB*U**UC^33^98^BZ********U*W~LS*2120~NM1*X3*2*CUSTOMER SERVICE~PER*IC**TE*8004510287~LE*2120~EB*A*IND*51***23**0.3***U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*22~EB*G*FAM*30***23*2700****U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL~EB*F*IND*51***27***VS*1*U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*22~EB*G*IND*30***23*900****U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL~EB*A*IND*51***23**0.3***U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*23~EB*F*IND*51***27***VS*1*U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*23~EB*A*IND*51***23**0.3***U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*11~EB*F*IND*51***27***VS*1*U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*11~EB*A*IND*UC***23**0.3***U*Y~MSG*EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL~III*ZZ*11~EB*F*IND*UC***27***VS*1*U*Y~MSG*EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL~III*ZZ*11~EB*A*IND*52***23**0.3***U*Y~MSG*EMERGENCY MEDICAL CARE - PROFESSIONAL~III*ZZ*22~EB*F*IND*52***27***VS*1*U*Y~MSG*EMERGENCY MEDICAL CARE - PROFESSIONAL~III*ZZ*22~EB*A*IND*52***23**0.3***U*Y~MSG*EMERGENCY MEDICAL CARE - PROFESSIONAL~III*ZZ*23~EB*F*IND*52***27***VS*1*U*Y~MSG*EMERGENCY MEDICAL CARE - PROFESSIONAL~III*ZZ*23~EB*A*IND*33***23**0.3***U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~III*ZZ*22~EB*F*IND*33***23***P6*35*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*22~EB*F*IND*33***27***VS*1*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*22~EB*A*IND*33***23**0.3***U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~III*ZZ*11~EB*F*IND*33***23***P6*35*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*11~EB*F*IND*33***27***VS*1*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*11~EB*A*IND*98***23**0.3***U*Y~MSG*OFFICE VISIT - PROFESSIONAL~III*ZZ*11~EB*F*IND*98***27***VS*1*U*Y~MSG*OFFICE VISIT - PROFESSIONAL~MSG*1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*11~EB*A*IND*BZ***27**0***U*Y~MSG*PHYSICAL HISTORY - PROFESSIONAL~III*ZZ*11~EB*G*FAM*30***29*0****U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL~EB*F*IND*51***29***VS*1*U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*22~EB*G*IND*30***29*0****U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL;EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL CARE - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL;MUSCLE MANIPULATION - PROFESSIONAL;OFFICE VISIT - PROFESSIONAL~EB*F*IND*51***29***VS*1*U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*23~EB*F*IND*51***29***VS*1*U*Y~MSG*EMERGENCY ACCIDENT CARE - PROFESSIONAL~III*ZZ*11~EB*F*IND*UC***29***VS*1*U*Y~MSG*EMERGENCY ACCIDENT OFFICE VISIT - PROFESSIONAL;EMERGENCY MEDICAL OFFICE VISIT - PROFESSIONAL~III*ZZ*11~EB*F*IND*52***29***VS*1*U*Y~MSG*EMERGENCY MEDICAL CARE - PROFESSIONAL~III*ZZ*22~EB*F*IND*52***29***VS*1*U*Y~MSG*EMERGENCY MEDICAL CARE - PROFESSIONAL~III*ZZ*23~EB*F*IND*33***29***P6*35*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*22~EB*F*IND*33***29***VS*1*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*22~EB*F*IND*33***29***P6*35*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*35 VISITS PER 1 YEAR CALENDAR BEGIN FOR PLACE OF TRTMNT  OUTPATIENT,OFFICE/INDEPENDENT LABORATORY,HOME,OTHER,EMERGENCY ROOM. EXCLUDED CONDITION(S) ACQUIRED BRAIN INJURY/PERVASIVE DEVELOPMENTAL DISORDERS. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*11~EB*F*IND*33***29***VS*1*U*Y~MSG*MUSCLE MANIPULATION - PROFESSIONAL~MSG*1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*11~EB*F*IND*98***29***VS*1*U*Y~MSG*OFFICE VISIT - PROFESSIONAL~MSG*1 VISITS PER 5 YEAR ROLLING START ON FIRST SERVICE FOR ALL PLACES OF TRTMNT. THIS IS AN INDIVIDUAL BENEFIT MAXIMUM.~III*ZZ*11~EB*L~LS*2120~NM1*P3*1*DOEONE*JOHNONE****XX*1234567893~PER*IC**TE*0000000001~LE*2120~EB*P~MSG*UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBER'S STATUS ON THE DATE OF SERVICE. ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED.~SE*159*0001~GE*1*000000001~IEA*1*000000001~"
+}

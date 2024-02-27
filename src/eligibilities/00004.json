@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "e3a14d5b-1a47-06d7-37a7-1b058fc6f046"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "00004",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001",
+    "aaaErrors": [
+      {
+        "field": "AAA",
+        "code": "50",
+        "description": "Provider Ineligible for Inquiries",
+        "followupAction": "Resubmission Not Allowed",
+        "location": "Loop 2100B",
+        "possibleResolutions": "Provider is not registered for that service type with the payer, provider's has to contact payer directly"
+      }
+    ]
+  },
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "00004"
+  },
+  "errors": [
+    {
+      "field": "AAA",
+      "code": "50",
+      "description": "Provider Ineligible for Inquiries",
+      "followupAction": "Resubmission Not Allowed",
+      "location": "Loop 2100B",
+      "possibleResolutions": "Provider is not registered for that service type with the payer, provider's has to contact payer directly"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0521*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*e3a14d5b-1a47-06d7-37a7-1b058fc6f046*20240220*0521~HL*1**20*1~NM1*PR*2*Unknown*****PI*00004~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~AAA*Y**50*N~SE*8*0001~GE*1*000000001~IEA*1*000000001~"
+}

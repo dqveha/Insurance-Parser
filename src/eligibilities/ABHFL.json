@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "c84088ba-02f4-688d-6adc-f8ede9be1705"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "ABHFL",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "planNumber": "AAAAAAAAA",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25",
+    "address": {
+      "address1": "PO BOX 11111",
+      "city": "TEST",
+      "state": "WI",
+      "postalCode": "1111111111"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "ABHFL00000000000",
+      "originatingCompanyIdentifier": "9HDS",
+      "secondaryReferenceIdentification": "05052017081236964332"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "ABHFL00000000000",
+      "originatingCompanyIdentifier": "9HDS",
+      "secondaryReferenceIdentification": "05052017081236964332"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Aetna Better Health of FL",
+    "payorIdentification": "ABHFL"
+  },
+  "planInformation": {
+    "planNumber": "AAAAAAAAA",
+    "planDescription": "MEDICAID MMA MIAMI DADE",
+    "federalTaxpayersIdentificationNumber": "000000000"
+  },
+  "planDateInformation": {
+    "plan": "20160901-20781231",
+    "dateOfLastUpdate": "20170508"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "MEDICAID MMA MIAMI DADE",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "33",
+        "35",
+        "48",
+        "50",
+        "86",
+        "98",
+        "AL",
+        "UC",
+        "1",
+        "47",
+        "MH"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "MEDICAID MMA MIAMI DADE"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["33", "35", "48", "50", "86", "98", "AL", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Dental Care",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      }
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["1", "47", "MH"],
+      "serviceTypes": ["Medical Care", "Hospital", "Mental Health"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      },
+      "additionalInformation": [
+        {
+          "description": "MANUAL- CALL MEMBER SERVICE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitPercent": "0",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["1", "35", "47", "48", "50", "86", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Dental Care",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      },
+      "additionalInformation": [
+        {
+          "description": "PRIOR AUTHORIZATION-DERMATOLOGIST.PROFESSIONAL (PHYSICIAN) VISIT LIMIT 20 VISITS PER YEAR PER MEMBER."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      },
+      "additionalInformation": [
+        {
+          "description": "REJEXCEEDS BENEFIT LIMITS-LENS AND FRAMES- VISIT LIMIT 1 VISITS PER YEAR PER MEMBER."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      },
+      "additionalInformation": [
+        {
+          "description": "REJEXCEEDS BENEFIT LIMITS-SPINAL MANIPULATIONS.CPY MEMBER COPAYMENT APPLIED. CHIROPRACTIC LIMIT 24 VISITS PER YEAR PER MEMBER."
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      }
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "benefit": "20160901-20781231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "XXXXXXX",
+        "entityFirstname": "XXXXXX",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "1111111111"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "XXXXXXX",
+          "entityFirstname": "XXXXXX",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "1111111111"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0543*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*555555555*005010X279A1~BHT*0022*11*c84088ba-02f4-688d-6adc-f8ede9be1705*20240220*0543~HL*1**20*1~NM1*PR*2*Aetna Better Health of FL*****PI*ABHFL~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~REF*TJ*000000000~HL*3*2*22*0~TRN*1*ABHFL00000000000*9HDS~TRN*2*1277676*9NNNNNNNNN*05052017081236964332~NM1*IL*1*******01234567890~REF*18*AAAAAAAAA*MEDICAID MMA MIAMI DADE~N3*PO BOX 11111~N4*TEST*WI*1111111111~DMG*D8**~INS*Y*18*001*25~DTP*636*D8*20170508~DTP*291*RD8*20160901-20781231~EB*1**30**MEDICAID MMA MIAMI DADE~EB*1**33^35^48^50^86^98^AL^UC*MC~DTP*292*RD8*20160901-20781231~EB*1**1^47^MH*MC~DTP*292*RD8*20160901-20781231~MSG*MANUAL- CALL MEMBER SERVICE~EB*A**1^33^47^48^50^86^98^AL^MH^UC*MC****0~DTP*292*RD8*20160901-20781231~EB*B**1^35^47^48^50^86^MH^UC*MC***0~DTP*292*RD8*20160901-20781231~EB*B**98*MC**27*0~DTP*292*RD8*20160901-20781231~MSG*PRIOR AUTHORIZATION-DERMATOLOGIST.PROFESSIONAL (PHYSICIAN) VISIT LIMIT 20 VISITS PER YEAR PER MEMBER.~EB*B**AL*MC**27*0~DTP*292*RD8*20160901-20781231~MSG*REJEXCEEDS BENEFIT LIMITS-LENS AND FRAMES- VISIT LIMIT 1 VISITS PER YEAR PER MEMBER.~EB*B**33*MC**27*0~DTP*292*RD8*20160901-20781231~MSG*REJEXCEEDS BENEFIT LIMITS-SPINAL MANIPULATIONS.CPY MEMBER COPAYMENT APPLIED. CHIROPRACTIC LIMIT 24 VISITS PER YEAR PER MEMBER.~EB*C**1^33^47^48^50^86^98^AL^MH^UC*MC***0~DTP*292*RD8*20160901-20781231~EB*L**30*MC~DTP*292*RD8*20160901-20781231~LS*2120~NM1*P3*1*XXXXXXX*XXXXXX****XX*1111111111~LE*2120~SE*45*555555555~GE*1*000000001~IEA*1*000000001~"
+}

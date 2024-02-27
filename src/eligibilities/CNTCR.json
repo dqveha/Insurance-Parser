@@ -1,0 +1,2259 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "2559a811-406a-2f91-7779-1061c16f1668"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "CNTCR",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "ssn": "111111111",
+    "groupNumber": "000000",
+    "address": {
+      "address1": "00 TEST STREET",
+      "city": "TEST",
+      "state": "TT",
+      "postalCode": "11111"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "123456789",
+      "originatingCompanyIdentifier": "1111111111",
+      "secondaryReferenceIdentification": "PNT"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "123456789",
+      "originatingCompanyIdentifier": "1111111111",
+      "secondaryReferenceIdentification": "PNT"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "CONNECTICARE INC",
+    "payorIdentification": "00000"
+  },
+  "planInformation": {
+    "groupNumber": "000000",
+    "socialSecurityNumber": "111111111"
+  },
+  "planDateInformation": {
+    "plan": "20170201-99991231"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "30",
+        "30",
+        "33",
+        "33",
+        "42",
+        "42",
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AG"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "Please contact ConnectiCare at 860-674-5757 for additional information."
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "Please contact ConnectiCare at 860-674-5757 for additional information."
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": [
+        "1",
+        "12",
+        "13",
+        "18",
+        "2",
+        "20",
+        "30",
+        "33",
+        "4",
+        "45",
+        "5",
+        "50",
+        "53",
+        "62",
+        "7",
+        "73",
+        "76",
+        "78",
+        "8",
+        "93",
+        "99",
+        "A0",
+        "A3",
+        "AD",
+        "AG",
+        "BG",
+        "BH"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Durable Medical Equipment Purchase",
+        "Ambulatory Service Center Facility",
+        "Durable Medical Equipment Rental",
+        "Surgical",
+        "Second Surgical Opinion",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Diagnostic X-Ray",
+        "Hospice",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical",
+        "MRI/CAT Scan",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Dialysis",
+        "Chemotherapy",
+        "Surgical Assistance",
+        "Podiatry",
+        "Professional (Physician) Visit - Inpatient",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Skilled Nursing Care",
+        "Cardiac Rehabilitation",
+        "Pediatric"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "1",
+        "12",
+        "13",
+        "18",
+        "2",
+        "20",
+        "30",
+        "4",
+        "45",
+        "5",
+        "50",
+        "53",
+        "62",
+        "7",
+        "73",
+        "76",
+        "78",
+        "8",
+        "93",
+        "99",
+        "A0",
+        "A3",
+        "AD",
+        "BG",
+        "BH"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Durable Medical Equipment Purchase",
+        "Ambulatory Service Center Facility",
+        "Durable Medical Equipment Rental",
+        "Surgical",
+        "Second Surgical Opinion",
+        "Health Benefit Plan Coverage",
+        "Diagnostic X-Ray",
+        "Hospice",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical",
+        "MRI/CAT Scan",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Dialysis",
+        "Chemotherapy",
+        "Surgical Assistance",
+        "Podiatry",
+        "Professional (Physician) Visit - Inpatient",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Cardiac Rehabilitation",
+        "Pediatric"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": [
+        "1",
+        "12",
+        "13",
+        "18",
+        "20",
+        "30",
+        "33",
+        "45",
+        "48",
+        "50",
+        "51",
+        "52",
+        "53",
+        "93",
+        "A3",
+        "AD",
+        "AE",
+        "AF",
+        "AL",
+        "BH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Durable Medical Equipment Purchase",
+        "Ambulatory Service Center Facility",
+        "Durable Medical Equipment Rental",
+        "Second Surgical Opinion",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Hospice",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Hospital - Ambulatory Surgical",
+        "Podiatry",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Physical Medicine",
+        "Speech Therapy",
+        "Vision (Optometry)",
+        "Pediatric",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "12700",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": [
+        "1",
+        "12",
+        "13",
+        "18",
+        "2",
+        "20",
+        "30",
+        "33",
+        "4",
+        "42",
+        "45",
+        "5",
+        "50",
+        "53",
+        "62",
+        "7",
+        "73",
+        "76",
+        "78",
+        "8",
+        "93",
+        "99",
+        "A0",
+        "A3",
+        "AD",
+        "AG",
+        "BG",
+        "BH"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Durable Medical Equipment Purchase",
+        "Ambulatory Service Center Facility",
+        "Durable Medical Equipment Rental",
+        "Surgical",
+        "Second Surgical Opinion",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Diagnostic X-Ray",
+        "Home Health Care",
+        "Hospice",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical",
+        "MRI/CAT Scan",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Dialysis",
+        "Chemotherapy",
+        "Surgical Assistance",
+        "Podiatry",
+        "Professional (Physician) Visit - Inpatient",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Skilled Nursing Care",
+        "Cardiac Rehabilitation",
+        "Pediatric"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "12680",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Preferred Provider Organization (PPO)",
+        "entityType": "Non-Person Entity",
+        "entityName": "LG GRP POINT OF SERVICE"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Preferred Provider Organization (PPO)",
+          "entityType": "Non-Person Entity",
+          "entityName": "LG GRP POINT OF SERVICE"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "1",
+        "12",
+        "13",
+        "18",
+        "2",
+        "20",
+        "30",
+        "4",
+        "45",
+        "5",
+        "50",
+        "51",
+        "52",
+        "53",
+        "62",
+        "7",
+        "73",
+        "76",
+        "78",
+        "8",
+        "93",
+        "99",
+        "A0",
+        "A3",
+        "AD",
+        "BG",
+        "BH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Durable Medical Equipment Purchase",
+        "Ambulatory Service Center Facility",
+        "Durable Medical Equipment Rental",
+        "Surgical",
+        "Second Surgical Opinion",
+        "Health Benefit Plan Coverage",
+        "Diagnostic X-Ray",
+        "Hospice",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Hospital - Ambulatory Surgical",
+        "MRI/CAT Scan",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Dialysis",
+        "Chemotherapy",
+        "Surgical Assistance",
+        "Podiatry",
+        "Professional (Physician) Visit - Inpatient",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Cardiac Rehabilitation",
+        "Pediatric",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "1",
+        "12",
+        "13",
+        "18",
+        "20",
+        "30",
+        "45",
+        "48",
+        "50",
+        "51",
+        "52",
+        "53",
+        "93",
+        "A3",
+        "BH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Durable Medical Equipment Purchase",
+        "Ambulatory Service Center Facility",
+        "Durable Medical Equipment Rental",
+        "Second Surgical Opinion",
+        "Health Benefit Plan Coverage",
+        "Hospice",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Hospital - Ambulatory Surgical",
+        "Podiatry",
+        "Professional (Physician) Visit - Home",
+        "Pediatric",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "6330",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Preferred Provider Organization (PPO)",
+        "entityType": "Non-Person Entity",
+        "entityName": "LG GRP POINT OF SERVICE"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Preferred Provider Organization (PPO)",
+          "entityType": "Non-Person Entity",
+          "entityName": "LG GRP POINT OF SERVICE"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "100",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "100",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AD", "AE", "AF"],
+      "serviceTypes": [
+        "Occupational Therapy",
+        "Physical Medicine",
+        "Speech Therapy"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "90",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "90",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["12", "18"],
+      "serviceTypes": [
+        "Durable Medical Equipment Purchase",
+        "Durable Medical Equipment Rental"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".5",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["12", "18"],
+      "serviceTypes": [
+        "Durable Medical Equipment Purchase",
+        "Durable Medical Equipment Rental"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["12", "18"],
+      "serviceTypes": [
+        "Durable Medical Equipment Purchase",
+        "Durable Medical Equipment Rental"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".5",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["12", "18"],
+      "serviceTypes": [
+        "Durable Medical Equipment Purchase",
+        "Durable Medical Equipment Rental"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": [
+        "13",
+        "2",
+        "20",
+        "33",
+        "4",
+        "40",
+        "45",
+        "5",
+        "50",
+        "53",
+        "62",
+        "65",
+        "68",
+        "7",
+        "73",
+        "76",
+        "78",
+        "8",
+        "80",
+        "81",
+        "82",
+        "93",
+        "96",
+        "98",
+        "99",
+        "A0",
+        "A3",
+        "AD",
+        "AG",
+        "BG",
+        "BH"
+      ],
+      "serviceTypes": [
+        "Ambulatory Service Center Facility",
+        "Surgical",
+        "Second Surgical Opinion",
+        "Chiropractic",
+        "Diagnostic X-Ray",
+        "Oral Surgery",
+        "Hospice",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical",
+        "MRI/CAT Scan",
+        "Newborn Care",
+        "Well Baby Care",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Dialysis",
+        "Chemotherapy",
+        "Surgical Assistance",
+        "Immunizations",
+        "Routine Physical",
+        "Family Planning",
+        "Podiatry",
+        "Professional (Physician)",
+        "Professional (Physician) Visit - Office",
+        "Professional (Physician) Visit - Inpatient",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Skilled Nursing Care",
+        "Cardiac Rehabilitation",
+        "Pediatric"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".3",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "13",
+        "2",
+        "20",
+        "4",
+        "40",
+        "45",
+        "5",
+        "50",
+        "53",
+        "62",
+        "65",
+        "68",
+        "7",
+        "73",
+        "76",
+        "78",
+        "8",
+        "80",
+        "81",
+        "82",
+        "93",
+        "96",
+        "98",
+        "99",
+        "A0",
+        "A3",
+        "AD",
+        "BG",
+        "BH"
+      ],
+      "serviceTypes": [
+        "Ambulatory Service Center Facility",
+        "Surgical",
+        "Second Surgical Opinion",
+        "Diagnostic X-Ray",
+        "Oral Surgery",
+        "Hospice",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical",
+        "MRI/CAT Scan",
+        "Newborn Care",
+        "Well Baby Care",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Dialysis",
+        "Chemotherapy",
+        "Surgical Assistance",
+        "Immunizations",
+        "Routine Physical",
+        "Family Planning",
+        "Podiatry",
+        "Professional (Physician)",
+        "Professional (Physician) Visit - Office",
+        "Professional (Physician) Visit - Inpatient",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Cardiac Rehabilitation",
+        "Pediatric"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".3",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".3",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".25",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "100",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitPercent": ".3",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "90",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["13", "50", "53"],
+      "serviceTypes": [
+        "Ambulatory Service Center Facility",
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "300",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["20", "93", "A3", "BH"],
+      "serviceTypes": [
+        "Second Surgical Opinion",
+        "Podiatry",
+        "Professional (Physician) Visit - Home",
+        "Pediatric"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "30",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["45", "48"],
+      "serviceTypes": ["Hospice", "Hospital - Inpatient"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "500",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "150",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "150",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["65"],
+      "serviceTypes": ["Newborn Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "500",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Service type 65 is for sick new born and ST 68 is for well new born"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AD", "AE", "AF"],
+      "serviceTypes": [
+        "Occupational Therapy",
+        "Physical Medicine",
+        "Speech Therapy"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "30",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "30",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["40"],
+      "serviceTypes": ["Oral Surgery"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased."
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["40"],
+      "serviceTypes": ["Oral Surgery"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased."
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["65", "68"],
+      "serviceTypes": ["Newborn Care", "Well Baby Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Service type 65 is for sick new born and ST 68 is for well new born"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["65", "68"],
+      "serviceTypes": ["Newborn Care", "Well Baby Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Service type 65 is for sick new born and ST 68 is for well new born"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["80"],
+      "serviceTypes": ["Immunizations"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Preventive immunizations only"
+        },
+        {
+          "description": " Non-preventive, use ST 30"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["80"],
+      "serviceTypes": ["Immunizations"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Preventive immunizations only"
+        },
+        {
+          "description": " Non-preventive, use ST 30"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["81"],
+      "serviceTypes": ["Routine Physical"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is used for adult routine physical exam, please refer to ST 82 for GYN exam"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["81"],
+      "serviceTypes": ["Routine Physical"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is used for adult routine physical exam, please refer to ST 82 for GYN exam"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["82"],
+      "serviceTypes": ["Family Planning"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["82"],
+      "serviceTypes": ["Family Planning"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Specialist Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Specialist Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PCP Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PCP Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "2000",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "90",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["40"],
+      "serviceTypes": ["Oral Surgery"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased."
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["40"],
+      "serviceTypes": ["Oral Surgery"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased."
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "100",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["51", "52", "UC"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "12700",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["65"],
+      "serviceTypes": ["Newborn Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "12700",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Service type 65 is for sick new born and ST 68 is for well new born"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["65", "68"],
+      "serviceTypes": ["Newborn Care", "Well Baby Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Service type 65 is for sick new born and ST 68 is for well new born"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["65", "68"],
+      "serviceTypes": ["Newborn Care", "Well Baby Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Service type 65 is for sick new born and ST 68 is for well new born"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["65"],
+      "serviceTypes": ["Newborn Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Service type 65 is for sick new born and ST 68 is for well new born"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["80"],
+      "serviceTypes": ["Immunizations"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Preventive immunizations only"
+        },
+        {
+          "description": " Non-preventive, use ST 30"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["80"],
+      "serviceTypes": ["Immunizations"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Preventive immunizations only"
+        },
+        {
+          "description": " Non-preventive, use ST 30"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["81"],
+      "serviceTypes": ["Routine Physical"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is used for adult routine physical exam, please refer to ST 82 for GYN exam"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["81"],
+      "serviceTypes": ["Routine Physical"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is used for adult routine physical exam, please refer to ST 82 for GYN exam"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["82"],
+      "serviceTypes": ["Family Planning"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["82"],
+      "serviceTypes": ["Family Planning"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "12700",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Specialist Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Specialist Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "12700",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "19050",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PCP Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PCP Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP Cost Share"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AD", "AE", "AF"],
+      "serviceTypes": [
+        "Occupational Therapy",
+        "Physical Medicine",
+        "Speech Therapy"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "90",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "6350",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "V",
+      "name": "Cannot Process",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "V",
+      "name": "Cannot Process",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "V",
+      "name": "Cannot Process",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "V",
+      "name": "Cannot Process",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["35"],
+      "serviceTypes": ["Dental Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "Please contact your Dental service administrator for more information"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["35"],
+      "serviceTypes": ["Dental Care"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "Please contact your Dental service administrator for more information"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "For information on the members benefits please contact ConnectiCare Provider Services  @ 1-800-828-3407"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "For information on the members benefits please contact ConnectiCare Provider Services  @ 1-800-828-3407"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["A6", "A7", "A8", "AI", "MH"],
+      "serviceTypes": [
+        "Psychotherapy",
+        "Psychiatric - Inpatient",
+        "Psychiatric - Outpatient",
+        "Substance Abuse",
+        "Mental Health"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "Please contact your Behavioral Health Program Administrator @ 1-888-946-4658"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["A6", "A7", "A8", "AI", "MH"],
+      "serviceTypes": [
+        "Psychotherapy",
+        "Psychiatric - Inpatient",
+        "Psychiatric - Outpatient",
+        "Substance Abuse",
+        "Mental Health"
+      ],
+      "insuranceTypeCode": "PS",
+      "insuranceType": "Point of Service (POS)",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown",
+      "additionalInformation": [
+        {
+          "description": "Please contact your Behavioral Health Program Administrator @ 1-888-946-4658"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0544*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*001*005010X279A1~BHT*0022*11*2559a811-406a-2f91-7779-1061c16f1668*20240220*0544~HL*1**20*1~NM1*PR*2*CONNECTICARE INC*****PI*00000~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*123456789*1111111111*PNT~TRN*2*123456789*9182736450~NM1*IL*1*******01234567890~REF*6P*000000~REF*SY*111111111~N3*00 TEST STREET~N4*TEST*TT*11111~DMG*D8**~DTP*291*RD8*20170201-99991231~EB*1*FAM*30*PS********U~MSG*Please contact ConnectiCare at 860-674-5757 for additional information.~EB*1*IND*30*PS********U~MSG*Please contact ConnectiCare at 860-674-5757 for additional information.~EB*C*FAM*1^12^13^18^2^20^30^33^4^45^5^50^53^62^7^73^76^78^8^93^99^A0^A3^AD^AG^BG^BH*PS**25*6000*****N~EB*C*IND*1^12^13^18^2^20^30^4^45^5^50^53^62^7^73^76^78^8^93^99^A0^A3^AD^BG^BH*PS**25*2000*****N~EB*G*FAM*1^12^13^18^20^30^33^45^48^50^51^52^53^93^A3^AD^AE^AF^AL^BH^UC*PS**25*12700*****Y~EB*G*FAM*1^12^13^18^2^20^30^33^4^42^45^5^50^53^62^7^73^76^78^8^93^99^A0^A3^AD^AG^BG^BH*PS**25*19050*****N~EB*G*FAM*30*PS**29*12680*****Y~LS*2120~NM1*1I*2*LG GRP POINT OF SERVICE~LE*2120~EB*G*IND*1^12^13^18^2^20^30^4^45^5^50^51^52^53^62^7^73^76^78^8^93^99^A0^A3^AD^BG^BH^UC*PS**25*6350*****N~EB*G*IND*1^12^13^18^20^30^45^48^50^51^52^53^93^A3^BH^UC*PS**25*6350*****Y~EB*G*IND*30*PS**29*6330*****Y~LS*2120~NM1*1I*2*LG GRP POINT OF SERVICE~LE*2120~EB*1*IND*33*PS**25***VS*20**N~EB*1*IND*33*PS**25***VS*20**Y~EB*1*IND*42*PS**25***VS*100**N~EB*1*IND*42*PS**25***VS*100**Y~EB*1*IND*AD^AE^AF*PS**25***VS*60**Y~EB*1*IND*AG*PS**25***VS*90**N~EB*1*IND*AG*PS**25***VS*90**Y~EB*A*FAM*12^18*PS**25**.5****N~EB*A*FAM*12^18*PS**25**.5****Y~EB*A*IND*12^18*PS**25**.5****N~EB*A*IND*12^18*PS**25**.5****Y~EB*A*FAM*13^2^20^33^4^40^45^5^50^53^62^65^68^7^73^76^78^8^80^81^82^93^96^98^99^A0^A3^AD^AG^BG^BH*PS**25**.3****N~EB*A*IND*13^2^20^4^40^45^5^50^53^62^65^68^7^73^76^78^8^80^81^82^93^96^98^99^A0^A3^AD^BG^BH*PS**25**.3****N~EB*A*IND*33*PS**25**.3*VS*20**N~EB*A*FAM*42*PS**25**.25****N~EB*A*IND*42*PS**25**.25*VS*100**N~EB*A*IND*AG*PS**25**.3*VS*90**N~EB*B*IND*13^50^53*PS**25*300*****Y~EB*B*IND*20^93^A3^BH*PS**25*30*****Y~EB*B*IND*33*PS**25*30**VS*20**Y~EB*B*IND*45^48*PS**25*500*****Y~EB*B*IND*51^52*PS**25*150*****N~EB*B*IND*51^52*PS**25*150*****Y~EB*B*IND*65*PS**25*500*****Y~MSG*Service type 65 is for sick new born and ST 68 is for well new born~EB*B*IND*96*PS**25*30*****Y~MSG*Specialist Cost Share~EB*B*IND*98*PS**25*20*****Y~MSG*PCP Cost Share~EB*B*IND*AD^AE^AF*PS**25*30**VS*60**Y~EB*B*IND*AL*PS**25*30**VS*1**Y~EB*B*IND*UC*PS**25*75*****N~EB*B*IND*UC*PS**25*75*****Y~EB*C*IND*33*PS**25*2000**VS*20**N~EB*C*FAM*40*PS**25*6000*****N~MSG*Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased.~EB*C*IND*40*PS**25*2000*****N~MSG*Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased.~EB*C*FAM*65^68*PS**25*6000*****N~MSG*Service type 65 is for sick new born and ST 68 is for well new born~EB*C*IND*65^68*PS**25*2000*****N~MSG*Service type 65 is for sick new born and ST 68 is for well new born~EB*C*FAM*80*PS**25*6000*****N~MSG*Preventive immunizations only~MSG* Non-preventive, use ST 30~EB*C*IND*80*PS**25*2000*****N~MSG*Preventive immunizations only~MSG* Non-preventive, use ST 30~EB*C*FAM*81*PS**25*6000*****N~MSG*This is used for adult routine physical exam, please refer to ST 82 for GYN exam~EB*C*IND*81*PS**25*2000*****N~MSG*This is used for adult routine physical exam, please refer to ST 82 for GYN exam~EB*C*FAM*82*PS**25*6000*****N~MSG*This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam~EB*C*IND*82*PS**25*2000*****N~MSG*This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam~EB*C*FAM*96*PS**25*6000*****N~MSG*Specialist Cost Share~EB*C*IND*96*PS**25*2000*****N~MSG*Specialist Cost Share~EB*C*FAM*98*PS**25*6000*****N~MSG*PCP Cost Share~EB*C*IND*98*PS**25*2000*****N~MSG*PCP Cost Share~EB*C*IND*AG*PS**25*2000**VS*90**N~EB*G*IND*33*PS**25*6350**VS*20**N~EB*G*IND*33*PS**25*6350**VS*20**Y~EB*G*FAM*40*PS**25*19050*****N~MSG*Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased.~EB*G*IND*40*PS**25*6350*****N~MSG*Wisdom tooth extraction is not covered unless supplemental wisdom tooth extraction coverage has been purchased.~EB*G*IND*42*PS**25*6350**VS*100**N~EB*G*FAM*51^52^UC*PS**25*12700*****N~EB*G*FAM*65*PS**25*12700*****Y~MSG*Service type 65 is for sick new born and ST 68 is for well new born~EB*G*FAM*65^68*PS**25*19050*****N~MSG*Service type 65 is for sick new born and ST 68 is for well new born~EB*G*IND*65^68*PS**25*6350*****N~MSG*Service type 65 is for sick new born and ST 68 is for well new born~EB*G*IND*65*PS**25*6350*****Y~MSG*Service type 65 is for sick new born and ST 68 is for well new born~EB*G*FAM*80*PS**25*19050*****N~MSG*Preventive immunizations only~MSG* Non-preventive, use ST 30~EB*G*IND*80*PS**25*6350*****N~MSG*Preventive immunizations only~MSG* Non-preventive, use ST 30~EB*G*FAM*81*PS**25*19050*****N~MSG*This is used for adult routine physical exam, please refer to ST 82 for GYN exam~EB*G*IND*81*PS**25*6350*****N~MSG*This is used for adult routine physical exam, please refer to ST 82 for GYN exam~EB*G*FAM*82*PS**25*19050*****N~MSG*This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam~EB*G*IND*82*PS**25*6350*****N~MSG*This is Gynecological Preventive Exam. Please refer to ST 81 for Preventative physical exam~EB*G*FAM*96*PS**25*12700*****Y~MSG*Specialist Cost Share~EB*G*FAM*96*PS**25*19050*****N~MSG*Specialist Cost Share~EB*G*IND*96*PS**25*6350*****N~MSG*Specialist Cost Share~EB*G*IND*96*PS**25*6350*****Y~MSG*Specialist Cost Share~EB*G*FAM*98*PS**25*12700*****Y~MSG*PCP Cost Share~EB*G*FAM*98*PS**25*19050*****N~MSG*PCP Cost Share~EB*G*IND*98*PS**25*6350*****N~MSG*PCP Cost Share~EB*G*IND*98*PS**25*6350*****Y~MSG*PCP Cost Share~EB*G*IND*AD^AE^AF*PS**25*6350**VS*60**Y~EB*G*IND*AG*PS**25*6350**VS*90**N~EB*G*IND*AL*PS**25*6350**VS*1**Y~EB*V*FAM*47*PS**25******N~EB*V*FAM*47*PS**25******Y~EB*V*IND*47*PS**25******N~EB*V*IND*47*PS**25******Y~EB*W*FAM*35*PS**25******U~MSG*Please contact your Dental service administrator for more information~EB*W*IND*35*PS**25******U~MSG*Please contact your Dental service administrator for more information~EB*W*FAM*88*PS**25******U~MSG*For information on the members benefits please contact ConnectiCare Provider Services  @ 1-800-828-3407~EB*W*IND*88*PS**25******U~MSG*For information on the members benefits please contact ConnectiCare Provider Services  @ 1-800-828-3407~EB*W*FAM*A6^A7^A8^AI^MH*PS**25******U~MSG*Please contact your Behavioral Health Program Administrator @ 1-888-946-4658~EB*W*IND*A6^A7^A8^AI^MH*PS**25******U~MSG*Please contact your Behavioral Health Program Administrator @ 1-888-946-4658~SE*165*001~GE*1*000000001~IEA*1*000000001~"
+}

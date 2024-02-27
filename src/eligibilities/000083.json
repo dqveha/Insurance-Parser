@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "c1b2ae0b-fd0e-54ae-7da1-1d11959c3d5b"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000083",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "X2312001",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "110801140",
+      "originatingCompanyIdentifier": "9WEBMDMMHS",
+      "secondaryReferenceIdentification": "INTERGY"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "110801140",
+      "originatingCompanyIdentifier": "9WEBMDMMHS",
+      "secondaryReferenceIdentification": "INTERGY"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "110801140",
+      "originatingCompanyIdentifier": "9WEBMDMMHS",
+      "secondaryReferenceIdentification": "INTERGY"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "HUMANA",
+    "payorIdentification": "000083"
+  },
+  "planInformation": {
+    "groupNumber": "X2312001",
+    "groupDescription": "HUMANA INSURANCE CO"
+  },
+  "planDateInformation": {
+    "planBegin": "20180101",
+    "service": "20180313"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "079 423",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["98"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "EMP",
+      "coverageLevel": "Employee Only",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "079 423",
+      "additionalInformation": [
+        {
+          "description": "MEDICARE PPO NON-GATE FFS ANY"
+        },
+        {
+          "description": "Medicare PPO"
+        },
+        {
+          "description": "THIS MEMBER MAY BE ELIGIBLE FOR A FREE FITNESS MEMBERSHIP THROUGH SILVERSNEAKERS OR SILVER&FIT. PLEASE ENCOURAGE HIM OR HER TO CALL SILVERSNEAKERS AT 1-888-423-4632 (FOR MOST STATES) OR SILVER&FIT AT 1-877-427-4788 (FOR ARIZONA AND PENNSYLVANIA) FOR ELIGIBILITY."
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Non-Person Entity",
+        "entityName": "Sample Medical Clinic",
+        "address": {
+          "address1": "123 Main St",
+          "address2": "Ste 325",
+          "city": "Tampa",
+          "state": "FL",
+          "postalCode": "336134713"
+        },
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "8139790440"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "Sample Medical Clinic",
+          "address": {
+            "address1": "123 Main St",
+            "address2": "Ste 325"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "8139790440"
+              }
+            ]
+          }
+        },
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "Sample Medical Clinic",
+          "address": {
+            "address1": "3904 Wallace Ave"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "8139751727"
+              }
+            ]
+          }
+        },
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "Sample Medical Clinic",
+          "address": {
+            "address1": "120 Lake Terrace Rd"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "8137808266"
+              }
+            ]
+          }
+        },
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "Sample Medical Clinic",
+          "address": {
+            "address1": "600 Stewart Dr",
+            "address2": "Ste A"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "8137798953"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "quantityQualifierCode": "YY",
+      "quantityQualifier": "Years",
+      "benefitQuantity": "26",
+      "additionalInformation": [
+        {
+          "description": "MAX DEPENDENT AGE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "quantityQualifierCode": "YY",
+      "quantityQualifier": "Years",
+      "benefitQuantity": "3",
+      "additionalInformation": [
+        {
+          "description": "MAX STUDENT AGE"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "planCoverage": "AFFILIATION/CENTER",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Group",
+        "entityType": "Non-Person Entity",
+        "entityName": "SAMPLE MEDICAL CLINIC",
+        "entityIdentification": "Payor Identification",
+        "entityIdentificationValue": "90906033"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Group",
+          "entityType": "Non-Person Entity",
+          "entityName": "SAMPLE MEDICAL CLINIC",
+          "entityIdentification": "Payor Identification",
+          "entityIdentificationValue": "90906033"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "OFFICE VISIT PCP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "10",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#002"
+        },
+        {
+          "description": "OFFICE VISIT PCP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "OFFICE VISIT SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#002"
+        },
+        {
+          "description": "OFFICE VISIT SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "OFFICE VISIT"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "65",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Seq#002"
+        },
+        {
+          "description": "OFFICE VISIT"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "OFFICE VISIT FREESTANDING RAD CTR"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "OFFICE VISIT COMPREHENSIVE OUTPT REHAB FACILITY"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "OFFICE VISIT NON-PARTICIPATING PCP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "65",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Seq#002"
+        },
+        {
+          "description": "OFFICE VISIT NON-PARTICIPATING PCP"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "9960",
+      "inPlanNetworkIndicatorCode": "U",
+      "inPlanNetworkIndicator": "Unknown"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "6660",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "THIS IS ONLY AN ESTIMATION OF BENEFITS, AND ALL PAYMENTS ARE SUBJECT TO POLICY GUIDELINES, MEDICAL NECESSITY, AND MEMBER ELIGIBILITY AT THE TIME SERVICES ARE PERFORMED."
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0534*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*1001*005010X279A1~BHT*0022*11*c1b2ae0b-fd0e-54ae-7da1-1d11959c3d5b*20240220*0534~HL*1**20*1~NM1*PR*2*HUMANA*****PI*000083~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*110801140*9WEBMDMMHS*INTERGY~TRN*2*761493443*9EMDEON999*INTERGY~TRN*1*000004257080613*1610647538*INTERGY~NM1*IL*1*******01234567890~REF*6P*X2312001*HUMANA INSURANCE CO~N3*~N4***~DMG*D8**~INS*Y*18~DTP*346*D8*20180101~DTP*472*D8*20180313~EB*1*EMP*30*PR*079 423~MSG*MEDICARE PPO NON-GATE FFS ANY~MSG*Medicare PPO~MSG*THIS MEMBER MAY BE ELIGIBLE FOR A FREE FITNESS MEMBERSHIP THROUGH SILVERSNEAKERS OR SILVER&FIT. PLEASE ENCOURAGE HIM OR HER TO CALL SILVERSNEAKERS AT 1-888-423-4632 (FOR MOST STATES) OR SILVER&FIT AT 1-877-427-4788 (FOR ARIZONA AND PENNSYLVANIA) FOR ELIGIBILITY.~EB*L~LS*2120~NM1*P3*2*Sample Medical Clinic~N3*123 Main St*Ste 325~N4*Tampa*FL*336134713~PER*IC**TE*8139790440~NM1*P3*2*Sample Medical Clinic~N3*3904 Wallace Ave~N4*Tampa*FL*336472136~PER*IC**TE*8139751727~NM1*P3*2*Sample Medical Clinic~N3*120 Lake Terrace Rd~N4*Zephyrhills*FL*335427505~PER*IC**TE*8137808266~NM1*P3*2*Sample Medical Clinic~N3*600 Stewart Dr*Ste A~N4*zephyrhills*FL*335427510~PER*IC**TE*8137798953~LE*2120~EB*F**30******YY*26~MSG*MAX DEPENDENT AGE~EB*F**30******YY*3~MSG*MAX STUDENT AGE~EB*L****AFFILIATION/CENTER~LS*2120~NM1*GW*2*SAMPLE MEDICAL CLINIC*****PI*90906033~LE*2120~EB*1**98~EB*A*IND*98*PR**23**0****Y~MSG*Seq#003~MSG*OFFICE VISIT PCP~EB*B*IND*98*PR**27*10*****Y~MSG*Seq#002~MSG*OFFICE VISIT PCP~EB*A*IND*98*PR**23**0****Y~MSG*Seq#003~MSG*OFFICE VISIT SPECIALIST~EB*B*IND*98*PR**27*40*****Y~MSG*Seq#002~MSG*OFFICE VISIT SPECIALIST~EB*A*IND*98*PR**23**0****N~MSG*Seq#003~MSG*OFFICE VISIT~EB*B*IND*98*PR**27*65*****N~MSG*Seq#002~MSG*OFFICE VISIT~EB*A*IND*98*PR**23**0****Y~MSG*Seq#003~MSG*OFFICE VISIT FREESTANDING RAD CTR~EB*A*IND*98*PR**23**0****Y~MSG*Seq#003~MSG*OFFICE VISIT COMPREHENSIVE OUTPT REHAB FACILITY~EB*A*IND*98*PR**23**0****N~MSG*Seq#003~MSG*OFFICE VISIT NON-PARTICIPATING PCP~EB*B*IND*98*PR**27*65*****N~MSG*Seq#002~MSG*OFFICE VISIT NON-PARTICIPATING PCP~EB*G*IND*30***24*40*****U~EB*G*IND*30***29*9960*****U~EB*G*IND*30***24*40*****Y~EB*G*IND*30***29*6660*****Y~EB*P~MSG*THIS IS ONLY AN ESTIMATION OF BENEFITS, AND ALL PAYMENTS ARE SUBJECT TO POLICY GUIDELINES, MEDICAL NECESSITY, AND MEMBER ELIGIBILITY AT THE TIME SERVICES ARE PERFORMED.~SE*87*1001~GE*1*000000001~IEA*1*000000001~"
+}

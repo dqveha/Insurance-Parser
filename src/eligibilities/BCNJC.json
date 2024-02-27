@@ -1,0 +1,2693 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "61274455-f331-548e-a1e8-606bc13e1fe1"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "BCNJC",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "HBCBSNJGATEWAY",
+    "payorIdentification": "BCNJC"
+  },
+  "planDateInformation": {
+    "plan": "20170110"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "NJ Direct",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["AL"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "11111111111"
+      },
+      "benefitsDateInformation": {
+        "plan": "20080401-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "HORIZON BCBSNJ",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "HORIZON BCBSNJ",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Copay Applies to OOP"
+        },
+        {
+          "description": "Deductible Applies to OOP"
+        },
+        {
+          "description": "Coinsurance Applies to OOP"
+        },
+        {
+          "description": "Fourth quarter carryover applies to Deductible only"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Professional Outpatient Coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Professional Out of Hospital Coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Professional Office Specialist Coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Professional Office PCP Coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Institutional Inpatient Coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".1",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "supplemental coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Professional Inpatient Coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Institutional Outpatient Coinsurance"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".3",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "5317",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "5317",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "2000",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "2000",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INN benefit period maximum"
+        },
+        {
+          "description": "INN catastrophic dollar limit"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INN Lifetime Maximum"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OON benefit period maximum"
+        },
+        {
+          "description": "OON catastrophic dollar limit"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OON lifetime maximum"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".3",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "30",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Chiro Care Therapeutic Manipulation Visit Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "30",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Chiro Care Therapeutic Manipulation Visit Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INN benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OON benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Chiro Care Therapeutic Manipulation Dollar Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".3",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "36",
+      "timeQualifier": "Admission",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "36",
+      "timeQualifier": "Admission",
+      "benefitAmount": "200",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "365",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Inpatient Day Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "365",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Inpatient Day Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "90",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Inpatient Separation Period"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "90",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Inpatient Separation Period"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INN benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OON benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Inpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Inpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50", "51", "52", "BZ"],
+      "serviceTypes": [
+        "Hospital - Outpatient",
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Physician Visit - Office: Well"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".3",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Applies only to Surgical Services"
+        },
+        {
+          "description": "INN Outpatient Surgery In Hospital Copayment"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INN Outpatient Services Copayment"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Applies only to Surgical Services"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50", "51", "52", "BZ"],
+      "serviceTypes": [
+        "Hospital - Outpatient",
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Physician Visit - Office: Well"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50", "51", "52", "BZ"],
+      "serviceTypes": [
+        "Hospital - Outpatient",
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical",
+        "Physician Visit - Office: Well"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50", "52", "BZ"],
+      "serviceTypes": [
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Physician Visit - Office: Well"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INN benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OON benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "50",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "INN benefit period maximum"
+        },
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["88", "35"],
+      "serviceTypes": ["Pharmacy", "Dental Care"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ", "UC"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ", "UC"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".3",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ", "UC"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ", "UC"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ", "UC"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ", "UC"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "Applies only to Preventive Medicine Services Physical Exam Routine"
+        },
+        {
+          "description": "INN & OON Routine Physical Exam Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "Applies only to Preventive Medicine Services Physical Exam Routine"
+        },
+        {
+          "description": "INN & OON Routine Physical Exam Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ", "UC"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "INN benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "Applies only to Preventive Medicine Services Physical Exam Routine"
+        },
+        {
+          "description": "INN & OON Routine Preventive Services Dollar Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OON benefit period maximum"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Routine Physical Exam Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "1",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Routine Physical Exam Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Combined In and Out of Network Benefits"
+        },
+        {
+          "description": "INN & OON Routine Preventive Services Dollar Limit"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "On Campus-Outpatient Hospital"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "On Campus-Outpatient Hospital"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Applies only to Out of Hospital Urgently Needed Care"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".3",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Applies only to Out of Hospital Urgently Needed Care"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "100",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "name": "Unlimited",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "NJ Direct",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "OON benefit period maximum"
+        },
+        {
+          "description": "Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered."
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBERS STATUS ON THE DATE OF SERVICE. ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED."
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0543*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*61274455-f331-548e-a1e8-606bc13e1fe1*20240220*0543~HL*1**20*1~NM1*PR*2*HBCBSNJGATEWAY*****PI*BCNJC~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*0022*9EMDEON999~TRN*1*06701013193553962*1220999690~NM1*IL*1*******01234567890~N3*~N4***~DMG*D8**~INS*Y*18*001*25~DTP*291*D8*20170110~EB*1**30*OT*NJ Direct*******W~REF*6P*11111111111~DTP*291*RD8*20080401-99991231~MSG*Copay Applies to OOP~MSG*Deductible Applies to OOP~MSG*Coinsurance Applies to OOP~MSG*Fourth quarter carryover applies to Deductible only~LS*2120~NM1*PRP*2*HORIZON BCBSNJ~PER*IC**TE*1111111111~LE*2120~EB*A*IND*30*OT*NJ Direct*27**0***N*Y~MSG*Professional Outpatient Coinsurance~EB*A*IND*30*OT*NJ Direct*27**0***N*Y~MSG*Professional Out of Hospital Coinsurance~EB*A*IND*30*OT*NJ Direct*27**0***N*Y~MSG*Professional Office Specialist Coinsurance~EB*A*IND*30*OT*NJ Direct*27**0***N*Y~MSG*Professional Office PCP Coinsurance~EB*A*IND*30*OT*NJ Direct*27**0***N*Y~MSG*Institutional Inpatient Coinsurance~EB*A*IND*30*OT*NJ Direct*27**.1***N*Y~MSG*supplemental coinsurance~EB*A*IND*30*OT*NJ Direct*27**0***N*Y~MSG*Professional Inpatient Coinsurance~EB*A*IND*30*OT*NJ Direct*27**0***N*Y~MSG*Institutional Outpatient Coinsurance~EB*A*IND*30*OT*NJ Direct*27**.3***N*N~EB*C*IND*30*OT*NJ Direct*23*0****N*Y~EB*C*IND*30*OT*NJ Direct*29*0****N*Y~EB*C*IND*30*OT*NJ Direct*23*100****N*N~EB*C*IND*30*OT*NJ Direct*29*100****N*N~EB*G*IND*30*OT*NJ Direct*23*5317****N*Y~EB*G*IND*30*OT*NJ Direct*29*5317****N*Y~EB*G*IND*30*OT*NJ Direct*23*2000****N*N~EB*G*IND*30*OT*NJ Direct*29*2000****N*N~EB*H*IND*30*OT*NJ Direct*23*****N*Y~MSG*INN benefit period maximum~MSG*INN catastrophic dollar limit~EB*H*IND*30*OT*NJ Direct*32*****N*Y~MSG*INN Lifetime Maximum~EB*H*IND*30*OT*NJ Direct*23*****N*N~MSG*OON benefit period maximum~MSG*OON catastrophic dollar limit~EB*H*IND*30*OT*NJ Direct*32*****N*N~MSG*OON lifetime maximum~EB*A*IND*33*OT*NJ Direct*27**0***Y*Y~MSG*Specialist~III*ZZ*11~EB*A*IND*33*OT*NJ Direct*27**.3***Y*N~III*ZZ*11~EB*B*IND*33*OT*NJ Direct*27*15****Y*Y~MSG*Specialist~III*ZZ*11~EB*C*IND*33*OT*NJ Direct*23*0****Y*Y~III*ZZ*11~EB*C*IND*33*OT*NJ Direct*29*0****Y*Y~III*ZZ*11~EB*C*IND*33*OT*NJ Direct*23*100****Y*N~III*ZZ*11~EB*C*IND*33*OT*NJ Direct*29*100****Y*N~III*ZZ*11~EB*F*IND*33*OT*NJ Direct*23***VS*30*Y*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Chiro Care Therapeutic Manipulation Visit Limit~III*ZZ*11~EB*F*IND*33*OT*NJ Direct*29***VS*30*Y*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Chiro Care Therapeutic Manipulation Visit Limit~III*ZZ*11~EB*H*IND*33*OT*NJ Direct*23*****Y*Y~MSG*INN benefit period maximum~III*ZZ*11~EB*H*IND*33*OT*NJ Direct*23*****Y*N~MSG*OON benefit period maximum~III*ZZ*11~EB*H*IND*33*OT*NJ Direct*23*****Y*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Chiro Care Therapeutic Manipulation Dollar Limit~III*ZZ*11~EB*A*IND*48*OT*NJ Direct*27**0***Y*Y~III*ZZ*21~EB*A*IND*48*OT*NJ Direct*27**.3***Y*N~III*ZZ*21~EB*B*IND*48*OT*NJ Direct*36*0****Y*Y~III*ZZ*21~EB*B*IND*48*OT*NJ Direct*36*200****Y*N~III*ZZ*21~EB*C*IND*48*OT*NJ Direct*23*0****Y*Y~III*ZZ*21~EB*C*IND*48*OT*NJ Direct*29*0****Y*Y~III*ZZ*21~EB*C*IND*48*OT*NJ Direct*23*100****Y*N~III*ZZ*21~EB*C*IND*48*OT*NJ Direct*29*100****Y*N~III*ZZ*21~EB*F*IND*48*OT*NJ Direct*23***DY*365*Y*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Inpatient Day Limit~III*ZZ*21~EB*F*IND*48*OT*NJ Direct*29***DY*365*Y*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Inpatient Day Limit~III*ZZ*21~EB*F*IND*48*OT*NJ Direct*23***DY*90*Y*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Inpatient Separation Period~III*ZZ*21~EB*F*IND*48*OT*NJ Direct*29***DY*90*Y*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Inpatient Separation Period~III*ZZ*21~EB*H*IND*48*OT*NJ Direct*23*****Y*Y~MSG*INN benefit period maximum~III*ZZ*21~EB*H*IND*48*OT*NJ Direct*23*****Y*N~MSG*OON benefit period maximum~III*ZZ*21~EB*A*IND*50^51^52^BZ*OT*NJ Direct*27**0***N*Y~III*ZZ*22~EB*A*IND*50*OT*NJ Direct*27**.3***N*N~III*ZZ*22~EB*B*IND*50*OT*NJ Direct*27*0****N*Y~MSG*Applies only to Surgical Services~MSG*INN Outpatient Surgery In Hospital Copayment~III*ZZ*22~EB*B*IND*50*OT*NJ Direct*27*15****N*Y~MSG*INN Outpatient Services Copayment~III*ZZ*22~EB*B*IND*50*OT*NJ Direct*27*0****N*N~MSG*Applies only to Surgical Services~III*ZZ*22~EB*C*IND*50^51^52^BZ*OT*NJ Direct*23*0****N*Y~III*ZZ*22~EB*C*IND*50^51^52^BZ*OT*NJ Direct*29*0****N*Y~III*ZZ*22~EB*C*IND*50*OT*NJ Direct*23*100****N*N~III*ZZ*22~EB*C*IND*50*OT*NJ Direct*29*100****N*N~III*ZZ*22~EB*H*IND*50^52^BZ*OT*NJ Direct*23*****N*Y~MSG*INN benefit period maximum~III*ZZ*22~EB*H*IND*50*OT*NJ Direct*23*****N*N~MSG*OON benefit period maximum~III*ZZ*22~EB*A*IND*51^52*OT*NJ Direct*27**0***N*N~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*22~EB*B*IND*51^52*OT*NJ Direct*27*50****N*W~III*ZZ*22~EB*C*IND*51^52*OT*NJ Direct*23*0****N*N~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*22~EB*C*IND*51^52*OT*NJ Direct*29*0****N*N~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*22~EB*H*IND*52*OT*NJ Direct*23*****N*N~MSG*INN benefit period maximum~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*22~EB*I**88^35*********W~EB*A*IND*98^BZ^UC*OT*NJ Direct*27**0***N*Y~MSG*Specialist~III*ZZ*11~EB*A*IND*98^BZ^UC*OT*NJ Direct*27**0***N*Y~MSG*PCP~III*ZZ*11~EB*A*IND*98*OT*NJ Direct*27**.3***N*N~III*ZZ*11~EB*B*IND*98^BZ^UC*OT*NJ Direct*27*15****N*Y~MSG*Specialist~III*ZZ*11~EB*B*IND*98^BZ^UC*OT*NJ Direct*27*15****N*Y~MSG*PCP~III*ZZ*11~EB*C*IND*98^BZ^UC*OT*NJ Direct*23*0****N*Y~III*ZZ*11~EB*C*IND*98^BZ^UC*OT*NJ Direct*29*0****N*Y~III*ZZ*11~EB*C*IND*98*OT*NJ Direct*23*100****N*N~III*ZZ*11~EB*C*IND*98*OT*NJ Direct*29*100****N*N~III*ZZ*11~EB*F*IND*98*OT*NJ Direct*23***VS*1*N*W~MSG*Combined In and Out of Network Benefits~MSG*Applies only to Preventive Medicine Services Physical Exam Routine~MSG*INN & OON Routine Physical Exam Limit~III*ZZ*11~EB*F*IND*98*OT*NJ Direct*29***VS*1*N*W~MSG*Combined In and Out of Network Benefits~MSG*Applies only to Preventive Medicine Services Physical Exam Routine~MSG*INN & OON Routine Physical Exam Limit~III*ZZ*11~EB*H*IND*98^BZ^UC*OT*NJ Direct*23*****N*Y~MSG*INN benefit period maximum~III*ZZ*11~EB*H*IND*98*OT*NJ Direct*23*****N*W~MSG*Combined In and Out of Network Benefits~MSG*Applies only to Preventive Medicine Services Physical Exam Routine~MSG*INN & OON Routine Preventive Services Dollar Limit~III*ZZ*11~EB*H*IND*98*OT*NJ Direct*23*****N*N~MSG*OON benefit period maximum~III*ZZ*11~EB*1**AL*********W~EB*F*IND*BZ*OT*NJ Direct*23***VS*1*N*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Routine Physical Exam Limit~III*ZZ*11~EB*F*IND*BZ*OT*NJ Direct*29***VS*1*N*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Routine Physical Exam Limit~III*ZZ*11~EB*H*IND*BZ*OT*NJ Direct*23*****N*W~MSG*Combined In and Out of Network Benefits~MSG*INN & OON Routine Preventive Services Dollar Limit~III*ZZ*11~EB*B*IND*BZ*OT*NJ Direct*27*15****N*Y~III*ZZ*22~EB*I**BZ*OT*NJ Direct*******N~III*ZZ*22~EB*A*IND*UC*OT*NJ Direct*27**0***N*Y~MSG*Applies only to Out of Hospital Urgently Needed Care~III*ZZ*11~EB*A*IND*UC*OT*NJ Direct*27**.3***N*N~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*11~EB*B*IND*UC*OT*NJ Direct*27*15****N*Y~MSG*Applies only to Out of Hospital Urgently Needed Care~III*ZZ*11~EB*C*IND*UC*OT*NJ Direct*23*100****N*N~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*11~EB*C*IND*UC*OT*NJ Direct*29*100****N*N~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*11~EB*H*IND*UC*OT*NJ Direct*23*****N*N~MSG*OON benefit period maximum~MSG*Members benefit plan only covers urgent and emergent services outside of the members contracted network. If service rendered is not deemed urgent/emergent, the service may not be covered.~III*ZZ*11~EB*P~MSG*UNLESS OTHERWISE REQUIRED BY STATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBERS STATUS ON THE DATE OF SERVICE. ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED.~SE*259*0001~GE*1*000000001~IEA*1*000000001~"
+}

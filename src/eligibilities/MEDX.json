@@ -1,0 +1,953 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "47383d59-d46d-8514-508b-a394c6a95964"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "MEDX",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "421059400",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "MEDEX",
+    "payorIdentification": "MEDX"
+  },
+  "planDateInformation": {
+    "eligibility": "20170105"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "88",
+        "30",
+        "BV",
+        "BU",
+        "BT",
+        "AG",
+        "A7",
+        "A5",
+        "83",
+        "76",
+        "69",
+        "49",
+        "48",
+        "45",
+        "42",
+        "10",
+        "30",
+        "UC",
+        "DM",
+        "BV",
+        "BU",
+        "BT",
+        "BG",
+        "BF",
+        "AL",
+        "AK",
+        "AJ",
+        "AI",
+        "AF",
+        "AE",
+        "AD",
+        "A8",
+        "A6",
+        "A4",
+        "98",
+        "86",
+        "83",
+        "76",
+        "73",
+        "69",
+        "67",
+        "53",
+        "52",
+        "51",
+        "50",
+        "42",
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+        "33",
+        "3",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "2",
+        "14",
+        "10"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["41", "54"],
+      "serviceTypes": ["Routine (Preventive) Dental", "Long Term Care"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "30",
+        "BV",
+        "BU",
+        "BT",
+        "AG",
+        "A7",
+        "A5",
+        "83",
+        "76",
+        "69",
+        "49",
+        "48",
+        "45",
+        "42",
+        "10"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Obstetrical/Gynecological",
+        "Obstetrical",
+        "Gynecological",
+        "Skilled Nursing Care",
+        "Psychiatric - Inpatient",
+        "Psychiatric - Room and Board",
+        "Infertility",
+        "Dialysis",
+        "Maternity",
+        "Hospital - Room and Board",
+        "Hospital - Inpatient",
+        "Hospice",
+        "Home Health Care",
+        "Blood Charges"
+      ],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "benefitsDateInformation": {
+        "plan": "20140901"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "26",
+      "timeQualifier": "Episode",
+      "benefitAmount": "1316",
+      "benefitsDateInformation": {
+        "plan": "20170101-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1316",
+      "benefitsDateInformation": {
+        "plan": "20170101-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["45", "42"],
+      "serviceTypes": ["Hospice", "Home Health Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "26",
+      "timeQualifier": "Episode",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20170101-20171231"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "0",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "60",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "329",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "60",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "90",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "60",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "329",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "30",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "0",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "20",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "164.5",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "20",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "100",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "20",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "164.5",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "80",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "K",
+      "name": "Reserve",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "60"
+    },
+    {
+      "code": "K",
+      "name": "Reserve",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "33",
+      "timeQualifier": "Lifetime Remaining",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "60"
+    },
+    {
+      "code": "K",
+      "name": "Reserve",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "658",
+      "benefitsDateInformation": {
+        "admission": "20170101-20171231",
+        "admissions": [
+          {
+            "startDate": "20170101",
+            "endDate": "20171231"
+          }
+        ]
+      }
+    },
+    {
+      "code": "D",
+      "name": "Benefit Description",
+      "serviceTypeCodes": ["45"],
+      "serviceTypes": ["Hospice"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "26",
+      "timeQualifier": "Episode",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "30",
+        "UC",
+        "DM",
+        "BV",
+        "BU",
+        "BT",
+        "BG",
+        "BF",
+        "AL",
+        "AK",
+        "AJ",
+        "AI",
+        "AF",
+        "AE",
+        "AD",
+        "A8",
+        "A6",
+        "A4",
+        "98",
+        "86",
+        "83",
+        "76",
+        "73",
+        "69",
+        "67",
+        "53",
+        "52",
+        "51",
+        "50",
+        "42",
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+        "33",
+        "3",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "2",
+        "14",
+        "10"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Urgent Care",
+        "Durable Medical Equipment",
+        "Obstetrical/Gynecological",
+        "Obstetrical",
+        "Gynecological",
+        "Cardiac Rehabilitation",
+        "Pulmonary Rehabilitation",
+        "Vision (Optometry)",
+        "Drug Addiction",
+        "Alcoholism",
+        "Substance Abuse",
+        "Speech Therapy",
+        "Physical Medicine",
+        "Occupational Therapy",
+        "Psychiatric - Outpatient",
+        "Psychotherapy",
+        "Psychiatric",
+        "Professional (Physician) Visit - Office",
+        "Emergency Services",
+        "Infertility",
+        "Dialysis",
+        "Diagnostic Medical",
+        "Maternity",
+        "Smoking Cessation",
+        "Hospital - Ambulatory Surgical",
+        "Hospital - Emergency Medical",
+        "Hospital - Emergency Accident",
+        "Hospital - Outpatient",
+        "Home Health Care",
+        "Oral Surgery",
+        "Prosthodontics",
+        "Orthodontics",
+        "Dental Accident",
+        "Dental Crowns",
+        "Chiropractic",
+        "Consultation",
+        "Adjunctive Dental Services",
+        "Maxillofacial Prosthetics",
+        "Endodontics",
+        "Restorative",
+        "Periodontics",
+        "Diagnostic Dental",
+        "Surgical",
+        "Renal Supplies in the Home",
+        "Blood Charges"
+      ],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "benefitsDateInformation": {
+        "plan": "20140901"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "183",
+      "benefitsDateInformation": {
+        "plan": "20170101-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "183",
+      "benefitsDateInformation": {
+        "plan": "20170101-20171231"
+      }
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".2",
+      "benefitsDateInformation": {
+        "plan": "20170101-20171231"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["AJ", "67", "42"],
+      "serviceTypes": ["Alcoholism", "Smoking Cessation", "Home Health Care"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20170101-20171231"
+      }
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["AJ", "67", "42"],
+      "serviceTypes": ["Alcoholism", "Smoking Cessation", "Home Health Care"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "benefitsDateInformation": {
+        "benefit": "20170101-20171231"
+      }
+    },
+    {
+      "code": "D",
+      "name": "Benefit Description",
+      "serviceTypeCodes": ["AD", "AE"],
+      "serviceTypes": ["Occupational Therapy", "Physical Medicine"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20170101-20171231"
+      },
+      "additionalInformation": [
+        {
+          "description": "Used Amount"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BF"],
+      "serviceTypes": ["Pulmonary Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "CA",
+      "quantityQualifier": "Covered - Actual",
+      "benefitQuantity": "72",
+      "additionalInformation": [
+        {
+          "description": "Technical"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BF"],
+      "serviceTypes": ["Pulmonary Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "CA",
+      "quantityQualifier": "Covered - Actual",
+      "benefitQuantity": "72",
+      "additionalInformation": [
+        {
+          "description": "Professional"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Technical"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Professional"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Intensive Cardiac Rehabilitation - Technical"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Intensive Cardiac Rehabilitation - Professional"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "name": "Exclusions",
+      "serviceTypeCodes": ["10"],
+      "serviceTypes": ["Blood Charges"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "DB",
+      "quantityQualifier": "Deductible Blood Units",
+      "benefitQuantity": "3",
+      "benefitsDateInformation": {
+        "benefit": "20170101-20171231"
+      },
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "3",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "planNumber": "A1111 111"
+      },
+      "benefitsDateInformation": {
+        "benefit": "20140901"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "address": {
+          "address1": "Fake Drive",
+          "city": "FakeCity",
+          "state": "TX",
+          "postalCode": "11111"
+        },
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "8881111111"
+            },
+            {
+              "communicationMode": "Uniform Resource Locator (URL)",
+              "communicationNumber": "www.abcd.com"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "address1": "Fake Drive"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "8881111111"
+              },
+              {
+                "communicationMode": "Uniform Resource Locator (URL)",
+                "communicationNumber": "www.abcd.com"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0545*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*47383d59-d46d-8514-508b-a394c6a95964*20240220*0545~HL*1**20*1~NM1*PR*2*MEDEX*****PI*MEDX~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*421059400*9EMDEON999~NM1*IL*1*******01234567890~N3*~N4***~DMG*D8**~DTP*307*D8*20170105~EB*I**41^54~EB*1**88~EB*1**30^BV^BU^BT^AG^A7^A5^83^76^69^49^48^45^42^10*MA~DTP*291*D8*20140901~EB*C**30*MA**26*1316~DTP*291*RD8*20170101-20171231~EB*C**30*MA**29*1316~DTP*291*RD8*20170101-20171231~EB*C**45^42*MA**26*0~DTP*292*RD8*20170101-20171231~EB*B**30*MA**7*0~HSD***DA**30*0~HSD***DA**31*60~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*B**30*MA**7*329~HSD***DA**30*60~HSD***DA**31*90~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*B**30*MA**7*0~HSD***DA**29*60~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*B**30*MA**7*329~HSD***DA**29*30~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*B**AG*MA**7*0~HSD***DA**30*0~HSD***DA**31*20~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*B**AG*MA**7*164.5~HSD***DA**30*20~HSD***DA**31*100~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*B**AG*MA**7*0~HSD***DA**29*20~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*B**AG*MA**7*164.5~HSD***DA**29*80~HSD*****26*1~DTP*435*RD8*20170101-20171231~EB*K**30*MA**32***DY*60~EB*K**30*MA**33***DY*60~EB*K**30*MA**7*658~DTP*435*RD8*20170101-20171231~EB*D**45*MA**26***99*0~EB*1**30^UC^DM^BV^BU^BT^BG^BF^AL^AK^AJ^AI^AF^AE^AD^A8^A6^A4^98^86^83^76^73^69^67^53^52^51^50^42^40^39^38^37^36^33^3^28^27^26^25^24^23^2^14^10*MB~DTP*291*D8*20140901~EB*C**30*MB**23*183~DTP*291*RD8*20170101-20171231~EB*C**30*MB**29*183~DTP*291*RD8*20170101-20171231~EB*A**30*MB**27**.2~DTP*291*RD8*20170101-20171231~EB*C**AJ^67^42*MB**23*0~DTP*292*RD8*20170101-20171231~EB*A**AJ^67^42*MB**27**0~DTP*292*RD8*20170101-20171231~EB*D**AD^AE*MB***0~DTP*292*RD8*20170101-20171231~MSG*Used Amount~EB*F**BF*MB**29***CA*72~MSG*Technical~EB*F**BF*MB**29***CA*72~MSG*Professional~EB*F**BG*MB*****99*0~MSG*Technical~EB*F**BG*MB*****99*0~MSG*Professional~EB*F**BG*MB*****99*0~MSG*Intensive Cardiac Rehabilitation - Technical~EB*F**BG*MB*****99*0~MSG*Intensive Cardiac Rehabilitation - Professional~EB*E**10***23***DB*3~HSD*FL*3***29~DTP*292*RD8*20170101-20171231~EB*R**88*OT~REF*18*A1111 111~DTP*292*D8*20140901~LS*2120~NM1*PR*2*Unknown~N3*Fake Drive~N4*FakeCity*TX*11111~PER*IC**TE*8881111111*UR*www.abcd.com~LE*2120~SE*104*0001~GE*1*000000001~IEA*1*000000001~"
+}

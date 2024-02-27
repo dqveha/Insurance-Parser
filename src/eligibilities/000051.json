@@ -1,0 +1,786 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "55cebc94-5e8d-5f32-ef35-1446d3382c34"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000051",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "111111"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "dependents": [
+    {
+      "entityType": "Person",
+      "relationToSubscriber": "Child",
+      "relationToSubscriberCode": "19",
+      "insuredIndicator": "N",
+      "maintenanceTypeCode": "001",
+      "maintenanceReasonCode": "25"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000051",
+    "contactInformation": {
+      "contacts": [
+        {
+          "communicationMode": "Uniform Resource Locator (URL)",
+          "communicationNumber": "WWW.TEST.COM"
+        }
+      ]
+    }
+  },
+  "planInformation": {
+    "groupNumber": "111111"
+  },
+  "planDateInformation": {
+    "planBegin": "20160601"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "CHOICE PLUS",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "AL",
+        "MH",
+        "UC",
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "planCoverage": "CHOICE PLUS",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "planNetworkIdNumber": "11-1111111"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "entityIdentification": "Payor Identification",
+        "entityIdentificationValue": "000051",
+        "address": {},
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Uniform Resource Locator (URL)",
+              "communicationNumber": "WWW.TEST.COM"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "entityIdentification": "Payor Identification",
+          "entityIdentificationValue": "000051",
+          "address": {},
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Uniform Resource Locator (URL)",
+                "communicationNumber": "WWW.TEST.COM"
+              }
+            ]
+          }
+        },
+        {
+          "entityIdentifier": "Utilization Management Organization",
+          "entityType": "Non-Person Entity",
+          "entityName": "TEST LBS"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "11855",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "10000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "15000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "500",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "1000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "30000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "5000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "5980",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "12000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "30000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "145",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "15000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "500",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "6000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "10000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "5000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "C1",
+      "insuranceType": "Commercial",
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "AL",
+        "MH",
+        "UC",
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98"
+      ],
+      "serviceTypes": [
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care",
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office"
+      ],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33", "98", "86", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Emergency Services",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50", "48"],
+      "serviceTypes": ["Hospital - Outpatient", "Hospital - Inpatient"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48", "33", "98", "86", "UC", "50"],
+      "serviceTypes": [
+        "Hospital - Inpatient",
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Emergency Services",
+        "Urgent Care",
+        "Hospital - Outpatient"
+      ],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".5",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48", "50"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Outpatient"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33", "98"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Professional (Physician) Visit - Office"
+      ],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "35",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "200",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33", "98", "86", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Emergency Services",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["86", "UC", "98", "33"],
+      "serviceTypes": [
+        "Emergency Services",
+        "Urgent Care",
+        "Professional (Physician) Visit - Office",
+        "Chiropractic"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["86", "UC", "98", "33"],
+      "serviceTypes": [
+        "Emergency Services",
+        "Urgent Care",
+        "Professional (Physician) Visit - Office",
+        "Chiropractic"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "999999.99",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "20",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "LIMITATION COMBINED FOR IN AND OUT OF NETWORK"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC", "33", "48", "50", "86", "98"],
+      "serviceTypes": [
+        "Urgent Care",
+        "Chiropractic",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office"
+      ],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC", "33", "48", "50", "86", "98"],
+      "serviceTypes": [
+        "Urgent Care",
+        "Chiropractic",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office"
+      ],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "ADDITIONAL COVERED PER OCCURRENCE"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Vendor",
+        "entityType": "Non-Person Entity",
+        "entityName": "TESTHEALTH SPECIALTY BENEFITS VISION",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Uniform Resource Locator (URL)",
+              "communicationNumber": "WWW.TESTVISION.COM"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Vendor",
+          "entityType": "Non-Person Entity",
+          "entityName": "TESTHEALTH SPECIALTY BENEFITS VISION",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Uniform Resource Locator (URL)",
+                "communicationNumber": "WWW.TESTVISION.COM"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Vendor",
+        "entityType": "Non-Person Entity",
+        "entityName": "PRESCRIPTION SOLUTIONS"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Vendor",
+          "entityType": "Non-Person Entity",
+          "entityName": "PRESCRIPTION SOLUTIONS"
+        }
+      ]
+    },
+    {
+      "code": "X",
+      "name": "Health Care Facility",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Provider",
+        "entityType": "Person",
+        "entityName": "TEST",
+        "entityFirstname": "TEST",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "1111111111"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Provider",
+          "entityType": "Person",
+          "entityName": "TEST",
+          "entityFirstname": "TEST",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "1111111111"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0530*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*000000001*005010X279A1~BHT*0022*11*55cebc94-5e8d-5f32-ef35-1446d3382c34*20240220*0530~HL*1**20*1~NM1*PR*2*Unknown*****PI*000051~PER*IC**UR*WWW.TEST.COM~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*1~TRN*2*000000001*9EMDEON999*~TRN*2*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*6P*111111~N3*~N4***~DMG*D8**~HL*4*3*23*0~TRN*2*000000001*9EMDEON999*~TRN*2*000000001*9EMDEON999*~NM1*03*1**~DMG*D8**~INS*N*19*001*25~DTP*346*D8*20160601~EB*1**30*C1*CHOICE PLUS~REF*N6*11-1111111*TEST LBS~LS*2120~NM1*PR*2*Unknown*****PI*000051~N3*~N4***~PER*IC**UR*WWW.TEST.COM~NM1*X3*2*TEST LBS~LE*2120~EB*C*FAM*30***24*0*****W~EB*C*IND*30***24*0*****W~EB*G*FAM*30*C1**29*11855*****Y~EB*C*FAM*30***23*10000*****N~EB*G*IND*30*C1**23*15000*****N~EB*C*IND*30***29*500*****Y~EB*C*FAM*30***23*1000*****Y~EB*C*FAM*30***29*1000*****Y~EB*G*FAM*30*C1**29*30000*****N~EB*G*IND*30*C1**24*0*****N~EB*C*IND*30***23*5000*****N~EB*G*IND*30*C1**29*5980*****Y~EB*G*FAM*30*C1**23*12000*****Y~EB*G*FAM*30*C1**24*0*****N~EB*G*FAM*30*C1**23*30000*****N~EB*G*FAM*30*C1**24*145*****Y~EB*G*IND*30*C1**29*15000*****N~EB*C*IND*30***23*500*****Y~EB*G*IND*30*C1**23*6000*****Y~EB*C*FAM*30***29*10000*****N~EB*C*IND*30***29*5000*****N~EB*G*IND*30*C1**24*20*****Y~EB*1**AL^MH^UC^1^33^47^48^50^86^98*********W~EB*A*IND*33^98^86^UC***27**0****Y~EB*A*IND*50^48***27**.2****Y~EB*A*IND*48^33^98^86^UC^50***27**.5****N~EB*B*IND*48^50***27*0*****W~EB*B*IND*UC***27*75*****Y~EB*B*IND*33^98***27*35*****Y~EB*B*IND*86***27*200*****Y~EB*B*IND*33^98^86^UC***27*0*****N~EB*C*FAM*86^UC^98^33***23*0*****Y~EB*C*IND*86^UC^98^33***23*0*****Y~EB*F*IND*33***23*999999.99**VS*20**W~MSG*LIMITATION COMBINED FOR IN AND OUT OF NETWORK~EB*F*IND*UC^33^48^50^86^98****0*****W~EB*F*IND*UC^33^48^50^86^98****0*****W~MSG*ADDITIONAL COVERED PER OCCURRENCE~EB*U**AL~LS*2120~NM1*VN*2*TESTHEALTH SPECIALTY BENEFITS VISION~PER*IC**UR*WWW.TESTVISION.COM~LE*2120~EB*U**88~LS*2120~NM1*VN*2*PRESCRIPTION SOLUTIONS~LE*2120~EB*X~LS*2120~NM1*1P*1*TEST*TEST****XX*1111111111~LE*2120~SE*83*000000001~GE*1*000000001~IEA*1*000000001~"
+}

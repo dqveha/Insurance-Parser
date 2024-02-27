@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "48d0b9d7-8e08-e281-226c-56e40cdeb887"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "ABHMO",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "planNumber": "QQQQQQQQQ",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25",
+    "address": {
+      "address1": "PO BOX 11111",
+      "city": "TEST",
+      "state": "WI",
+      "postalCode": "1111111111"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9999"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Aetna Better Health of MO",
+    "payorIdentification": "ABHMO"
+  },
+  "planInformation": {
+    "planNumber": "QQQQQQQQQ",
+    "planDescription": "AFDC WEST"
+  },
+  "planDateInformation": {
+    "plan": "20150319-20170430",
+    "dateOfLastUpdate": "20170508"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "AFDC WEST",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["1", "30", "33", "47", "48", "50", "86", "98", "UC"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "AFDC WEST"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["1", "30", "33", "47", "48", "50", "86", "98", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitsDateInformation": {
+        "benefit": "20150319-20170430"
+      }
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["1", "30", "33", "47", "48", "50", "86", "98", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitPercent": "0",
+      "benefitsDateInformation": {
+        "benefit": "20150319-20170430"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["1", "30", "33", "47", "48", "50", "86", "98", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20150319-20170430"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["1", "30", "33", "47", "48", "50", "86", "98", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20150319-20170430"
+      }
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "benefit": "20150319-20170430"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Non-Person Entity",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "1111111111"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Non-Person Entity",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "1111111111"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0543*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*111111110*005010X279A1~BHT*0022*11*48d0b9d7-8e08-e281-226c-56e40cdeb887*20240220*0543~HL*1**20*1~NM1*PR*2*Aetna Better Health of MO*****PI*ABHMO~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*0022*9999~TRN*2*20170508-4618358*9AAAAAAAAA~NM1*IL*1*******01234567890~REF*18*QQQQQQQQQ*AFDC WEST~N3*PO BOX 11111~N4*TEST*WI*1111111111~DMG*D8**~INS*Y*18*001*25~DTP*636*D8*20170508~DTP*291*RD8*20150319-20170430~EB*1**30**AFDC WEST~EB*1**1^30^33^47^48^50^86^98^UC*MC~DTP*292*RD8*20150319-20170430~EB*A**1^30^33^47^48^50^86^98^UC*MC****0~DTP*292*RD8*20150319-20170430~EB*B**1^30^33^47^48^50^86^98^UC*MC***0~DTP*292*RD8*20150319-20170430~EB*C**1^30^33^47^48^50^86^98^UC*MC**29*0~DTP*292*RD8*20150319-20170430~EB*L**30*MC~DTP*292*RD8*20150319-20170430~LS*2120~NM1*P3*2******XX*1111111111~LE*2120~SE*32*111111110~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "a8616256-160e-8f0d-9f99-049e933921e7"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "00005",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001",
+    "address": {
+      "address1": "123 MAIN ST",
+      "city": "NASHVILLE",
+      "state": "TN",
+      "postalCode": "37215"
+    }
+  },
+  "subscriber": {
+    "memberId": "01234567890",
+    "firstName": "JANEONE",
+    "lastName": "DOEONE",
+    "gender": "F",
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "dateOfBirth": "20010101",
+    "address": {
+      "address1": "123 MAIN ST",
+      "city": "NASHVILLE",
+      "state": "TN",
+      "postalCode": "37215"
+    }
+  },
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "00005"
+  },
+  "planInformation": {
+    "submitterIdentificationNumber": "EHR ID"
+  },
+  "planDateInformation": {
+    "plan": "20130404"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["88"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"]
+    }
+  ],
+  "x12": "ISA00          01SomePwd   ZZEMDEON         ZZTPG00000       2402200522^005010000000010T:GSHBMTEXELLX1210001201310152219000000001X005010X279A1ST271000000001005010X279A1BHT002211a8616256-160e-8f0d-9f99-049e933921e7202402200522HL1201NM1PR2UnknownPI00005HL21211NM11P1SVCHCELIGIBILITY001REFEOEHR IDN3123 MAIN STN4NASHVILLETN37215HL32220NM1IL1DOEONEJANEONEMI01234567890N3123 MAIN STN4NASHVILLETN37215DMGD820010101FDTP291D820130404EB188SE17000000001GE1000000001IEA1000000001~"
+}

@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "fa6ea0bd-cd01-5c5c-1af2-b9feab40a3d2"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000053",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000053"
+  },
+  "planInformation": {
+    "policyNumber": "111",
+    "medicalRecordIdentificationNumber": "111111",
+    "patientAccountNumber": "1111111111"
+  },
+  "planDateInformation": {
+    "dateOfLastUpdate": "20160914"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "TEST for Texas",
+      "serviceTypeCodes": ["MH"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Superior Health Plan for Texas",
+      "serviceTypeCodes": [
+        "88",
+        "47",
+        "35",
+        "98",
+        "33",
+        "50",
+        "MH",
+        "30",
+        "48",
+        "AL",
+        "1",
+        "UC",
+        "86"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "88",
+        "47",
+        "35",
+        "98",
+        "33",
+        "50",
+        "MH",
+        "30",
+        "48",
+        "AL",
+        "1",
+        "UC",
+        "86"
+      ],
+      "serviceTypes": [
+        "Pharmacy",
+        "Hospital",
+        "Dental Care",
+        "Professional (Physician) Visit - Office",
+        "Chiropractic",
+        "Hospital - Outpatient",
+        "Mental Health",
+        "Health Benefit Plan Coverage",
+        "Hospital - Inpatient",
+        "Vision (Optometry)",
+        "Medical Care",
+        "Urgent Care",
+        "Emergency Services"
+      ],
+      "planCoverage": "Superior Health Plan for Texas",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "planNumber": "39188",
+        "groupNumber": "TITLE 19"
+      },
+      "benefitsDateInformation": {
+        "planBegin": "19931101",
+        "eligibilityBegin": "20151101"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "DOEONE",
+        "entityFirstname": "JOHNONE"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "DOEONE",
+          "entityFirstname": "JOHNONE"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Please contact the health plan for coverage details. Limitations or Prior Authorization may apply."
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["MH"],
+      "serviceTypes": ["Mental Health"],
+      "planCoverage": "TEST for Texas",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "planNumber": "11111",
+        "groupNumber": "STAR PLUS CBH BENEFIT PACKAGE-(LT=SP)"
+      },
+      "benefitsDateInformation": {
+        "planBegin": "20060301",
+        "eligibilityBegin": "20151101"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "PCP",
+        "entityFirstname": "DEFAULT"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "PCP",
+          "entityFirstname": "DEFAULT"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Please contact the health plan for coverage details. Limitations or Prior Authorization may apply."
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0533*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*786778223*005010X279A1~BHT*0022*11*fa6ea0bd-cd01-5c5c-1af2-b9feab40a3d2*20240220*0533~HL*1**20*1~NM1*PR*2*Unknown*****PI*000053~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*000000001*9EMDEON999*~TRN*1*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*1L*111~REF*EA*111111~REF*EJ*1111111111~N3*~N4***~DMG*D8**~DTP*636*D8*20160914~EB*1**88^47^35^98^33^50^MH^30^48^AL^1^UC^86**Superior Health Plan for Texas~REF*18*39188*Superior Health Plan Texas~REF*6P*TITLE 19~DTP*346*D8*19931101~DTP*356*D8*20151101~MSG*Please contact the health plan for coverage details. Limitations or Prior Authorization may apply.~LS*2120~NM1*P3*1*DOEONE*JOHNONE~LE*2120~EB*1**MH**TEST for Texas~REF*18*11111*TEST - TX~REF*6P*STAR PLUS CBH BENEFIT PACKAGE-(LT=SP)~DTP*346*D8*20060301~DTP*356*D8*20151101~MSG*Please contact the health plan for coverage details. Limitations or Prior Authorization may apply.~LS*2120~NM1*P3*1*PCP*DEFAULT~LE*2120~SE*36*786778223~GE*1*000000001~IEA*1*000000001~"
+}

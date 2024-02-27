@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "56178661-c3e2-fab2-1527-06d640aece62"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000050",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001",
+    "address": {
+      "address1": "111 TEST BLVD STE 111",
+      "city": "TEST CITY",
+      "state": "CA",
+      "postalCode": "11111"
+    }
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "111",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25",
+    "birthSequenceNumber": "1"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000050"
+  },
+  "planInformation": {
+    "groupNumber": "111",
+    "patientAccountNumber": "11111"
+  },
+  "planDateInformation": {
+    "plan": "20030111-99991231"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "BASIC",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "BASIC",
+      "benefitsDateInformation": {
+        "plan": "20030111-99991231"
+      }
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Origin Carrier",
+        "entityType": "Non-Person Entity",
+        "entityName": "Payer of California"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Origin Carrier",
+          "entityType": "Non-Person Entity",
+          "entityName": "Payer of California"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "California Providers Only - You may submit claims to payer of CA"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "UNLESS OTHERWISE REQUIRED BY APPROPRIATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITATIONS AND THE MEMBER\"S ELIGIBILITY STATUS ON THE DATE OF SERVICE. PAID-TO-DATE AMOUNTS REFLECT ONLY FINALIZED CLAIMS."
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "BASIC",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "4195.37",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "BASIC",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "5500",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "BASIC",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "BASIC",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "BASIC",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".3",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "DRUGS, AGENTS, SUPPLIES"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["98", "BZ"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well"
+      ],
+      "planCoverage": "BASIC",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "planCoverage": "BASIC",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0530*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*304006630*005010X279A1~BHT*0022*11*56178661-c3e2-fab2-1527-06d640aece62*20240220*0530~HL*1**20*1~NM1*PR*2*Unknown*****PI*000050~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~N3*111 TEST BLVD STE 111~N4*TEST CITY*CA*11111~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*EJ*11111~REF*6P*111~N3*~N4***~DMG*D8**~INS*Y*18*001*25*************1~DTP*291*RD8*20030111-99991231~EB*1*IND*30*PR*BASIC~DTP*291*RD8*20030111-99991231~EB*W~MSG*California Providers Only - You may submit claims to payer of CA~LS*2120~NM1*OC*2*Payer of California~LE*2120~EB*P~MSG*UNLESS OTHERWISE REQUIRED BY APPROPRIATE LAW, THIS NOTICE IS NOT A GUARANTEE OF PAYMENT. BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITATIONS AND THE MEMBER\"S ELIGIBILITY STATUS ON THE DATE OF SERVICE. PAID-TO-DATE AMOUNTS REFLECT ONLY FINALIZED CLAIMS.~EB*G*IND*30**BASIC*29*4195.37*****Y~EB*G*IND*30**BASIC*23*5500*****Y~EB*B*IND*98**BASIC*27*30*****Y~EB*B*IND*98**BASIC*27*40*****Y~MSG*SPECIALIST~EB*A*IND*98**BASIC*27**.3****Y~MSG*DRUGS, AGENTS, SUPPLIES~EB*I**98^BZ**BASIC*******N~EB*B*IND*BZ**BASIC*27*0*****Y~SE*37*304006630~GE*1*000000001~IEA*1*000000001~"
+}

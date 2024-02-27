@@ -1,0 +1,948 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "19908620-33d6-7375-dc25-e37cb1f999aa"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000081",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "198444945",
+      "originatingCompanyIdentifier": "9EMDEON999",
+      "secondaryReferenceIdentification": "149555665737"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "WELLCARE HEALTH PLANS",
+    "payorIdentification": "WCHP"
+  },
+  "planDateInformation": {
+    "plan": "20170511-20170511",
+    "eligibilityBegin": "20160101"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "ESSENTIAL  HMO",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "ESSENTIAL  HMO",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "planNumber": "111-111",
+        "policyNumber": "AB000"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "TEST",
+        "entityFirstname": "TEST123",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "1111111111",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "0000000000"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "TEST",
+          "entityFirstname": "TEST123",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "1111111111",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "0000000000"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A6"],
+      "serviceTypes": ["Psychotherapy"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitAmount": "50",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT HOSPITAL SURGICAL - $50 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $50.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["6"],
+      "serviceTypes": ["Radiation Therapy"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "RADIATION THERAPY SPECIALIST OFFICE # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitPercent": ".45",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "45% COINSURANCE FOR OON PROVIDERS  # Final CoInsurance For This Member= 45.0% #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A0"],
+      "serviceTypes": ["Professional (Physician) Visit - Outpatient"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "CARDIAC REHAB OP $5 # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["76"],
+      "serviceTypes": ["Dialysis"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["6"],
+      "serviceTypes": ["Radiation Therapy"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "RADIATION THERAPY 20% FACILITY # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["PT"],
+      "serviceTypes": ["Physical Therapy"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "4",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "THERAPY PT MAX UNIT LIMIT 4X PER DAY"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "EMERGENCY ROOM $75 COPAY # Final CoPay For This Member= $75.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["CF"],
+      "serviceTypes": ["Mental Health Provider - Outpatient"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AK"],
+      "serviceTypes": ["Drug Addiction"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT SUBSTANCE ABUSE GROUP - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["59"],
+      "serviceTypes": ["Licensed Ambulance"],
+      "benefitAmount": "200",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "AMBULANCE - $200 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $200.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["94"],
+      "serviceTypes": ["Podiatry - Office Visits"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "PODIATRY $5 COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AJ"],
+      "serviceTypes": ["Alcoholism"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT SUBSTANCE ABUSE INDIVIDUAL - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["78"],
+      "serviceTypes": ["Chemotherapy"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "CHEMOTHERAPY 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["16"],
+      "serviceTypes": ["Chronic Renal Disease (CRD) Equipment"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "KIDNEY DISEASE EDUCATION SERVICES - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["MH"],
+      "serviceTypes": ["Mental Health"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["CF"],
+      "serviceTypes": ["Mental Health Provider - Outpatient"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["CH"],
+      "serviceTypes": ["Mental Health Facility - Outpatient"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["PT"],
+      "serviceTypes": ["Physical Therapy"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "PT OT ST $5 COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["CJ"],
+      "serviceTypes": ["Substance Abuse Facility - Outpatient"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT SUBSTANCE ABUSE INDIVIDUAL - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AN"],
+      "serviceTypes": ["Routine Exam"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC EYE EXAM - $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BB"],
+      "serviceTypes": ["Partial Hospitalization (Psychiatric)"],
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "PARTIAL HOSPITALIZATION $20 PER DAY # Final CoPay For This Member= $20.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitAmount": "25",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT HOSPITAL NON SURGICAL - $25 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $25.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["CH"],
+      "serviceTypes": ["Mental Health Facility - Outpatient"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["77"],
+      "serviceTypes": ["Otological Exam"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Diagnostic Hearing Exam 20% # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["9"],
+      "serviceTypes": ["Other Medical"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Diagnostic Hearing Exam 20% # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "PART B DRUGS - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "DIAGNOSTIC EYE EXAM - $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AK"],
+      "serviceTypes": ["Drug Addiction"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT SUBSTANCE ABUSE INDIVIDUAL - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitAmount": "25",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "URGENT CARE - $25 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $25.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A6"],
+      "serviceTypes": ["Psychotherapy"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A8"],
+      "serviceTypes": ["Psychiatric - Outpatient"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BY"],
+      "serviceTypes": ["Physician Visit - Office: Sick"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["AD"],
+      "serviceTypes": ["Occupational Therapy"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "4",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "THERAPY OT MAX 4 UNITS PER DAY"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AJ"],
+      "serviceTypes": ["Alcoholism"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT SUBSTANCE ABUSE GROUP - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["CJ"],
+      "serviceTypes": ["Substance Abuse Facility - Outpatient"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT SUBSTANCE ABUSE GROUP - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["AD"],
+      "serviceTypes": ["Occupational Therapy"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "4",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "THERAPY PT MAX UNIT LIMIT 4X PER DAY"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["4"],
+      "serviceTypes": ["Diagnostic X-Ray"],
+      "benefitAmount": "50",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "ADVANCED TESTS - $50 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $50.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["15"],
+      "serviceTypes": ["Alternate Method Dialysis"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "KIDNEY DISEASE EDUCATION SERVICES - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A0"],
+      "serviceTypes": ["Professional (Physician) Visit - Outpatient"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["14"],
+      "serviceTypes": ["Renal Supplies in the Home"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["MH"],
+      "serviceTypes": ["Mental Health"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "CARDIAC REHAB $5 # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["34"],
+      "serviceTypes": ["Chiropractic Office Visits"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "CHIROPRACTIC CARE MEDICARE - $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["A0"],
+      "serviceTypes": ["Professional (Physician) Visit - Outpatient"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "PART B DRUGS - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BZ"],
+      "serviceTypes": ["Physician Visit - Office: Well"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "PT OT ST $5 COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["BY"],
+      "serviceTypes": ["Physician Visit - Office: Sick"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitPercent": ".45",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "45% COINSURANCE FOR OON PROVIDERS  # Final CoInsurance For This Member= 45.0% #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["71"],
+      "serviceTypes": ["Audiology Exam"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Diagnostic Hearing Exam 20% # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A8"],
+      "serviceTypes": ["Psychiatric - Outpatient"],
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["16"],
+      "serviceTypes": ["Chronic Renal Disease (CRD) Equipment"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["15"],
+      "serviceTypes": ["Alternate Method Dialysis"],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "6700.0"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "5.0"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0534*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*198444945*005010X279A1~BHT*0022*11*198444945*20170523*122417~HL*1**20*1~NM1*PR*2*WELLCARE HEALTH PLANS*****PI*WCHP~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*198444945*9EMDEON999*149555665737~NM1*IL*1*******01234567890~N3*~N4***~DMG*D8**~DTP*291*RD8*20170511-20170511~DTP*356*D8*20160101~EB*1*IND*30**ESSENTIAL  HMO~REF*18*111-111~REF*1L*AB000~LS*2120~NM1*P3*1*TEST*TEST123****XX*1111111111~PER*IC**TE*0000000000~LE*2120~EB*B**A6****30*****W~MSG*OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**BZ****5*****W~MSG*SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*B**50****50*****W~MSG*OUTPATIENT HOSPITAL SURGICAL - $50 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $50.0 #~EB*B**6****5*****W~MSG*RADIATION THERAPY SPECIALIST OFFICE # Final CoPay For This Member= $5.0 #~EB*B**BZ****5*****W~MSG*SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*A**48*****.45****W~MSG*45% COINSURANCE FOR OON PROVIDERS  # Final CoInsurance For This Member= 45.0% #~EB*B**A0****5*****W~MSG*SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*B**BG****5*****W~MSG*CARDIAC REHAB OP $5 # Final CoPay For This Member= $5.0 #~EB*A**76*****.2****W~MSG*RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #~EB*A**6*****.2****W~MSG*RADIATION THERAPY 20% FACILITY # Final CoInsurance For This Member= 20.0% #~EB*F**PT*********W~HSD*FL*4***29~MSG*THERAPY PT MAX UNIT LIMIT 4X PER DAY~EB*B**52****75*****W~MSG*EMERGENCY ROOM $75 COPAY # Final CoPay For This Member= $75.0 #~EB*B**CF****30*****W~MSG*OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**AK****40*****W~MSG*OUTPATIENT SUBSTANCE ABUSE GROUP - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #~EB*B**59****200*****W~MSG*AMBULANCE - $200 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $200.0 #~EB*B**94****5*****W~MSG*PODIATRY $5 COPAY # Final CoPay For This Member= $5.0 #~EB*B**AJ****40*****W~MSG*OUTPATIENT SUBSTANCE ABUSE INDIVIDUAL - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #~EB*A**78*****.2****W~MSG*CHEMOTHERAPY 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #~EB*A**16*****.2****W~MSG*KIDNEY DISEASE EDUCATION SERVICES - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #~EB*B**MH****30*****W~MSG*OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**CF****30*****W~MSG*OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**CH****30*****W~MSG*OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**PT****5*****W~MSG*PT OT ST $5 COPAY # Final CoPay For This Member= $5.0 #~EB*B**CJ****40*****W~MSG*OUTPATIENT SUBSTANCE ABUSE INDIVIDUAL - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #~EB*B**AN****5*****W~MSG*DIAGNOSTIC EYE EXAM - $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*B**BB****20*****W~MSG*PARTIAL HOSPITALIZATION $20 PER DAY # Final CoPay For This Member= $20.0 #~EB*B**50****25*****W~MSG*OUTPATIENT HOSPITAL NON SURGICAL - $25 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $25.0 #~EB*B**CH****30*****W~MSG*OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*A**77*****.2****W~MSG*Diagnostic Hearing Exam 20% # Final CoInsurance For This Member= 20.0% #~EB*A**9*****.2****W~MSG*Diagnostic Hearing Exam 20% # Final CoInsurance For This Member= 20.0% #~EB*A**98*****.2****W~MSG*PART B DRUGS - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #~EB*B**AL****5*****W~MSG*DIAGNOSTIC EYE EXAM - $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*B**AK****40*****W~MSG*OUTPATIENT SUBSTANCE ABUSE INDIVIDUAL - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #~EB*B**UC****25*****W~MSG*URGENT CARE - $25 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $25.0 #~EB*B**A6****30*****W~MSG*OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**A8****30*****W~MSG*OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**BY****5*****W~MSG*SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*F**AD*********W~HSD*FL*4***29~MSG*THERAPY OT MAX 4 UNITS PER DAY~EB*B**AJ****40*****W~MSG*OUTPATIENT SUBSTANCE ABUSE GROUP - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #~EB*B**CJ****40*****W~MSG*OUTPATIENT SUBSTANCE ABUSE GROUP - COPAY $40 - HIGHER OF COPAY # Final CoPay For This Member= $40.0 #~EB*F**AD*********W~HSD*FL*4***29~MSG*THERAPY PT MAX UNIT LIMIT 4X PER DAY~EB*B**98****5*****W~MSG*SPECIALIST CLINIC $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*B**4****50*****W~MSG*ADVANCED TESTS - $50 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $50.0 #~EB*A**15*****.2****W~MSG*KIDNEY DISEASE EDUCATION SERVICES - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #~EB*B**A0****5*****W~MSG*SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*A**14*****.2****W~MSG*RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #~EB*B**98****5*****W~MSG*SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*B**MH****30*****W~MSG*OUTPATIENT INDIVIDUAL MENTAL HEALTH INDIVIDUAL - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*B**BG****5*****W~MSG*CARDIAC REHAB $5 # Final CoPay For This Member= $5.0 #~EB*B**34****5*****W~MSG*CHIROPRACTIC CARE MEDICARE - $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*A**A0*****.2****W~MSG*PART B DRUGS - 20% COINSURANCE # Final CoInsurance For This Member= 20.0% #~EB*B**BZ****5*****W~MSG*PT OT ST $5 COPAY # Final CoPay For This Member= $5.0 #~EB*B**BY****5*****W~MSG*SPECIALIST $5 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $5.0 #~EB*A**50*****.45****W~MSG*45% COINSURANCE FOR OON PROVIDERS  # Final CoInsurance For This Member= 45.0% #~EB*A**71*****.2****W~MSG*Diagnostic Hearing Exam 20% # Final CoInsurance For This Member= 20.0% #~EB*B**A8****30*****W~MSG*OUTPATIENT MENTAL HEALTH GROUP - $30 COPAY - HIGHER OF COPAY # Final CoPay For This Member= $30.0 #~EB*A**16*****.2****W~MSG*RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #~EB*A**15*****.2****W~MSG*RENAL DIALYSIS 20%  # Final CoInsurance For This Member= 20.0% #~EB*G*****23*6700.0~EB*F*****23*5.0~SE*143*198444945~GE*1*000000001~IEA*1*000000001~"
+}

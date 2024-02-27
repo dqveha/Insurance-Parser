@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "50fb6f1b-215f-78bd-af22-97fe6d31b211"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000044",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "US11111111111111",
+    "planNumber": "1111111",
+    "planNetworkIdNumber": "AA01"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000044"
+  },
+  "planInformation": {
+    "planNumber": "1111111",
+    "groupNumber": "US11111111111111",
+    "groupDescription": "HMO VALUE",
+    "planNetworkIdNumber": "AA01"
+  },
+  "planDateInformation": {
+    "planBegin": "20160101",
+    "eligibilityBegin": "20120901",
+    "service": "20160830"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Open Access HMO",
+      "serviceTypeCodes": [
+        "30",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "UC",
+        "35",
+        "AL",
+        "MH",
+        "88"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HM",
+      "insuranceType": "Health Maintenance Organization (HMO)",
+      "additionalInformation": [
+        {
+          "description": "PCP SELECTION NOT REQUIRED"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "address": {
+          "address1": "PO Box 111111",
+          "city": "Test City",
+          "state": "TX",
+          "postalCode": "11111"
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "address1": "PO Box 111111"
+          }
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HM",
+      "insuranceType": "Health Maintenance Organization (HMO)",
+      "planCoverage": "Open Access HMO",
+      "additionalInformation": [
+        {
+          "description": "Medicare"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "6700",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "plan": "20160101-20161231",
+        "benefit": "20160101-20161231"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "6292.79",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "6700",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "plan": "20160101-20161231",
+        "benefit": "20160101-20161231"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "6292.79",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "UNLIMITED LIFETIME BENEFITS"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "additionalInformation": [
+        {
+          "description": "NO NON-EMERGENCY COVG OON"
+        },
+        {
+          "description": "Plan Requires PreCert"
+        },
+        {
+          "description": "Referral is not required"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": [
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "UC",
+        "35",
+        "AL",
+        "MH",
+        "88"
+      ],
+      "serviceTypes": [
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care",
+        "Dental Care",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Pharmacy"
+      ],
+      "planCoverage": "Open Access HMO"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33", "48", "50", "86", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Urgent Care"
+      ],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist Off Visit Consult"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist Chiro Office Visits"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitAmount": "350",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "FACILITY IP HOSP-MEDICAL"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitAmount": "1750",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "FACILITY IP HOSP-MEDICAL"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "Copay Max"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitAmount": "250",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Hospital - O/P Surgery"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "FAC OP SURGERY"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "HOSP DIAG OP TESTING"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Emergency Room"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "Waived if admitted"
+        },
+        {
+          "description": "FAC EMERG MEDICAL TREATMENT"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "Waived if admitted"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Urgent Care Rider"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "Facility Emergency Urgent Care"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP During Hours"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Specialist Off Visit Consult"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["33", "48", "50", "86", "98", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "additionalInformation": [
+        {
+          "description": "PCP OV Cost Share for any PCP"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["33", "48", "50", "86", "98", "UC"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0526*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*128439919*005010X279A1~BHT*0022*11*50fb6f1b-215f-78bd-af22-97fe6d31b211*20240220*0526~HL*1**20*1~NM1*PR*2*Unknown*****PI*000044~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*18*1111111~REF*6P*US11111111111111*HMO VALUE~REF*N6*AA01~N3*~N4***~DMG*D8**~DTP*346*D8*20160101~DTP*472*D8*20160830~DTP*356*D8*20120901~EB*L*FAM*30*HM~MSG*PCP SELECTION NOT REQUIRED~EB*W~LS*2120~NM1*PR*2*Unknown~N3*PO Box 111111~N4*Test City*TX*11111~LE*2120~EB*1*FAM*30*HM*Open Access HMO~MSG*Medicare~EB*G*IND*30****6700*****Y~DTP*292*RD8*20160101-20161231~DTP*291*RD8*20160101-20161231~EB*G*IND*30***29*6292.79*****Y~EB*G*FAM*30****6700*****Y~DTP*292*RD8*20160101-20161231~DTP*291*RD8*20160101-20161231~EB*G*FAM*30***29*6292.79*****Y~EB*F*IND*30***32******Y~MSG*UNLIMITED LIFETIME BENEFITS~EB*F*FAM*30~MSG*NO NON-EMERGENCY COVG OON~MSG*Plan Requires PreCert~MSG*Referral is not required~EB*1*FAM*33^47^48^50^86^98^UC^35^AL^MH^88**Open Access HMO~EB*A*IND*33^48^50^86^UC*****0****Y~EB*A*IND*98*****0****Y~MSG*Specialist Off Visit Consult~EB*B*IND*33****20*****Y~MSG*COPAY INCLUDED IN OOP~EB*B*IND*33***27*20*****Y~MSG*Specialist Chiro Office Visits~MSG*COPAY INCLUDED IN OOP~EB*B*IND*48****350*****Y~MSG*FACILITY IP HOSP-MEDICAL~MSG*COPAY INCLUDED IN OOP~EB*B*IND*48****1750*****Y~MSG*FACILITY IP HOSP-MEDICAL~MSG*COPAY INCLUDED IN OOP~MSG*Copay Max~EB*B*IND*50****250*****Y~MSG*Hospital - O/P Surgery~MSG*COPAY INCLUDED IN OOP~MSG*FAC OP SURGERY~MSG*COPAY INCLUDED IN OOP~EB*B*IND*50****40*****Y~MSG*HOSP DIAG OP TESTING~MSG*COPAY INCLUDED IN OOP~EB*B*IND*86****75*****Y~MSG*Emergency Room~MSG*COPAY INCLUDED IN OOP~MSG*Waived if admitted~MSG*FAC EMERG MEDICAL TREATMENT~MSG*COPAY INCLUDED IN OOP~MSG*Waived if admitted~EB*B*IND*86****40*****Y~MSG*Urgent Care Rider~MSG*COPAY INCLUDED IN OOP~MSG*Facility Emergency Urgent Care~MSG*COPAY INCLUDED IN OOP~EB*B*IND*98****5*****Y~MSG*PCP During Hours~MSG*COPAY INCLUDED IN OOP~EB*B*IND*98****40*****Y~MSG*Specialist Off Visit Consult~MSG*COPAY INCLUDED IN OOP~EB*B*IND*UC****40*****Y~MSG*COPAY INCLUDED IN OOP~EB*F*FAM*33^48^50^86^98^UC~MSG*PCP OV Cost Share for any PCP~EB*I*FAM*33^48^50^86^98^UC*********N~SE*90*128439919~GE*1*000000001~IEA*1*000000001~"
+}

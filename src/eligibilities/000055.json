@@ -1,0 +1,1417 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "eab6898a-8da8-fa17-9c02-418fff193323"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000055",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "092001"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000055"
+  },
+  "planInformation": {
+    "groupNumber": "092001",
+    "groupDescription": "Medicare Mc"
+  },
+  "planDateInformation": {
+    "plan": "20160914",
+    "planBegin": "20160801",
+    "eligibilityEnd": "20991231"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["1", "48"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "See Schedule at WWW.TEST.COM",
+      "serviceTypeCodes": ["35"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Medicare Choice",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "Medicare Choice",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "TEST",
+        "entityFirstname": "TEST",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "TEST",
+          "entityFirstname": "TEST",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Medicare Choice (MC) w/ Rx"
+        },
+        {
+          "description": "HMO type plan for Medicare members. Selection of a PCP is required. Offered in Miami-Dade and Broward Counties. Offers access to AvMed Medicare Choice network. (MC)"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "Out Of Pocket Max-In Network Preferred Individual",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "5000",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "155",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "Out Of Pocket Max-In Network Preferred Individual",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "4845",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "Primary Care Visit-In Network Preferred",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "Primary Care Visit-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "No Out of Network 2nd opinions."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "Specialist Visit-In Network Preferred",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "10",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "Specialist Visit-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "HPN; No Out of Network 2nd opinions."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Generic Drugs-In Network Preferred",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Generic Drugs-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Preferred Brand Drugs-In Network Preferred",
+      "benefitAmount": "35",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Preferred Brand Drugs-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Non Preferred Brand Drugs-In Network Preferred",
+      "benefitAmount": "70",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Non Preferred Brand Drugs-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Specialty Drugs-In Network Preferred",
+      "benefitPercent": "33",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "planCoverage": "Specialty Drugs-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "coinsurance (retail)"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "planCoverage": "Outpatient Facility Fee-In Network Preferred",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "planCoverage": "Outpatient Facility Fee-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "No additional copay for Cataract surgery."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "planCoverage": "Outpatient Facility Fee-In Network Preferred",
+      "benefitAmount": "175",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "planCoverage": "Outpatient Facility Fee-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "for hospital affiliated OP facility.  No additional copay for Cataract surgery."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "planCoverage": "Emergency Room Services-In Network Preferred",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "planCoverage": "Emergency Room Services-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Copay waived if admitted within 24 hours."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "planCoverage": "Emergency Transportation-In Network Preferred",
+      "benefitAmount": "100",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "planCoverage": "Emergency Transportation-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay per one way trip."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "planCoverage": "Urgent Care-In Network Preferred",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "25",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "planCoverage": "Urgent Care-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Copay waived if admitted within 24 hours."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "planCoverage": "Urgent Care-Out Of Network",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "25",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "planCoverage": "Urgent Care-Out Of Network",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Copay waived if admitted within 24 hours."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "planCoverage": "Hospital Stay Facility Fee-In Network Preferred",
+      "benefitAmount": "80",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "planCoverage": "Hospital Stay Facility Fee-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "$0 per day thereafter."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "planCoverage": "Hospital Stay Facility Fee-In Network Preferred",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "planCoverage": "Hospital Stay Facility Fee-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "planCoverage": "Hospital Stay Facility Fee-In Network Preferred",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "planCoverage": "Hospital Stay Facility Fee-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Copay $0, days 21-90 per day and thereafter."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["MH"],
+      "serviceTypes": ["Mental Health"],
+      "planCoverage": "Mental/Behavioral Health Outpatient Services",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["MH"],
+      "serviceTypes": ["Mental Health"],
+      "planCoverage": "Mental/Behavioral Health Outpatient Services",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "$15 per day for Partial Hosp Stay; Medicare limits apply."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A7"],
+      "serviceTypes": ["Psychiatric - Inpatient"],
+      "planCoverage": "Mental/Behavioral Health Inpatient Services",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "150",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["A7"],
+      "serviceTypes": ["Psychiatric - Inpatient"],
+      "planCoverage": "Mental/Behavioral Health Inpatient Services",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Copay applied per day to day 1 through day 9 per admission;"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A7"],
+      "serviceTypes": ["Psychiatric - Inpatient"],
+      "planCoverage": "Mental/Behavioral Health Inpatient Services",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["A7"],
+      "serviceTypes": ["Psychiatric - Inpatient"],
+      "planCoverage": "Mental/Behavioral Health Inpatient Services",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay for day 10 through day 90."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Outpatient Services",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Outpatient Services",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "$15 per day for Partial Hosp Stay; Medicare limits apply."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Inpatient Services",
+      "benefitAmount": "80",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Inpatient Services",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Inpatient Services",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Inpatient Services",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "for each admission"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Inpatient Services",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AI"],
+      "serviceTypes": ["Substance Abuse"],
+      "planCoverage": "Substance Use Disorder Inpatient Services",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "per day thereafter days 21 - 90."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "planCoverage": "Home Health Care-In Network Preferred",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "planCoverage": "Home Health Care-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Medicare limits apply."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["A9"],
+      "serviceTypes": ["Rehabilitation"],
+      "planCoverage": "Rehabilitation Services-In Network Preferred",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["A9"],
+      "serviceTypes": ["Rehabilitation"],
+      "planCoverage": "Rehabilitation Services-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Medicare limits apply."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "planCoverage": "Skilled Nursing Care-In Network Preferred",
+      "benefitAmount": "135",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "planCoverage": "Skilled Nursing Care-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "per day for days 21-100 per admission."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "planCoverage": "Skilled Nursing Care-In Network Preferred",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "planCoverage": "Skilled Nursing Care-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "per admission."
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["18"],
+      "serviceTypes": ["Durable Medical Equipment Rental"],
+      "planCoverage": "Durable Medical Equipment-In Network Preferred",
+      "benefitPercent": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["18"],
+      "serviceTypes": ["Durable Medical Equipment Rental"],
+      "planCoverage": "Durable Medical Equipment-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Medicare limits apply."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["45"],
+      "serviceTypes": ["Hospice"],
+      "planCoverage": "Hospice Service-In Network Preferred",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["45"],
+      "serviceTypes": ["Hospice"],
+      "planCoverage": "Hospice Service-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "You must get care from a Medicare certified hospice. Your plan will pay for a consultative visit before you select hospice."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "planCoverage": "Eye Exam-In Network Preferred",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "planCoverage": "Eye Exam-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay/visit"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "planCoverage": "Vision Rider Eye Exam-In Network Preferred",
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "planCoverage": "Vision Rider Eye Exam-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Copay/visit"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["CP"],
+      "serviceTypes": ["Eyewear and Eyewear Accessories"],
+      "planCoverage": "Vision Rider Glasses-In Network Preferred",
+      "benefitAmount": "100",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["CP"],
+      "serviceTypes": ["Eyewear and Eyewear Accessories"],
+      "planCoverage": "Vision Rider Glasses-In Network Preferred",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "allowance for glasses or contacts per year"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Complex",
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Complex",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay for non-hospital affiliate."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Radiation Therapy",
+      "benefitAmount": "60",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Radiation Therapy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Radiation Therapy $60 copay for hosp affiliate."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay for each Medicare-covered chiropractic visit."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay/visit for Hearing Evaluation."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay for each Medicare-covered podiatry visit."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "benefitAmount": "5",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Medicare limits apply."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Radiation Therapy",
+      "benefitAmount": "35",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Radiation Therapy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Radiation Therapy $35 copay for non-hosp affiliate."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "Specialist Visit-In Network ",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "30",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "planCoverage": "Specialist Visit-In Network ",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "No Out of Network 2nd opinions."
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Pet Scans",
+      "benefitPercent": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Pet Scans",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PET scans 20% coinsurance."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Complex",
+      "benefitAmount": "175",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["62"],
+      "serviceTypes": ["MRI/CAT Scan"],
+      "planCoverage": "Imaging-In Network Preferred Complex",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay for hospital affiliate."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "benefitAmount": "10",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "Other Practitioner Visit",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "copay per Allergy Skin Testing.  Medicare limits apply."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["5"],
+      "serviceTypes": ["Diagnostic Lab"],
+      "planCoverage": "Diagnostic Tests-In Network Preferred Lab",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["5"],
+      "serviceTypes": ["Diagnostic Lab"],
+      "planCoverage": "Diagnostic Tests-In Network Preferred Lab",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "$0 copay for each Medicare covered lab test"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["1"],
+      "serviceTypes": ["Medical Care"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["35"],
+      "serviceTypes": ["Dental Care"],
+      "planCoverage": "See Schedule at WWW.TEST.COM"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "additionalInformation": [
+        {
+          "description": "Medicare Advantage members who visit HPN designated specialty physicians will incur a $0 copayment. Members visiting non-HPN in-network specialty physicians will incur a $25 copayment."
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0533*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*127704768*005010X279A1~BHT*0022*11*eab6898a-8da8-fa17-9c02-418fff193323*20240220*0533~HL*1**20*1~NM1*PR*2*Unknown*****PI*000055~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*6P*092001*Medicare Mc~N3*~N4***~DMG*D8**~DTP*346*D8*20160801~DTP*357*D8*20991231~DTP*291*D8*20160914~EB*1**30**Medicare Choice~MSG*Medicare Choice (MC) w/ Rx~MSG*HMO type plan for Medicare members. Selection of a PCP is required. Offered in Miami-Dade and Broward Counties. Offers access to AvMed Medicare Choice network. (MC)~LS*2120~NM1*P3*1*TEST*TEST~PER*IC**TE*1111111111~LE*2120~EB*G*IND*30**Out Of Pocket Max-In Network Preferred Individual*23*5000**99*155**Y~EB*G*IND*30**Out Of Pocket Max-In Network Preferred Individual*29*4845*****Y~EB*B**98**Primary Care Visit-In Network Preferred*27*0*****Y~EB*C*IND*98**Primary Care Visit-In Network Preferred*23*0*****Y~MSG*No Out of Network 2nd opinions.~EB*B**98**Specialist Visit-In Network Preferred*27*10*****Y~EB*C*IND*98**Specialist Visit-In Network Preferred*23*0*****Y~MSG*HPN; No Out of Network 2nd opinions.~EB*B**88**Generic Drugs-In Network Preferred**0*****Y~EB*C*IND*88**Generic Drugs-In Network Preferred*23*0*****Y~EB*B**88**Preferred Brand Drugs-In Network Preferred**35*****Y~EB*C*IND*88**Preferred Brand Drugs-In Network Preferred*23*0*****Y~EB*B**88**Non Preferred Brand Drugs-In Network Preferred**70*****Y~EB*C*IND*88**Non Preferred Brand Drugs-In Network Preferred*23*0*****Y~EB*A**88**Specialty Drugs-In Network Preferred***33****Y~EB*C*IND*88**Specialty Drugs-In Network Preferred*23*0*****Y~MSG*coinsurance (retail)~EB*B**50**Outpatient Facility Fee-In Network Preferred*27*75*****Y~EB*C*IND*50**Outpatient Facility Fee-In Network Preferred*23*0*****Y~MSG*No additional copay for Cataract surgery.~EB*B**50**Outpatient Facility Fee-In Network Preferred**175*****Y~EB*C*IND*50**Outpatient Facility Fee-In Network Preferred*23*0*****Y~MSG*for hospital affiliated OP facility.  No additional copay for Cataract surgery.~EB*B**86**Emergency Room Services-In Network Preferred*27*75*****Y~EB*C*IND*86**Emergency Room Services-In Network Preferred*23*0*****Y~MSG*Copay waived if admitted within 24 hours.~EB*B**86**Emergency Transportation-In Network Preferred**100*****Y~EB*C*IND*86**Emergency Transportation-In Network Preferred*23*0*****Y~MSG*copay per one way trip.~EB*B**UC**Urgent Care-In Network Preferred*27*25*****Y~EB*C*IND*UC**Urgent Care-In Network Preferred*23*0*****Y~MSG*Copay waived if admitted within 24 hours.~EB*B**UC**Urgent Care-Out Of Network*27*25*****N~EB*C*IND*UC**Urgent Care-Out Of Network*23*0*****N~MSG*Copay waived if admitted within 24 hours.~EB*B**47**Hospital Stay Facility Fee-In Network Preferred**80*****Y~EB*C*IND*47**Hospital Stay Facility Fee-In Network Preferred*23*0*****Y~MSG*$0 per day thereafter.~EB*B**47**Hospital Stay Facility Fee-In Network Preferred**0*****Y~EB*C*IND*47**Hospital Stay Facility Fee-In Network Preferred*23*0*****Y~EB*B**47**Hospital Stay Facility Fee-In Network Preferred**0*****Y~EB*C*IND*47**Hospital Stay Facility Fee-In Network Preferred*23*0*****Y~MSG*Copay $0, days 21-90 per day and thereafter.~EB*B**MH**Mental/Behavioral Health Outpatient Services*27*15*****Y~EB*C*IND*MH**Mental/Behavioral Health Outpatient Services*23*0*****Y~MSG*$15 per day for Partial Hosp Stay; Medicare limits apply.~EB*B**A7**Mental/Behavioral Health Inpatient Services*7*150*****Y~EB*C*IND*A7**Mental/Behavioral Health Inpatient Services*23*0*****Y~MSG*Copay applied per day to day 1 through day 9 per admission;~EB*B**A7**Mental/Behavioral Health Inpatient Services**0*****Y~EB*C*IND*A7**Mental/Behavioral Health Inpatient Services*23*0*****Y~MSG*copay for day 10 through day 90.~EB*B**AI**Substance Use Disorder Outpatient Services*27*15*****Y~EB*C*IND*AI**Substance Use Disorder Outpatient Services*23*0*****Y~MSG*$15 per day for Partial Hosp Stay; Medicare limits apply.~EB*B**AI**Substance Use Disorder Inpatient Services**80*****Y~EB*C*IND*AI**Substance Use Disorder Inpatient Services*23*0*****Y~EB*B**AI**Substance Use Disorder Inpatient Services**0*****Y~EB*C*IND*AI**Substance Use Disorder Inpatient Services*23*0*****Y~MSG*for each admission~EB*B**AI**Substance Use Disorder Inpatient Services**0*****Y~EB*C*IND*AI**Substance Use Disorder Inpatient Services*23*0*****Y~MSG*per day thereafter days 21 - 90.~EB*B**42**Home Health Care-In Network Preferred**0*****Y~EB*C*IND*42**Home Health Care-In Network Preferred*23*0*****Y~MSG*Medicare limits apply.~EB*B**A9**Rehabilitation Services-In Network Preferred*27*15*****Y~EB*C*IND*A9**Rehabilitation Services-In Network Preferred*23*0*****Y~MSG*Medicare limits apply.~EB*B**AG**Skilled Nursing Care-In Network Preferred**135*****Y~EB*C*IND*AG**Skilled Nursing Care-In Network Preferred*23*0*****Y~MSG*per day for days 21-100 per admission.~EB*B**AG**Skilled Nursing Care-In Network Preferred*7*0*****Y~EB*C*IND*AG**Skilled Nursing Care-In Network Preferred*23*0*****Y~MSG*per admission.~EB*A**18**Durable Medical Equipment-In Network Preferred***20****Y~EB*C*IND*18**Durable Medical Equipment-In Network Preferred*23*0*****Y~MSG*Medicare limits apply.~EB*B**45**Hospice Service-In Network Preferred**0*****Y~EB*C*IND*45**Hospice Service-In Network Preferred*23*0*****Y~MSG*You must get care from a Medicare certified hospice. Your plan will pay for a consultative visit before you select hospice.~EB*B**AL**Eye Exam-In Network Preferred*27*5*****Y~EB*C*IND*AL**Eye Exam-In Network Preferred*23*0*****Y~MSG*copay/visit~EB*B**AL**Vision Rider Eye Exam-In Network Preferred**5*****Y~EB*C*IND*AL**Vision Rider Eye Exam-In Network Preferred*23*0*****Y~MSG*Copay/visit~EB*B**CP**Vision Rider Glasses-In Network Preferred**100*****Y~EB*C*IND*CP**Vision Rider Glasses-In Network Preferred*23*0*****Y~MSG*allowance for glasses or contacts per year~EB*B**62**Imaging-In Network Preferred Complex**75*****Y~EB*C*IND*62**Imaging-In Network Preferred Complex*23*0*****Y~MSG*copay for non-hospital affiliate.~EB*B**62**Imaging-In Network Preferred Radiation Therapy**60*****Y~EB*C*IND*62**Imaging-In Network Preferred Radiation Therapy*23*0*****Y~MSG*Radiation Therapy $60 copay for hosp affiliate.~EB*B**33**Other Practitioner Visit**5*****Y~EB*C*IND*33**Other Practitioner Visit*23*0*****Y~MSG*copay for each Medicare-covered chiropractic visit.~EB*B**33**Other Practitioner Visit*27*5*****Y~EB*C*IND*33**Other Practitioner Visit*23*0*****Y~MSG*copay/visit for Hearing Evaluation.~EB*B**33**Other Practitioner Visit**5*****Y~EB*C*IND*33**Other Practitioner Visit*23*0*****Y~MSG*copay for each Medicare-covered podiatry visit.~EB*B**33**Other Practitioner Visit**5*****Y~EB*C*IND*33**Other Practitioner Visit*23*0*****Y~MSG*Medicare limits apply.~EB*B**62**Imaging-In Network Preferred Radiation Therapy**35*****Y~EB*C*IND*62**Imaging-In Network Preferred Radiation Therapy*23*0*****Y~MSG*Radiation Therapy $35 copay for non-hosp affiliate.~EB*B**98**Specialist Visit-In Network *27*30*****Y~EB*C*IND*98**Specialist Visit-In Network *23*0*****Y~MSG*No Out of Network 2nd opinions.~EB*A**62**Imaging-In Network Preferred Pet Scans***20****Y~EB*C*IND*62**Imaging-In Network Preferred Pet Scans*23*0*****Y~MSG*PET scans 20% coinsurance.~EB*B**62**Imaging-In Network Preferred Complex**175*****Y~EB*C*IND*62**Imaging-In Network Preferred Complex*23*0*****Y~MSG*copay for hospital affiliate.~EB*B**33**Other Practitioner Visit**10*****Y~EB*C*IND*33**Other Practitioner Visit*23*0*****Y~MSG*copay per Allergy Skin Testing.  Medicare limits apply.~EB*B**5**Diagnostic Tests-In Network Preferred Lab**0*****Y~EB*C*IND*5**Diagnostic Tests-In Network Preferred Lab*23*0*****Y~MSG*$0 copay for each Medicare covered lab test~EB*1**1~EB*1**35**See Schedule at WWW.TEST.COM~EB*1**48~MSG*Medicare Advantage members who visit HPN designated specialty physicians will incur a $0 copayment. Members visiting non-HPN in-network specialty physicians will incur a $25 copayment.~SE*154*127704768~GE*1*000000001~IEA*1*000000001~"
+}

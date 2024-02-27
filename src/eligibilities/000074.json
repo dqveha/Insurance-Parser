@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "477f634b-13ae-011e-375c-6774ed8fac2a"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000074",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "address": {
+      "address1": "00 TEST CITY RD",
+      "city": "TEST",
+      "state": "AA",
+      "postalCode": "11111"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "674738974",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "674738974",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "CONNECTICUT MEDICAID",
+    "payorIdentification": "752548221"
+  },
+  "planDateInformation": {
+    "eligibility": "20170221-20170221",
+    "planBegin": "20170201"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Husky D",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "35",
+        "4",
+        "42",
+        "45",
+        "47",
+        "48",
+        "5",
+        "50",
+        "54",
+        "56",
+        "75",
+        "82",
+        "86",
+        "88",
+        "93",
+        "98",
+        "AD",
+        "AF",
+        "AL",
+        "DM",
+        "MH",
+        "PT",
+        "RT",
+        "UC"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "Husky D",
+      "benefitsDateInformation": {
+        "eligibility": "20170221-20170221"
+      },
+      "additionalInformation": [
+        {
+          "description": "Husky D.  For Behavioral Health Services, call BHP at 877-552-8247."
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "Husky D",
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "0"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "35",
+        "4",
+        "42",
+        "45",
+        "47",
+        "48",
+        "5",
+        "50",
+        "54",
+        "56",
+        "75",
+        "82",
+        "86",
+        "88",
+        "93",
+        "98",
+        "AD",
+        "AF",
+        "AL",
+        "DM",
+        "MH",
+        "PT",
+        "RT",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Dental Care",
+        "Diagnostic X-Ray",
+        "Home Health Care",
+        "Hospice",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Long Term Care",
+        "Medically Related Transportation",
+        "Prosthetic Device",
+        "Family Planning",
+        "Emergency Services",
+        "Pharmacy",
+        "Podiatry",
+        "Professional (Physician) Visit - Office",
+        "Occupational Therapy",
+        "Speech Therapy",
+        "Vision (Optometry)",
+        "Durable Medical Equipment",
+        "Mental Health",
+        "Physical Therapy",
+        "Residential Psychiatric Treatment",
+        "Urgent Care"
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": [
+        "33",
+        "4",
+        "42",
+        "45",
+        "47",
+        "48",
+        "5",
+        "50",
+        "54",
+        "56",
+        "75",
+        "82",
+        "86",
+        "93",
+        "98",
+        "AD",
+        "AF",
+        "DM",
+        "PT",
+        "RT",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Chiropractic",
+        "Diagnostic X-Ray",
+        "Home Health Care",
+        "Hospice",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Long Term Care",
+        "Medically Related Transportation",
+        "Prosthetic Device",
+        "Family Planning",
+        "Emergency Services",
+        "Podiatry",
+        "Professional (Physician) Visit - Office",
+        "Occupational Therapy",
+        "Speech Therapy",
+        "Durable Medical Equipment",
+        "Physical Therapy",
+        "Residential Psychiatric Treatment",
+        "Urgent Care"
+      ],
+      "benefitAmount": "0"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": [
+        "33",
+        "4",
+        "42",
+        "45",
+        "47",
+        "48",
+        "5",
+        "50",
+        "54",
+        "56",
+        "75",
+        "82",
+        "86",
+        "93",
+        "98",
+        "AD",
+        "AF",
+        "DM",
+        "PT",
+        "RT",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Chiropractic",
+        "Diagnostic X-Ray",
+        "Home Health Care",
+        "Hospice",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Diagnostic Lab",
+        "Hospital - Outpatient",
+        "Long Term Care",
+        "Medically Related Transportation",
+        "Prosthetic Device",
+        "Family Planning",
+        "Emergency Services",
+        "Podiatry",
+        "Professional (Physician) Visit - Office",
+        "Occupational Therapy",
+        "Speech Therapy",
+        "Durable Medical Equipment",
+        "Physical Therapy",
+        "Residential Psychiatric Treatment",
+        "Urgent Care"
+      ],
+      "benefitPercent": "0"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0534*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*674738974*005010X279A1~BHT*0022*11*477f634b-13ae-011e-375c-6774ed8fac2a*20240220*0534~HL*1**20*1~NM1*PR*2*CONNECTICUT MEDICAID*****PI*752548221~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*674738974*9EMDEON999~TRN*1*17052049CL*9445498161~NM1*IL*1*******01234567890~N3*00 TEST CITY RD~N4*TEST*AA*11111~DMG*D8**~DTP*346*D8*20170201~DTP*307*RD8*20170221-20170221~EB*1**30*OT*Husky D~DTP*307*RD8*20170221-20170221~MSG*Husky D.  For Behavioral Health Services, call BHP at 877-552-8247.~EB*C**30**Husky D*22*0~EB*1**1^33^35^4^42^45^47^48^5^50^54^56^75^82^86^88^93^98^AD^AF^AL^DM^MH^PT^RT^UC~EB*B**33^4^42^45^47^48^5^50^54^56^75^82^86^93^98^AD^AF^DM^PT^RT^UC****0~EB*A**33^4^42^45^47^48^5^50^54^56^75^82^86^93^98^AD^AF^DM^PT^RT^UC*****0~SE*23*674738974~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "8767cd8c-c098-94c1-6f50-4ecc3143ae32"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000052",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "AAAAAA",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000052",
+    "contactInformation": {
+      "contacts": [
+        {
+          "communicationMode": "Uniform Resource Locator (URL)",
+          "communicationNumber": "WWW.UNITEDHEALTHCAREONLINE.COM"
+        }
+      ]
+    }
+  },
+  "planInformation": {
+    "groupNumber": "AAAAAA"
+  },
+  "planDateInformation": {
+    "planBegin": "20160101"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["50", "53", "48", "49", "51", "52"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "MMW AARP MCC P2 COLSPG SH16",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HN",
+      "insuranceType": "Health Maintenance Organization (HMO) - Medicare Risk",
+      "planCoverage": "MMW AARP MCC P2 COLSPG SH16",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HN",
+      "insuranceType": "Health Maintenance Organization (HMO) - Medicare Risk",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "5500",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HN",
+      "insuranceType": "Health Maintenance Organization (HMO) - Medicare Risk",
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "175",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HN",
+      "insuranceType": "Health Maintenance Organization (HMO) - Medicare Risk",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HN",
+      "insuranceType": "Health Maintenance Organization (HMO) - Medicare Risk",
+      "timeQualifierCode": "24",
+      "timeQualifier": "Year to Date",
+      "benefitAmount": "175",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HN",
+      "insuranceType": "Health Maintenance Organization (HMO) - Medicare Risk",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "5325",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "HN",
+      "insuranceType": "Health Maintenance Organization (HMO) - Medicare Risk",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "TEST",
+        "entityFirstname": "TEST1",
+        "entityMiddlename": "L",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "01234567890",
+        "address": {}
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "TEST",
+          "entityFirstname": "TEST1",
+          "entityMiddlename": "L",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "01234567890",
+          "address": {}
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["50", "53"],
+      "serviceTypes": [
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical"
+      ],
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OUT PATIENT SURGERY"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "IN PATIENT HOSPITAL SERVICES"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED."
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["53", "50"],
+      "serviceTypes": [
+        "Hospital - Ambulatory Surgical",
+        "Hospital - Outpatient"
+      ],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OUT PATIENT SURGERY"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "IN PATIENT HOSPITAL SERVICES"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52", "51"],
+      "serviceTypes": [
+        "Hospital - Emergency Medical",
+        "Hospital - Emergency Accident"
+      ],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50", "53"],
+      "serviceTypes": [
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical"
+      ],
+      "benefitAmount": "285",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OUT PATIENT SURGERY"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["49", "48"],
+      "serviceTypes": ["Hospital - Room and Board", "Hospital - Inpatient"],
+      "benefitAmount": "295",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "IN PATIENT HOSPITAL SERVICES"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52", "51"],
+      "serviceTypes": [
+        "Hospital - Emergency Medical",
+        "Hospital - Emergency Accident"
+      ],
+      "benefitAmount": "75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED."
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50", "53"],
+      "serviceTypes": [
+        "Hospital - Outpatient",
+        "Hospital - Ambulatory Surgical"
+      ],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "OUT PATIENT SURGERY"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "IN PATIENT HOSPITAL SERVICES"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["51", "52"],
+      "serviceTypes": [
+        "Hospital - Emergency Accident",
+        "Hospital - Emergency Medical"
+      ],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED."
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "1475",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "IN PATIENT HOSPITAL SERVICES"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "name": "Services Restricted to Following Provider",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Contracted Service Provider",
+        "entityType": "Non-Person Entity",
+        "entityName": "TEST HOSPITAL",
+        "address": {
+          "address1": "PO BOX 11111",
+          "city": "TEST CITY",
+          "state": "UT",
+          "postalCode": "11111"
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Contracted Service Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "TEST HOSPITAL",
+          "address": {
+            "address1": "PO BOX 11111"
+          }
+        }
+      ]
+    },
+    {
+      "code": "X",
+      "name": "Health Care Facility",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Facility",
+        "entityType": "Non-Person Entity",
+        "entityName": "TEST AA"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Facility",
+          "entityType": "Non-Person Entity",
+          "entityName": "TEST AA"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0530*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*000000001*005010X279A1~BHT*0022*11*8767cd8c-c098-94c1-6f50-4ecc3143ae32*20240220*0530~HL*1**20*1~NM1*PR*2*Unknown*****PI*000052~PER*IC**UR*WWW.UNITEDHEALTHCAREONLINE.COM~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*6P*AAAAAA~N3*~N4***~DMG*D8**~INS*Y*18*001*25~DTP*346*D8*20160101~EB*1**30*HN*MMW AARP MCC P2 COLSPG SH16~LS*2120~NM1*PR*2*Unknown~LE*2120~EB*G*IND*30*HN**23*5500*****Y~EB*C*FAM*30***23*0*****Y~EB*C*FAM*30***24*0*****Y~EB*G*FAM*30*HN**24*175*****Y~EB*G*FAM*30*HN**23*0*****Y~EB*C*IND*30***23*0*****Y~EB*C*IND*30***24*0*****Y~EB*G*IND*30*HN**24*175*****Y~EB*G*IND*30*HN**29*5325*****Y~EB*G*FAM*30*HN**29*0*****Y~EB*C*IND*30***29*0*****Y~EB*C*FAM*30***29*0*****Y~EB*L~LS*2120~NM1*P3*1*TEST*TEST1*L***XX*01234567890~N3*~N4***~LE*2120~EB*1**50^53*********Y~MSG*OUT PATIENT SURGERY~EB*1**48^49*********Y~MSG*IN PATIENT HOSPITAL SERVICES~EB*1**51^52*********Y~MSG*CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED.~EB*A*IND*53^50*****0****Y~MSG*OUT PATIENT SURGERY~EB*A*IND*48^49*****0****Y~MSG*IN PATIENT HOSPITAL SERVICES~EB*A*IND*52^51*****0****Y~MSG*CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED.~EB*B*IND*50^53****285*****Y~MSG*OUT PATIENT SURGERY~EB*B*IND*49^48****295*****Y~MSG*IN PATIENT HOSPITAL SERVICES~EB*B*IND*52^51****75*****Y~MSG*CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED.~EB*C*IND*50^53****0*****Y~MSG*OUT PATIENT SURGERY~EB*C*IND*48^49****0*****Y~MSG*IN PATIENT HOSPITAL SERVICES~EB*C*IND*51^52****0*****Y~MSG*CO PAYS FOR EMERGENCY SERVICES MAY VARY DEPENDING ON WHERE THE SERVICES ARE RENDERED.~EB*F*IND*48^49***7*1475*****Y~MSG*IN PATIENT HOSPITAL SERVICES~EB*N~LS*2120~NM1*13*2*TEST HOSPITAL~N3*PO BOX 11111~N4*TEST CITY*UT*11111~LE*2120~EB*X~LS*2120~NM1*FA*2*TEST AA~LE*2120~SE*75*000000001~GE*1*000000001~IEA*1*000000001~"
+}

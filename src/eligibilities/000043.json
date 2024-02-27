@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "f730f155-d8ab-c1bf-3399-12c819a51cb7"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000043",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000043"
+  },
+  "planDateInformation": {
+    "plan": "20140801-20141106",
+    "eligibilityBegin": "20140801",
+    "service": "20160906"
+  },
+  "planStatus": [
+    {
+      "statusCode": "6",
+      "status": "Inactive",
+      "planDetails": "Open Choice",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "address": {
+          "address1": "PO Box 11111",
+          "city": "Test City",
+          "state": "TX",
+          "postalCode": "11111"
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "address1": "PO Box 11111"
+          }
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "name": "Inactive",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "Open Choice"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0526*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*128440105*005010X279A1~BHT*0022*11*f730f155-d8ab-c1bf-3399-12c819a51cb7*20240220*0526~HL*1**20*1~NM1*PR*2*Unknown*****PI*000043~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~NM1*IL*1*******01234567890~N3*~N4***~DMG*D8**~DTP*291*RD8*20140801-20141106~DTP*472*D8*20160906~DTP*356*D8*20140801~EB*W~LS*2120~NM1*PR*2*Unknown~N3*PO Box 11111~N4*Test City*TX*11111~LE*2120~EB*6**30**Open Choice~SE*23*128440105~GE*1*000000001~IEA*1*000000001~"
+}

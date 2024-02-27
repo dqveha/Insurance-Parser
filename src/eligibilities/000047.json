@@ -1,0 +1,1507 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "c6b1a868-aaf6-2060-96b7-139f78f2c1e6"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000047",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "111111111111111",
+    "planNumber": "1111111",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000047"
+  },
+  "planInformation": {
+    "planNumber": "1111111",
+    "groupNumber": "111111111111111",
+    "groupDescription": "HOSPITAL CORPORATION OF AMERICA"
+  },
+  "planDateInformation": {
+    "planBegin": "20130101",
+    "eligibilityBegin": "20130101",
+    "service": "20160915"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Open Choice",
+      "serviceTypeCodes": [
+        "30",
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "UC",
+        "AL",
+        "MH"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "address": {
+          "address1": "PO Box 111111",
+          "city": "Test City",
+          "state": "TX",
+          "postalCode": "11111"
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "address1": "PO Box 111111"
+          }
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "Open Choice"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Med Dent"
+        },
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "DED INCLUDED IN OOP"
+        },
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "Occupational Therapy by Chiropractor"
+        },
+        {
+          "description": "Physical Therapy by Chiropractor"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "855.75",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Med Dent"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "1000",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Med Dent"
+        },
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "DED INCLUDED IN OOP"
+        },
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "Occupational Therapy by Chiropractor"
+        },
+        {
+          "description": "Physical Therapy by Chiropractor"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "5600",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3900.01",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "11200",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "9355.76",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "2000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Med Dent"
+        },
+        {
+          "description": "DED INCLUDED IN OOP"
+        },
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "Occupational Therapy by Chiropractor"
+        },
+        {
+          "description": "Physical Therapy by Chiropractor"
+        },
+        {
+          "description": "Outpatient Surgery Facility"
+        },
+        {
+          "description": "Semi Private Room and Board"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "855.75",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Med Dent"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "1000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Med Dent"
+        },
+        {
+          "description": "DED INCLUDED IN OOP"
+        },
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "Occupational Therapy by Chiropractor"
+        },
+        {
+          "description": "Physical Therapy by Chiropractor"
+        },
+        {
+          "description": "Outpatient Surgery Facility"
+        },
+        {
+          "description": "Semi Private Room and Board"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "5600",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "3900.01",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "11200",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "9355.76",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Plan Requires PreCert"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "additionalInformation": [
+        {
+          "description": "Self Funded"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "additionalInformation": [
+        {
+          "description": "Unlimited Lifetime Benefits"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "UC",
+        "AL",
+        "MH"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care",
+        "Vision (Optometry)",
+        "Mental Health"
+      ],
+      "planCoverage": "Open Choice"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        },
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["48", "50"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Outpatient"],
+      "benefitPercent": ".25",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Medical Ancillary"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitPercent": ".25",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Semi Private Room and Board"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        },
+        {
+          "description": "Intensive Care Room and Board"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Outpatient Surgery Facility"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        },
+        {
+          "description": "Outpatient Medical Ancillary"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86", "UC"],
+      "serviceTypes": ["Emergency Services", "Urgent Care"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Urgent Care"
+        },
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Emergency Room Physician"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Emergency use of Emergency Room"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Primary Care Visit or Evaluation"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers"
+        },
+        {
+          "description": "Urgent Care"
+        },
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "Occupational Therapy by Chiropractor"
+        },
+        {
+          "description": "Physical Therapy by Chiropractor"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["48", "50"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Outpatient"],
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Medical Ancillary"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Semi Private Room and Board"
+        },
+        {
+          "description": "Intensive Care Room and Board"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Outpatient Surgery Facility"
+        },
+        {
+          "description": "Outpatient Medical Ancillary"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86", "UC"],
+      "serviceTypes": ["Emergency Services", "Urgent Care"],
+      "benefitAmount": "40",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Urgent Care"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Emergency Room Physician"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitAmount": "200",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Emergency use of Emergency Room"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Primary Care Visit or Evaluation"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers"
+        },
+        {
+          "description": "Urgent Care"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86", "UC"],
+      "serviceTypes": ["Emergency Services", "Urgent Care"],
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "STANDARD SAVINGS"
+        },
+        {
+          "description": "All Other In-Network Providers"
+        },
+        {
+          "description": "Urgent Care/Plan Ded Waived"
+        },
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility/Plan Ded Waived"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM and STANDARD SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers and All Other In-Network Providers"
+        },
+        {
+          "description": "Emergency Room Physician/Plan Ded Waived"
+        },
+        {
+          "description": "Emergency use of Emergency Room/Plan Ded Waived"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "MAXIMUM SAVINGS"
+        },
+        {
+          "description": "Customer Designated Providers"
+        },
+        {
+          "description": "Urgent Care/Plan Ded Waived"
+        },
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility/Plan Ded Waived"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitPercent": ".75",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Occupational Therapy by Chiropractor"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Physical Therapy by Chiropractor"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitPercent": ".75",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Medical Ancillary"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Semi Private Room and Board"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Intensive Care Room and Board"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitPercent": ".75",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86", "UC"],
+      "serviceTypes": ["Emergency Services", "Urgent Care"],
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Urgent Care"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        },
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Non Emergency use of Emergency Room"
+        },
+        {
+          "description": "Emergency use of Emergency Room"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitPercent": ".25",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Emergency Room Physician"
+        },
+        {
+          "description": "COINS APPLIES TO OUT OF POCKET"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitPercent": ".75",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "GYN Visit"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Specialist Visit or Evaluation"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        },
+        {
+          "description": "Primary Care Visit or Evaluation"
+        },
+        {
+          "description": "COINS DOES NOT APPLY TO OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Chiropractor Visit or Evaluation"
+        },
+        {
+          "description": "Lab Performed by Chiropractor"
+        },
+        {
+          "description": "Xray by Chiropractor"
+        },
+        {
+          "description": "Manipulation by Chiropractor"
+        },
+        {
+          "description": "Occupational Therapy by Chiropractor"
+        },
+        {
+          "description": "Physical Therapy by Chiropractor"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Semi Private Room and Board"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "benefitAmount": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Urgent Care"
+        },
+        {
+          "description": "Emergency Room Physician"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86", "UC"],
+      "serviceTypes": ["Emergency Services", "Urgent Care"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Non Urgent Services at an Urgent Care Facility"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "benefitAmount": "200",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Non Emergency use of Emergency Room"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        },
+        {
+          "description": "Emergency use of Emergency Room"
+        },
+        {
+          "description": "COPAY INCLUDED IN OOP"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "GYN Visit"
+        },
+        {
+          "description": "Specialist Visit or Evaluation"
+        },
+        {
+          "description": "Primary Care Visit or Evaluation"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "Non Emergency use of Emergency Room/Plan Ded Waived"
+        },
+        {
+          "description": "Emergency Room Physician/Plan Ded Waived"
+        },
+        {
+          "description": "Emergency use of Emergency Room/Plan Ded Waived"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["1", "33", "48", "50", "86", "98", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care"
+      ],
+      "additionalInformation": [
+        {
+          "description": "Plan includes NAP"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0529*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*128440163*005010X279A1~BHT*0022*11*c6b1a868-aaf6-2060-96b7-139f78f2c1e6*20240220*0529~HL*1**20*1~NM1*PR*2*Unknown*****PI*000047~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*18*1111111~REF*6P*111111111111111*HOSPITAL CORPORATION OF AMERICA~N3*~N4***~DMG*D8**~INS*Y*18*001*25~DTP*346*D8*20130101~DTP*472*D8*20160915~DTP*356*D8*20130101~EB*W~LS*2120~NM1*PR*2*Unknown~N3*PO Box 111111~N4*Test City*TX*11111~LE*2120~EB*1*ECH*30*PR*Open Choice~EB*C*FAM*30***23*2000*****Y~DTP*346*D8*20160101~MSG*Med Dent~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*DED INCLUDED IN OOP~MSG*Chiropractor Visit or Evaluation~MSG*Lab Performed by Chiropractor~MSG*Xray by Chiropractor~MSG*Manipulation by Chiropractor~MSG*Occupational Therapy by Chiropractor~MSG*Physical Therapy by Chiropractor~EB*C*FAM*30***29*855.75*****Y~MSG*Med Dent~EB*C*IND*30***23*1000*****Y~DTP*346*D8*20160101~MSG*Med Dent~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*DED INCLUDED IN OOP~MSG*Chiropractor Visit or Evaluation~MSG*Lab Performed by Chiropractor~MSG*Xray by Chiropractor~MSG*Manipulation by Chiropractor~MSG*Occupational Therapy by Chiropractor~MSG*Physical Therapy by Chiropractor~EB*C*IND*30***29*0*****Y~EB*G*IND*30****5600*****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~EB*G*IND*30***29*3900.01*****Y~EB*G*FAM*30****11200*****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~EB*G*FAM*30***29*9355.76*****Y~EB*C*FAM*30***23*2000*****N~DTP*346*D8*20160101~MSG*Med Dent~MSG*DED INCLUDED IN OOP~MSG*Chiropractor Visit or Evaluation~MSG*Lab Performed by Chiropractor~MSG*Xray by Chiropractor~MSG*Manipulation by Chiropractor~MSG*Occupational Therapy by Chiropractor~MSG*Physical Therapy by Chiropractor~MSG*Outpatient Surgery Facility~MSG*Semi Private Room and Board~EB*C*FAM*30***29*855.75*****N~MSG*Med Dent~EB*C*IND*30***23*1000*****N~DTP*346*D8*20160101~MSG*Med Dent~MSG*DED INCLUDED IN OOP~MSG*Chiropractor Visit or Evaluation~MSG*Lab Performed by Chiropractor~MSG*Xray by Chiropractor~MSG*Manipulation by Chiropractor~MSG*Occupational Therapy by Chiropractor~MSG*Physical Therapy by Chiropractor~MSG*Outpatient Surgery Facility~MSG*Semi Private Room and Board~EB*C*IND*30***29*0*****N~EB*G*IND*30****5600*****N~EB*G*IND*30***29*3900.01*****N~EB*G*FAM*30****11200*****N~EB*G*FAM*30***29*9355.76*****N~EB*F*ECH*30*********Y~MSG*Plan Requires PreCert~EB*F*ECH*30~MSG*Self Funded~EB*F*ECH*30***32~MSG*Unlimited Lifetime Benefits~EB*1*ECH*1^33^47^48^50^86^98^UC^AL^MH**Open Choice~EB*A*ECH*33*****.25****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Chiropractor Visit or Evaluation~MSG*COINS APPLIES TO OUT OF POCKET~MSG*Lab Performed by Chiropractor~MSG*COINS APPLIES TO OUT OF POCKET~MSG*Xray by Chiropractor~MSG*COINS APPLIES TO OUT OF POCKET~MSG*Manipulation by Chiropractor~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*48^50*****.25***Y*Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Medical Ancillary~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*48*****.25***Y*Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Semi Private Room and Board~MSG*COINS APPLIES TO OUT OF POCKET~MSG*Intensive Care Room and Board~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*50*****.25****Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Outpatient Surgery Facility~MSG*COINS APPLIES TO OUT OF POCKET~MSG*Outpatient Medical Ancillary~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*86^UC*****0****Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Urgent Care~MSG*Non Urgent Services at an Urgent Care Facility~EB*A*ECH*86*****.25****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Emergency Room Physician~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*86*****0****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Emergency use of Emergency Room~EB*A*ECH*98*****.25****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Primary Care Visit or Evaluation~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*UC*****0****Y~MSG*MAXIMUM SAVINGS~MSG*Customer Designated Providers~MSG*Urgent Care~MSG*Non Urgent Services at an Urgent Care Facility~EB*B*ECH*33****0*****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Chiropractor Visit or Evaluation~MSG*Lab Performed by Chiropractor~MSG*Xray by Chiropractor~MSG*Manipulation by Chiropractor~MSG*Occupational Therapy by Chiropractor~MSG*Physical Therapy by Chiropractor~EB*B*ECH*48^50****0****Y*Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Medical Ancillary~EB*B*ECH*48****0****Y*Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Semi Private Room and Board~MSG*Intensive Care Room and Board~EB*B*ECH*50****0*****Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Outpatient Surgery Facility~MSG*Outpatient Medical Ancillary~EB*B*ECH*86^UC****40*****Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Urgent Care~MSG*COPAY INCLUDED IN OOP~MSG*Non Urgent Services at an Urgent Care Facility~MSG*COPAY INCLUDED IN OOP~EB*B*ECH*86****0*****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Emergency Room Physician~EB*B*ECH*86****200*****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Emergency use of Emergency Room~MSG*COPAY INCLUDED IN OOP~EB*B*ECH*98****0*****Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Primary Care Visit or Evaluation~EB*B*ECH*UC****20*****Y~MSG*MAXIMUM SAVINGS~MSG*Customer Designated Providers~MSG*Urgent Care~MSG*COPAY INCLUDED IN OOP~MSG*Non Urgent Services at an Urgent Care Facility~MSG*COPAY INCLUDED IN OOP~EB*F*ECH*86^UC*********Y~MSG*STANDARD SAVINGS~MSG*All Other In-Network Providers~MSG*Urgent Care/Plan Ded Waived~MSG*Non Urgent Services at an Urgent Care Facility/Plan Ded Waived~EB*F*ECH*86*********Y~MSG*MAXIMUM and STANDARD SAVINGS~MSG*Customer Designated Providers and All Other In-Network Providers~MSG*Emergency Room Physician/Plan Ded Waived~MSG*Emergency use of Emergency Room/Plan Ded Waived~EB*F*ECH*UC*********Y~MSG*MAXIMUM SAVINGS~MSG*Customer Designated Providers~MSG*Urgent Care/Plan Ded Waived~MSG*Non Urgent Services at an Urgent Care Facility/Plan Ded Waived~EB*A*ECH*33*****.75****N~MSG*Chiropractor Visit or Evaluation~MSG*COINS DOES NOT APPLY TO OOP~MSG*Lab Performed by Chiropractor~MSG*COINS DOES NOT APPLY TO OOP~MSG*Xray by Chiropractor~MSG*COINS DOES NOT APPLY TO OOP~MSG*Occupational Therapy by Chiropractor~MSG*COINS DOES NOT APPLY TO OOP~MSG*Physical Therapy by Chiropractor~MSG*COINS DOES NOT APPLY TO OOP~EB*A*ECH*33*****.25****N~MSG*Manipulation by Chiropractor~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*48*****.75***Y*N~MSG*Medical Ancillary~MSG*COINS DOES NOT APPLY TO OOP~MSG*Semi Private Room and Board~MSG*COINS DOES NOT APPLY TO OOP~MSG*Intensive Care Room and Board~MSG*COINS DOES NOT APPLY TO OOP~EB*A*ECH*50*****.75***Y*N~MSG*COINS DOES NOT APPLY TO OOP~EB*A*ECH*86^UC*****.25****N~MSG*Urgent Care~MSG*COINS APPLIES TO OUT OF POCKET~MSG*Non Urgent Services at an Urgent Care Facility~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*86*****0****N~MSG*Non Emergency use of Emergency Room~MSG*Emergency use of Emergency Room~EB*A*ECH*86*****.25****N~MSG*Emergency Room Physician~MSG*COINS APPLIES TO OUT OF POCKET~EB*A*ECH*98*****.75****N~MSG*GYN Visit~MSG*COINS DOES NOT APPLY TO OOP~MSG*Specialist Visit or Evaluation~MSG*COINS DOES NOT APPLY TO OOP~MSG*Primary Care Visit or Evaluation~MSG*COINS DOES NOT APPLY TO OOP~EB*B*ECH*33****0*****N~MSG*Chiropractor Visit or Evaluation~MSG*Lab Performed by Chiropractor~MSG*Xray by Chiropractor~MSG*Manipulation by Chiropractor~MSG*Occupational Therapy by Chiropractor~MSG*Physical Therapy by Chiropractor~EB*B*ECH*48****0****Y*N~MSG*Semi Private Room and Board~EB*B*ECH*50****0****Y*N~EB*B*ECH*86****0*****N~MSG*Urgent Care~MSG*Emergency Room Physician~EB*B*ECH*86^UC****0*****N~MSG*Non Urgent Services at an Urgent Care Facility~EB*B*ECH*86****200*****N~MSG*Non Emergency use of Emergency Room~MSG*COPAY INCLUDED IN OOP~MSG*Emergency use of Emergency Room~MSG*COPAY INCLUDED IN OOP~EB*B*ECH*98****0*****N~MSG*GYN Visit~MSG*Specialist Visit or Evaluation~MSG*Primary Care Visit or Evaluation~EB*F*ECH*86*********N~MSG*Non Emergency use of Emergency Room/Plan Ded Waived~MSG*Emergency Room Physician/Plan Ded Waived~MSG*Emergency use of Emergency Room/Plan Ded Waived~EB*F*ECH*1^33^48^50^86^98^UC~MSG*Plan includes NAP~SE*289*128440163~GE*1*000000001~IEA*1*000000001~"
+}

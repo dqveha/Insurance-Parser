@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "68690d7e-c124-3f9a-4a85-4104fe824b73"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000046",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001",
+    "address": {
+      "address1": "111 TEST BLVD STE 000",
+      "city": "TEST CITY",
+      "state": "CA",
+      "postalCode": "11111"
+    }
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25"
+  },
+  "dependents": [
+    {
+      "entityType": "Person",
+      "groupNumber": "W0000000",
+      "relationToSubscriber": "Spouse",
+      "relationToSubscriberCode": "01",
+      "insuredIndicator": "N",
+      "maintenanceTypeCode": "001",
+      "maintenanceReasonCode": "25"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000046"
+  },
+  "planInformation": {
+    "groupNumber": "W0000000",
+    "groupDescription": "NORTHERN CA SHEET TEST WRKRS HTHCR PLN LOCAL 000",
+    "patientAccountNumber": "11111"
+  },
+  "planDateInformation": {
+    "plan": "20160915"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "SHEET TEST WORKERS LOCAL 000 SHARED ADVANTAGE PPO",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "SHEET TEST WORKERS LOCAL 000 SHARED ADVANTAGE PPO",
+      "benefitsAdditionalInformation": {
+        "planNumber": "0000PPPP0000"
+      }
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "UNLESS OTHERWISE REQUIRED BY STATE LAW THIS NOTICE IS NOT A GUARANTEE OF PAYMENT BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBERS STATUS ON THE DATE OF SERVICE ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "additionalInformation": [
+        {
+          "description": "TEST PROVIDERS ONLY  PLEASE SUBMIT CLAIMS TO TEST"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "150",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "150",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "300",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "300",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "52",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "5000",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "4903",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "5000",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   DIABETES CARE   DIABETES CARE   SELF MANAGEMENT TRAINING"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Home"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Home"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   PODIATRIST OFFICE VISIT"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   VISIT CONSULTATION"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   PODIATRIST OFFICE VISIT"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".4",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   VISIT CONSULTATION"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   SECOND OPINION"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well"
+      ],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PREVENTIVE CARE I PREVENTIVE HEALTH CARE SERVICES I PREVENTIVE HEALTH CARE SERVICES"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   SECOND OPINION"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98", "BZ"],
+      "serviceTypes": [
+        "Professional (Physician) Visit - Office",
+        "Physician Visit - Office: Well"
+      ],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "additionalInformation": [
+        {
+          "description": "PHYSICIAN BENEFIT   PREVENTIVE CARE I PREVENTIVE HEALTH CARE SERVICES I PREVENTIVE HEALTH CARE SERVICES"
+        }
+      ],
+      "eligibilityAdditionalInformation": {
+        "codeListQualifierCode": "Mutually Defined",
+        "industryCode": "Office"
+      },
+      "eligibilityAdditionalInformationList": [
+        {
+          "codeListQualifierCode": "Mutually Defined",
+          "industryCode": "Office"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0527*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*128443420*005010X279A1~BHT*0022*11*68690d7e-c124-3f9a-4a85-4104fe824b73*20240220*0527~HL*1**20*1~NM1*PR*2*Unknown*****PI*000046~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~N3*111 TEST BLVD STE 000~N4*TEST CITY*CA*11111~HL*3*2*22*1~NM1*IL*1*******01234567890~INS*Y*18*001*25~HL*4*3*23*0~TRN*2***~TRN*2***~NM1*03*1**~REF*6P*W0000000*NORTHERN CA SHEET TEST WRKRS HTHCR PLN LOCAL 000~REF*EJ*11111~N3*~N4***~DMG*D8**~INS*N*01*001*25~DTP*291*D8*20160915~EB*1**30*PR*SHEET TEST WORKERS LOCAL 000 SHARED ADVANTAGE PPO~REF*18*0000PPPP0000~EB*P~MSG*UNLESS OTHERWISE REQUIRED BY STATE LAW THIS NOTICE IS NOT A GUARANTEE OF PAYMENT BENEFITS ARE SUBJECT TO ALL CONTRACT LIMITS AND THE MEMBERS STATUS ON THE DATE OF SERVICE ACCUMULATED AMOUNTS SUCH AS DEDUCTIBLE MAY CHANGE AS ADDITIONAL CLAIMS ARE PROCESSED~EB*W~MSG*TEST PROVIDERS ONLY  PLEASE SUBMIT CLAIMS TO TEST~EB*C*IND*30***23*150*****W~EB*C*IND*30***29*0*****Y~EB*C*IND*30***29*150*****N~EB*C*FAM*30***23*300*****W~EB*C*FAM*30***29*300*****N~EB*C*FAM*30***29*52*****Y~EB*G*IND*30***23*0*****W~EB*G*FAM*30***23*5000*****W~EB*G*FAM*30***29*4903*****Y~EB*G*FAM*30***29*5000*****N~EB*A*IND*98***27**.2****W~MSG*PHYSICIAN BENEFIT   DIABETES CARE   DIABETES CARE   SELF MANAGEMENT TRAINING~III*ZZ*12~EB*A*IND*98***27**.2****Y~MSG*PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   PODIATRIST OFFICE VISIT~III*ZZ*11~EB*A*IND*98***27**.2****Y~MSG*PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   VISIT CONSULTATION~III*ZZ*11~EB*A*IND*98***27**.4****N~MSG*PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   PODIATRIST OFFICE VISIT~III*ZZ*11~EB*A*IND*98***27**.4****N~MSG*PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   VISIT CONSULTATION~III*ZZ*11~EB*A*IND*98***27**0****Y~MSG*PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   SECOND OPINION~III*ZZ*11~EB*A*IND*98^BZ***27**0****Y~MSG*PHYSICIAN BENEFIT   PREVENTIVE CARE I PREVENTIVE HEALTH CARE SERVICES I PREVENTIVE HEALTH CARE SERVICES~III*ZZ*11~EB*I*IND*98***27******N~MSG*PHYSICIAN BENEFIT   PHYSICIAN SERVICES   IN OFFICE   SECOND OPINION~III*ZZ*11~EB*I*IND*98^BZ***27******N~MSG*PHYSICIAN BENEFIT   PREVENTIVE CARE I PREVENTIVE HEALTH CARE SERVICES I PREVENTIVE HEALTH CARE SERVICES~III*ZZ*11~SE*66*128443420~GE*1*000000001~IEA*1*000000001~"
+}

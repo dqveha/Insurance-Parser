@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "2d1e6e22-c3ca-8a6a-0c68-cbe819fc1dba"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "HUM",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "11111111",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "HUMANA",
+    "payorIdentification": "HUM"
+  },
+  "planInformation": {
+    "groupNumber": "11111111",
+    "groupDescription": "HUMANA INSURANCE CO."
+  },
+  "planDateInformation": {
+    "planBegin": "20100801",
+    "service": "20170105"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "MH",
+        "48",
+        "88",
+        "54",
+        "33",
+        "98",
+        "UC",
+        "47",
+        "50",
+        "AL",
+        "MH",
+        "35",
+        "86",
+        "47"
+      ]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "067 002",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "EMP",
+      "coverageLevel": "Employee Only",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "planCoverage": "067 002",
+      "additionalInformation": [
+        {
+          "description": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "quantityQualifierCode": "YY",
+      "quantityQualifier": "Years",
+      "benefitQuantity": "19",
+      "additionalInformation": [
+        {
+          "description": "MAX DEPENDENT AGE"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "quantityQualifierCode": "YY",
+      "quantityQualifier": "Years",
+      "benefitQuantity": "25",
+      "additionalInformation": [
+        {
+          "description": "MAX STUDENT AGE"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "name": "Cannot Process",
+      "serviceTypeCodes": ["1"],
+      "serviceTypes": ["Medical Care"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["1", "MH"],
+      "serviceTypes": ["Medical Care", "Mental Health"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#999"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["49"],
+      "serviceTypes": ["Hospital - Room and Board"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "48",
+        "88",
+        "54",
+        "33",
+        "98",
+        "UC",
+        "47",
+        "50",
+        "AL",
+        "MH",
+        "35",
+        "86"
+      ],
+      "serviceTypes": [
+        "Hospital - Inpatient",
+        "Pharmacy",
+        "Long Term Care",
+        "Chiropractic",
+        "Professional (Physician) Visit - Office",
+        "Urgent Care",
+        "Hospital",
+        "Hospital - Outpatient",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Dental Care",
+        "Emergency Services"
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48", "50", "86"],
+      "serviceTypes": [
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services"
+      ],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "ANCILLARIES"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["86"],
+      "serviceTypes": ["Emergency Services"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "ER"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["35"],
+      "serviceTypes": ["Dental Care"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#999"
+        },
+        {
+          "description": "VIEW CONTRACT FOR COVERAGE DETAILS"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#999"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "SURGERY"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#999"
+        },
+        {
+          "description": "ROOM AND BOARD"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "URGENT CARE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["UC"],
+      "serviceTypes": ["Urgent Care"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "CONCENTRA URGENT CARE"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "PCP"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "SPECIALIST"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "FREESTANDING RAD CTR"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "Seq#003"
+        },
+        {
+          "description": "MEDICARE COVERED MANIPULATIONS"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "SP",
+      "insuranceType": "Supplemental Policy",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "benefitAmount": "9999999.99",
+      "additionalInformation": [
+        {
+          "description": "Seq#004"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "additionalInformation": [
+        {
+          "description": "THIS IS ONLY AN ESTIMATION OF BENEFITS, AND ALL PAYMENTS ARE SUBJECT TO POLICY GUIDELINES, MEDICAL NECESSITY, AND MEMBER ELIGIBILITY AT THE TIME SERVICES ARE PERFORMED."
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0544*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*1001*005010X279A1~BHT*0022*11*2d1e6e22-c3ca-8a6a-0c68-cbe819fc1dba*20240220*0544~HL*1**20*1~NM1*PR*2*HUMANA*****PI*HUM~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*0022*9EMDEON999~TRN*1*000003739708185*1610647538~NM1*IL*1*******01234567890~REF*6P*11111111*HUMANA INSURANCE CO.~N3*~N4***~DMG*D8**~INS*Y*18~DTP*346*D8*20100801~DTP*472*D8*20170105~EB*1*EMP*30*SP*067 002~MSG*UNKNOWN~EB*F**30******YY*19~MSG*MAX DEPENDENT AGE~EB*F**30******YY*25~MSG*MAX STUDENT AGE~EB*V**1~EB*1*IND*1^MH*SP***0*****Y~MSG*Seq#999~EB*A*IND*49*SP**23**0****Y~MSG*Seq#003~EB*1**48^88^54^33^98^UC^47^50^AL^MH^35^86~EB*A*IND*48^50^86*SP**23**0****Y~MSG*Seq#003~MSG*ANCILLARIES~EB*A*IND*86*SP**23**0****Y~MSG*Seq#003~MSG*ER~EB*I*IND*35*SP***0*****Y~MSG*Seq#999~MSG*VIEW CONTRACT FOR COVERAGE DETAILS~EB*I*IND*AL*SP***0*****Y~MSG*Seq#999~EB*A*IND*50*SP**23**0****Y~MSG*Seq#003~MSG*SURGERY~EB*1*IND*47*SP***0*****Y~MSG*Seq#999~MSG*ROOM AND BOARD~EB*A*IND*UC*SP**23**0****Y~MSG*Seq#003~MSG*URGENT CARE~EB*A*IND*UC*SP**23**0****Y~MSG*Seq#003~MSG*CONCENTRA URGENT CARE~EB*A*IND*98*SP**23**0****Y~MSG*Seq#003~MSG*PCP~EB*A*IND*98*SP**23**0****Y~MSG*Seq#003~MSG*SPECIALIST~EB*A*IND*98*SP**23**0****Y~MSG*Seq#003~MSG*FREESTANDING RAD CTR~EB*A*IND*33*SP**23**0****Y~MSG*Seq#003~MSG*MEDICARE COVERED MANIPULATIONS~EB*F*IND*30*SP**32*9999999.99~MSG*Seq#004~EB*P~MSG*THIS IS ONLY AN ESTIMATION OF BENEFITS, AND ALL PAYMENTS ARE SUBJECT TO POLICY GUIDELINES, MEDICAL NECESSITY, AND MEMBER ELIGIBILITY AT THE TIME SERVICES ARE PERFORMED.~SE*69*1001~GE*1*000000001~IEA*1*000000001~"
+}

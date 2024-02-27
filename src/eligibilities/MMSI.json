@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "d3a6f211-bafc-0b3d-f8da-e9112ccee178"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "MMSI",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "DDD",
+    "planNumber": "ABC",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25",
+    "address": {
+      "address1": "99 XXXXX XXXX XX",
+      "city": "XXXXXXXXX",
+      "state": "NY",
+      "postalCode": "999999999"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "AAA",
+      "secondaryReferenceIdentification": "AAAA"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "AAA",
+      "secondaryReferenceIdentification": "AAAA"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "MMSI",
+    "payorIdentification": "MMSI"
+  },
+  "planInformation": {
+    "planNumber": "ABC",
+    "groupNumber": "DDD",
+    "groupDescription": "MAYO LTD",
+    "federalTaxpayersIdentificationNumber": "000000000"
+  },
+  "planDateInformation": {
+    "planBegin": "20170101",
+    "dateOfLastUpdate": "20170424"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "30",
+        "1",
+        "30",
+        "47",
+        "48",
+        "50",
+        "52",
+        "86",
+        "98",
+        "MH",
+        "UC",
+        "1",
+        "30",
+        "47",
+        "48",
+        "50",
+        "52",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "30",
+        "47",
+        "48",
+        "50",
+        "52",
+        "86",
+        "98",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "30",
+        "47",
+        "48",
+        "50",
+        "52",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["1", "50", "52", "86", "98", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitPercent": ".2",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["1", "30", "50", "52", "86", "98", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100.00",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100.00",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["1", "30", "50", "52", "86", "98", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "50.00",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "50.00",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["1", "30", "50", "52", "86", "98", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "2000.00",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "2000.00",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["1", "30", "50", "52", "86", "98", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Hospital - Outpatient",
+        "Hospital - Emergency Medical",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "1000.00",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "1000.00",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      }
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Contact PBM or Pharmacy Administrator"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "benefitBegin": "20150101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Contact PBM or Pharmacy Administrator"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0546*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*1234*005010X279~BHT*0022*11*d3a6f211-bafc-0b3d-f8da-e9112ccee178*20240220*0546~HL*1**20*1~NM1*PR*2*MMSI*****PI*MMSI~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~REF*TJ*000000000~HL*3*2*22*0~TRN*1*0022*AAA~TRN*2**0022*AAAA~NM1*IL*1*******01234567890~REF*18*ABC~REF*6P*DDD*MAYO LTD~N3*99 XXXXX XXXX XX~N4*XXXXXXXXX*NY*999999999~DMG*D8**~INS*Y*18*001*25~DTP*636*D8*20170424~DTP*346*D8*20170101~EB*1**30~EB*1**1^30^47^48^50^52^86^98^MH^UC***23******N~DTP*348*D8*20150101~EB*1**1^30^47^48^50^52^86^98^AL^MH^UC***23******Y~DTP*348*D8*20150101~EB*A**1^50^52^86^98^MH^UC***23**.2****N~DTP*348*D8*20150101~EB*A**48***23**.2***Y*N~DTP*348*D8*20150101~EB*C*FAM*1^30^50^52^86^98^MH^UC***23*100.00*****N~DTP*348*D8*20150101~EB*C*FAM*48***23*100.00****Y*N~DTP*348*D8*20150101~EB*C*FAM*30***29*0*****N~DTP*348*D8*20170101~EB*C*IND*1^30^50^52^86^98^MH^UC***23*50.00*****N~DTP*348*D8*20150101~EB*C*IND*48***23*50.00****Y*N~DTP*348*D8*20150101~EB*C*IND*30***29*0*****N~DTP*348*D8*20170101~EB*G*FAM*1^30^50^52^86^98^MH^UC***23*2000.00*****N~DTP*348*D8*20150101~EB*G*FAM*48***23*2000.00****Y*N~DTP*348*D8*20150101~EB*G*IND*1^30^50^52^86^98^MH^UC***23*1000.00*****N~DTP*348*D8*20150101~EB*G*IND*48***23*1000.00****Y*N~DTP*348*D8*20150101~EB*I**AL***23******N~DTP*348*D8*20150101~EB*U**88***23******N~DTP*348*D8*20150101~MSG*Contact PBM or Pharmacy Administrator~EB*U**88***23******Y~DTP*348*D8*20150101~MSG*Contact PBM or Pharmacy Administrator~SE*57*1234~GE*1*000000001~IEA*1*000000001~"
+}

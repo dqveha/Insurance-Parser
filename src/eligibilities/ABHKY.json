@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "257973b1-f3e6-8caf-54ea-3f37385abda1"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "ABHKY",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "planNumber": "QQQQQQQQQ",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25",
+    "address": {
+      "address1": "PO BOX 11111",
+      "city": "TEST",
+      "state": "WI",
+      "postalCode": "1111111111"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "ABHKY0000000000",
+      "originatingCompanyIdentifier": "9HHH"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "ABHKY0000000000",
+      "originatingCompanyIdentifier": "9HHH"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Aetna Better Health of KY",
+    "payorIdentification": "ABHKY"
+  },
+  "planInformation": {
+    "planNumber": "QQQQQQQQQ",
+    "planDescription": "77777 - COPAY DUAL RX",
+    "federalTaxpayersIdentificationNumber": "1111111111"
+  },
+  "planDateInformation": {
+    "plan": "20140301-20781231",
+    "dateOfLastUpdate": "20170508"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "77777 - COPAY DUAL RX",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "benefitsDateInformation": {
+        "benefit": "20140301-20781231"
+      }
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "77777 - COPAY DUAL RX"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitPercent": "0",
+      "benefitsDateInformation": {
+        "benefit": "20140301-20781231"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["1", "47", "50", "86", "98", "AL", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Hospital",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20140301-20781231"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "3.00",
+      "benefitsDateInformation": {
+        "benefit": "20140301-20781231"
+      },
+      "additionalInformation": [
+        {
+          "description": "CHIROPRACTIC TREATMENT AND SPINAL X-RAYS EFFECTIVE 11/1/2014.  CHIRO TREATMENT LIMIT 26 VISITS PER YEAR.  SPINAL X-RAY LIMIT 1 PER YEAR."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "timeQualifierCode": "36",
+      "timeQualifier": "Admission",
+      "benefitAmount": "25.00",
+      "benefitsDateInformation": {
+        "benefit": "20140301-20781231"
+      },
+      "additionalInformation": [
+        {
+          "description": "COPAY PER ADMISSION"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20140301-20781231"
+      }
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitsDateInformation": {
+        "benefit": "20140301-20781231"
+      },
+      "additionalInformation": [
+        {
+          "description": "CHIROPRACTIC TREATMENT CARVED OUT 11/1/2011 - 10/31/2014"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0543*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*333333333*005010X279A1~BHT*0022*11*257973b1-f3e6-8caf-54ea-3f37385abda1*20240220*0543~HL*1**20*1~NM1*PR*2*Aetna Better Health of KY*****PI*ABHKY~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~REF*TJ*1111111111~HL*3*2*22*0~TRN*1*ABHKY0000000000*9HHH~TRN*2*563372873*9HHHHHHHHH~NM1*IL*1*******01234567890~REF*18*QQQQQQQQQ*77777 - COPAY DUAL RX~N3*PO BOX 11111~N4*TEST*WI*1111111111~DMG*D8**~INS*Y*18*001*25~DTP*636*D8*20170508~DTP*291*RD8*20140301-20781231~EB*1**1^33^47^48^50^86^98^AL^MH^UC~DTP*292*RD8*20140301-20781231~EB*1**30**77777 - COPAY DUAL RX~EB*A**30*****0~DTP*292*RD8*20140301-20781231~EB*B**1^47^50^86^98^AL^MH^UC****0~DTP*292*RD8*20140301-20781231~EB*B**33***27*3.00~DTP*292*RD8*20140301-20781231~MSG*CHIROPRACTIC TREATMENT AND SPINAL X-RAYS EFFECTIVE 11/1/2014.  CHIRO TREATMENT LIMIT 26 VISITS PER YEAR.  SPINAL X-RAY LIMIT 1 PER YEAR.~EB*B**48***36*25.00~DTP*292*RD8*20140301-20781231~MSG*COPAY PER ADMISSION~EB*C**30****0~DTP*292*RD8*20140301-20781231~EB*I**33~DTP*292*RD8*20140301-20781231~MSG*CHIROPRACTIC TREATMENT CARVED OUT 11/1/2011 - 10/31/2014~SE*37*333333333~GE*1*000000001~IEA*1*000000001~"
+}

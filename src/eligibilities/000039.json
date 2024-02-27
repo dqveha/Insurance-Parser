@@ -1,0 +1,674 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "0a9b3212-5ee6-3d3b-f535-627aee068bca"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000039",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "A00001111"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000039"
+  },
+  "planInformation": {
+    "groupNumber": "A00001111",
+    "groupDescription": "Test Group Medical"
+  },
+  "planDateInformation": {
+    "planBegin": "20080401"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "GHI PPO",
+      "serviceTypeCodes": [
+        "1",
+        "30",
+        "33",
+        "35",
+        "47",
+        "48",
+        "50",
+        "86",
+        "88",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "30",
+        "33",
+        "35",
+        "47",
+        "48",
+        "50",
+        "86",
+        "88",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Health Benefit Plan Coverage",
+        "Chiropractic",
+        "Dental Care",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Pharmacy",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "planCoverage": "GHI PPO"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["11", "12", "14", "16", "18", "75", "DM", "AI"],
+      "serviceTypes": [
+        "Used Durable Medical Equipment",
+        "Durable Medical Equipment Purchase",
+        "Renal Supplies in the Home",
+        "Chronic Renal Disease (CRD) Equipment",
+        "Durable Medical Equipment Rental",
+        "Prosthetic Device",
+        "Durable Medical Equipment",
+        "Substance Abuse"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": [
+        "20",
+        "33",
+        "34",
+        "4",
+        "5",
+        "62",
+        "68",
+        "7",
+        "73",
+        "80",
+        "97",
+        "AD",
+        "CO"
+      ],
+      "serviceTypes": [
+        "Second Surgical Opinion",
+        "Chiropractic",
+        "Chiropractic Office Visits",
+        "Diagnostic X-Ray",
+        "Diagnostic Lab",
+        "MRI/CAT Scan",
+        "Well Baby Care",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Immunizations",
+        "Anesthesiologist",
+        "Occupational Therapy",
+        "Flu Vaccination"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["81", "88"],
+      "serviceTypes": ["Routine Physical", "Pharmacy"],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["86", "98", "A0", "A3", "BH"],
+      "serviceTypes": [
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Pediatric"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["AF"],
+      "serviceTypes": ["Speech Therapy"],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "16",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["GY"],
+      "serviceTypes": ["Allergy"],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "30",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": [
+        "11",
+        "12",
+        "14",
+        "16",
+        "18",
+        "20",
+        "33",
+        "34",
+        "4",
+        "5",
+        "62",
+        "68",
+        "7",
+        "73",
+        "75",
+        "80",
+        "86",
+        "97",
+        "98",
+        "A0",
+        "A3",
+        "AD",
+        "AF",
+        "BH",
+        "CO",
+        "DM",
+        "GY",
+        "AC"
+      ],
+      "serviceTypes": [
+        "Used Durable Medical Equipment",
+        "Durable Medical Equipment Purchase",
+        "Renal Supplies in the Home",
+        "Chronic Renal Disease (CRD) Equipment",
+        "Durable Medical Equipment Rental",
+        "Second Surgical Opinion",
+        "Chiropractic",
+        "Chiropractic Office Visits",
+        "Diagnostic X-Ray",
+        "Diagnostic Lab",
+        "MRI/CAT Scan",
+        "Well Baby Care",
+        "Anesthesia",
+        "Diagnostic Medical",
+        "Prosthetic Device",
+        "Immunizations",
+        "Emergency Services",
+        "Anesthesiologist",
+        "Professional (Physician) Visit - Office",
+        "Professional (Physician) Visit - Outpatient",
+        "Professional (Physician) Visit - Home",
+        "Occupational Therapy",
+        "Speech Therapy",
+        "Pediatric",
+        "Flu Vaccination",
+        "Durable Medical Equipment",
+        "Allergy",
+        "Rehabilitation - Outpatient"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": [
+        "11",
+        "12",
+        "14",
+        "16",
+        "18",
+        "20",
+        "68",
+        "7",
+        "75",
+        "80",
+        "81",
+        "88",
+        "97",
+        "CO",
+        "DM"
+      ],
+      "serviceTypes": [
+        "Used Durable Medical Equipment",
+        "Durable Medical Equipment Purchase",
+        "Renal Supplies in the Home",
+        "Chronic Renal Disease (CRD) Equipment",
+        "Durable Medical Equipment Rental",
+        "Second Surgical Opinion",
+        "Well Baby Care",
+        "Anesthesia",
+        "Prosthetic Device",
+        "Immunizations",
+        "Routine Physical",
+        "Pharmacy",
+        "Anesthesiologist",
+        "Flu Vaccination",
+        "Durable Medical Equipment"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP COPAY"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["33", "34", "AD"],
+      "serviceTypes": [
+        "Chiropractic",
+        "Chiropractic Office Visits",
+        "Occupational Therapy"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitAmount": "15",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP COPAY"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["4", "5", "62", "73"],
+      "serviceTypes": [
+        "Diagnostic X-Ray",
+        "Diagnostic Lab",
+        "MRI/CAT Scan",
+        "Diagnostic Medical"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "PCP COPAY"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AD"],
+      "serviceTypes": ["Occupational Therapy"],
+      "planCoverage": "GHI PPO",
+      "benefitAmount": "20",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "additionalInformation": [
+        {
+          "description": "SPC COPAY"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "500",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["11", "12", "14", "16", "18", "75", "DM"],
+      "serviceTypes": [
+        "Used Durable Medical Equipment",
+        "Durable Medical Equipment Purchase",
+        "Renal Supplies in the Home",
+        "Chronic Renal Disease (CRD) Equipment",
+        "Durable Medical Equipment Rental",
+        "Prosthetic Device",
+        "Durable Medical Equipment"
+      ],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "100",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["11", "12", "14", "16", "18", "75", "DM"],
+      "serviceTypes": [
+        "Used Durable Medical Equipment",
+        "Durable Medical Equipment Purchase",
+        "Renal Supplies in the Home",
+        "Chronic Renal Disease (CRD) Equipment",
+        "Durable Medical Equipment Rental",
+        "Prosthetic Device",
+        "Durable Medical Equipment"
+      ],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "100",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "200",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No",
+      "benefitsDateInformation": {
+        "planBegin": "20160101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["81", "88"],
+      "serviceTypes": ["Routine Physical", "Pharmacy"],
+      "planCoverage": "GHI PPO",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["AL", "AM", "AN", "AO"],
+      "serviceTypes": [
+        "Vision (Optometry)",
+        "Frames",
+        "Routine Exam",
+        "Lenses"
+      ],
+      "planCoverage": "Test VISION",
+      "additionalInformation": [
+        {
+          "description": "Contact Test Vision for Eligibility Information"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["42", "A7"],
+      "serviceTypes": ["Home Health Care", "Psychiatric - Inpatient"],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["42", "A7"],
+      "serviceTypes": ["Home Health Care", "Psychiatric - Inpatient"],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": ".2",
+      "authOrCertIndicator": "Y",
+      "inPlanNetworkIndicatorCode": "N",
+      "inPlanNetworkIndicator": "No"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": [
+        "42",
+        "6",
+        "66",
+        "73",
+        "A7",
+        "A8",
+        "AF",
+        "AI",
+        "BF",
+        "BG",
+        "CK",
+        "PT"
+      ],
+      "serviceTypes": [
+        "Home Health Care",
+        "Radiation Therapy",
+        "Pathology",
+        "Diagnostic Medical",
+        "Psychiatric - Inpatient",
+        "Psychiatric - Outpatient",
+        "Speech Therapy",
+        "Substance Abuse",
+        "Pulmonary Rehabilitation",
+        "Cardiac Rehabilitation",
+        "Screening X-ray",
+        "Physical Therapy"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitAmount": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": [
+        "6",
+        "66",
+        "73",
+        "A8",
+        "AC",
+        "AF",
+        "BF",
+        "BG",
+        "CK",
+        "PT"
+      ],
+      "serviceTypes": [
+        "Radiation Therapy",
+        "Pathology",
+        "Diagnostic Medical",
+        "Psychiatric - Outpatient",
+        "Rehabilitation - Outpatient",
+        "Speech Therapy",
+        "Pulmonary Rehabilitation",
+        "Cardiac Rehabilitation",
+        "Screening X-ray",
+        "Physical Therapy"
+      ],
+      "planCoverage": "GHI PPO",
+      "benefitPercent": "0",
+      "authOrCertIndicator": "N",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AC"],
+      "serviceTypes": ["Rehabilitation - Outpatient"],
+      "planCoverage": "GHI PPO",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitAmount": "15",
+      "inPlanNetworkIndicatorCode": "Y",
+      "inPlanNetworkIndicator": "Yes"
+    },
+    {
+      "code": "P",
+      "name": "Benefit Disclaimer",
+      "planCoverage": "GHI PPO",
+      "additionalInformation": [
+        {
+          "description": "THIS RESPONSE IS NOT A GUARANTEE OF PAYMENT OR COVERAGE AND IS NOT AN AUTHORIZATION TO PERFORM SERVICES. ELIGIBILITY AND BENEFITS ARE DETERMINED UPON CLAIM RECEIPT AND ARE SUBJECT TO ALL LIMITS AND EXCLUSIONS OUTLINED IN THE MEMBER'S PLAN"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0524*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*0a9b3212-5ee6-3d3b-f535-627aee068bca*20240220*0524~HL*1**20*1~NM1*PR*2*Unknown*****PI*000039~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~TRN*1*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*6P*A00001111*Test Group Medical~N3*~N4***~DMG*D8**~DTP*346*D8*20080401~EB*1**1^30^33^35^47^48^50^86^88^98^AL^MH^UC**GHI PPO~EB*A**11^12^14^16^18^75^DM^AI**GHI PPO***0***Y*W~EB*A**20^33^34^4^5^62^68^7^73^80^97^AD^CO**GHI PPO***0****W~EB*A**81^88**GHI PPO***0****Y~EB*A**86^98^A0^A3^BH**GHI PPO***0****N~EB*A**AF**GHI PPO***0*VS*16*Y*N~EB*A**GY**GHI PPO***0*VS*30*Y*N~EB*B**11^12^14^16^18^20^33^34^4^5^62^68^7^73^75^80^86^97^98^A0^A3^AD^AF^BH^CO^DM^GY^AC**GHI PPO**0*****N~EB*B**11^12^14^16^18^20^68^7^75^80^81^88^97^CO^DM**GHI PPO**0*****Y~MSG*PCP COPAY~EB*B**33^34^AD**GHI PPO**15*****Y~MSG*PCP COPAY~EB*B**4^5^62^73**GHI PPO**20*****Y~MSG*PCP COPAY~EB*B**AD**GHI PPO**20*****Y~MSG*SPC COPAY~EB*C*FAM*30**GHI PPO*23*0*****Y~DTP*346*D8*20160101~EB*C*FAM*30**GHI PPO*23*500*****N~DTP*346*D8*20160101~EB*C*FAM*30**GHI PPO*29*0*****W~EB*C*IND*11^12^14^16^18^75^DM**GHI PPO*23*100*****W~DTP*348*D8*20170101~EB*C*IND*11^12^14^16^18^75^DM**GHI PPO*29*100*****W~EB*C*IND*30**GHI PPO*23*0*****Y~DTP*346*D8*20160101~EB*C*IND*30**GHI PPO*23*200*****N~DTP*346*D8*20160101~EB*C*IND*30**GHI PPO*29*0*****W~EB*I*FAM*81^88**GHI PPO*******N~EB*I*FAM*AL^AM^AN^AO**Test VISION~MSG*Contact Test Vision for Eligibility Information~EB*A**42^A7**GHI PPO***0***Y*Y~EB*A**42^A7**GHI PPO***.2***Y*N~EB*B**42^6^66^73^A7^A8^AF^AI^BF^BG^CK^PT**GHI PPO**0*****W~EB*A**6^66^73^A8^AC^AF^BF^BG^CK^PT**GHI PPO***0***N*W~EB*B**AC**GHI PPO*27*15*****Y~EB*P****GHI PPO~MSG*THIS RESPONSE IS NOT A GUARANTEE OF PAYMENT OR COVERAGE AND IS NOT AN AUTHORIZATION TO PERFORM SERVICES. ELIGIBILITY AND BENEFITS ARE DETERMINED UPON CLAIM RECEIPT AND ARE SUBJECT TO ALL LIMITS AND EXCLUSIONS OUTLINED IN THE MEMBER'S PLAN~SE*55*0001~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "39836587-6c19-0c55-0849-6c83a1e7b61d"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "00036",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "253477649",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "253477649",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "STATE OF FLORIDA MEDICAID",
+    "payorIdentification": "00036"
+  },
+  "planDateInformation": {
+    "plan": "20160110"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "MS  | Full Medicaid",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "MS  | Full Medicaid",
+      "benefitsDateInformation": {
+        "plan": "20160110-20170110"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "MS  | Full Medicaid",
+      "timeQualifierCode": "25",
+      "timeQualifier": "Contract",
+      "benefitAmount": "0.00"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "MS  | Full Medicaid",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0.00"
+    },
+    {
+      "code": "MC",
+      "name": "Managed Care Coordinator",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "SMMC MMA Capitated",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "plan": "20160110-20170110"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Provider",
+        "entityType": "Non-Person Entity",
+        "entityName": "COVENTRY HEALTH CARE OF FLORIDA INC",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "COVENTRY HEALTH CARE OF FLORIDA INC",
+          "address": {
+            "city": "TEST DR",
+            "state": "FL",
+            "postalCode": "111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["44"],
+      "serviceTypes": ["Home Health Visits"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "Home Health Visits Remaining",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "60"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["45"],
+      "serviceTypes": ["Hospice"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "Hospice Days Remaining",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "210"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "Outpatient Dollars Remaining",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1500.00"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "Inpatient Days Remaining",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "45"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["52"],
+      "serviceTypes": ["Hospital - Emergency Medical"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "ER Visits Remaining",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "6"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "35",
+        "47",
+        "48",
+        "50",
+        "86",
+        "88",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Dental Care",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Pharmacy",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "benefitPercent": "0.00"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["1", "35", "86", "88", "AL", "MH", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Dental Care",
+        "Emergency Services",
+        "Pharmacy",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "benefitAmount": "0.00"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "benefitAmount": "1.00"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitAmount": "2.00"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["48", "50"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Outpatient"],
+      "benefitAmount": "3.00"
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "benefitAmount": "15.00"
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0524*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*39836587-6c19-0c55-0849-6c83a1e7b61d*20240220*0524~HL*1**20*1~NM1*PR*2*STATE OF FLORIDA MEDICAID*****PI*00036~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*253477649*9EMDEON999~TRN*1*17010018S0*1610600439~NM1*IL*1*******01234567890~DMG*D8**~DTP*291*D8*20160110~EB*1*IND*30*MC*MS  | Full Medicaid~DTP*291*RD8*20160110-20170110~EB*C*IND*30**MS  | Full Medicaid*25*0.00~EB*C*IND*30**MS  | Full Medicaid*29*0.00~EB*MC*IND*96*MC*SMMC MMA Capitated~DTP*291*RD8*20160110-20170110~LS*2120~NM1*1P*2*COVENTRY HEALTH CARE OF FLORIDA INC~N4*TEST DR*FL*111111111~PER*IC**TE*1111111111~LE*2120~EB*F*IND*44*MC*Home Health Visits Remaining*29***VS*60~EB*F*IND*45*MC*Hospice Days Remaining*29***DY*210~EB*F*IND*50*MC*Outpatient Dollars Remaining*29*1500.00~EB*F*IND*48*MC*Inpatient Days Remaining*29***DY*45~EB*F*IND*52*MC*ER Visits Remaining*29***VS*6~EB*A*IND*1^33^35^47^48^50^86^88^98^AL^MH^UC*****0.00~EB*B*IND*1^35^86^88^AL^MH^UC****0.00~EB*B*IND*33****1.00~EB*B*IND*98****2.00~EB*B*IND*48^50****3.00~EB*B*IND*47****15.00~SE*35*0001~GE*1*000000001~IEA*1*000000001~"
+}

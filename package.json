@@ -1,0 +1,23 @@
+{
+  "name": "Insurance Eligibility Parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/app.ts",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+  },
+  "author": "Dave Lindqvist",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.56.0",
+    "jsonata": "^2.0.3",
+    "prettier-eslint": "^16.3.0"
+  }
+}

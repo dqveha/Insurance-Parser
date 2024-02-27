@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "cb32c5af-3555-3fa6-f912-02fa9a08ac74"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "COVON",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "1111111111",
+    "planNumber": "11111",
+    "planNetworkIdNumber": "AAA",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "6241315318831200",
+      "originatingCompanyIdentifier": "9HDS"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "6241315318831200",
+      "originatingCompanyIdentifier": "9HDS"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Mail Handlers / FEHBP",
+    "payorIdentification": "COVON",
+    "contactInformation": {
+      "name": "Coventry NATFEH",
+      "contacts": [
+        {
+          "communicationMode": "Telephone",
+          "communicationNumber": "1111111111"
+        }
+      ]
+    }
+  },
+  "planInformation": {
+    "planNumber": "11111",
+    "planDescription": "AA SO AAA AB RET",
+    "groupNumber": "1111111111",
+    "planNetworkIdNumber": "AAA",
+    "planNetworkIdDescription": "AA SO AAA AB RET"
+  },
+  "planDateInformation": {
+    "plan": "20170101-99991231",
+    "dateOfLastUpdate": "20170110"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "MH SO MED AB RET",
+      "serviceTypeCodes": [
+        "30",
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "MH SO MED AB RET"
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "1",
+        "33",
+        "47",
+        "48",
+        "50",
+        "86",
+        "98",
+        "AL",
+        "MH",
+        "UC"
+      ],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Mental Health",
+        "Urgent Care"
+      ],
+      "planCoverage": "MH SO MED AB RET",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      },
+      "additionalInformation": [
+        {
+          "description": "OVERALL"
+        },
+        {
+          "description": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "MH SO MED AB RET",
+      "benefitPercent": "0",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      },
+      "additionalInformation": [
+        {
+          "description": "OVERALL"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["33"],
+      "serviceTypes": ["Chiropractic"],
+      "planCoverage": "MH SO MED AB RET",
+      "timeQualifierCode": "26",
+      "timeQualifier": "Episode",
+      "quantityQualifierCode": "VS",
+      "quantityQualifier": "Visits",
+      "benefitQuantity": "26",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      },
+      "additionalInformation": [
+        {
+          "description": "OVERALL"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["AL"],
+      "serviceTypes": ["Vision (Optometry)"],
+      "planCoverage": "MH SO MED AB RET",
+      "timeQualifierCode": "26",
+      "timeQualifier": "Episode",
+      "benefitAmount": "50.00",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      },
+      "additionalInformation": [
+        {
+          "description": "OVERALL"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "MH SO MED AB RET",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      },
+      "additionalInformation": [
+        {
+          "description": "OVERALL"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20170101-99991231"
+      }
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "MH SO MED AB RET",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      },
+      "additionalInformation": [
+        {
+          "description": "OVERALL"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "Out of Pocket (Stop Loss)",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "20170101-99991231"
+      }
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["48", "98", "AL"],
+      "serviceTypes": [
+        "Hospital - Inpatient",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)"
+      ],
+      "planCoverage": "MH SO MED AB RET",
+      "benefitsDateInformation": {
+        "benefitBegin": "20170101"
+      },
+      "additionalInformation": [
+        {
+          "description": "OVERALL"
+        },
+        {
+          "description": "REJ SERVICES NOT COVERED UNDER BENEFIT PLAN REFER TO MBR MATERIALS FOR COVEREDNONCOVERED SERVICES"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "benefit": "20170101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Non-Person Entity",
+        "entityName": "NO PCP REQUIRED",
+        "entityIdentification": "Service Provider Number",
+        "entityIdentificationValue": "111111"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "NO PCP REQUIRED",
+          "entityIdentification": "Service Provider Number",
+          "entityIdentificationValue": "111111"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0544*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*624693342*005010X279A1~BHT*0022*11*cb32c5af-3555-3fa6-f912-02fa9a08ac74*20240220*0544~HL*1**20*1~NM1*PR*2*Mail Handlers / FEHBP*****PI*COVON~PER*IC*Coventry NATFEH*TE*1111111111~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*6241315318831200*9HDS~TRN*2*8477591969*9MEDDATACO~NM1*IL*1*******01234567890~REF*18*11111*AA SO AAA AB RET~REF*6P*1111111111~REF*N6*AAA*AA SO AAA AB RET~N3*~N4***~DMG*D8**~INS*Y*18~DTP*636*D8*20170110~DTP*291*RD8*20170101-99991231~EB*1**30**MH SO MED AB RET~EB*1**1^33^47^48^50^86^98^AL^MH^UC**MH SO MED AB RET~DTP*348*D8*20170101~MSG*OVERALL~MSG*APPROVED~EB*A**30**MH SO MED AB RET***0~DTP*348*D8*20170101~MSG*OVERALL~EB*F**33**MH SO MED AB RET*26***VS*26~DTP*348*D8*20170101~MSG*OVERALL~EB*F**AL**MH SO MED AB RET*26*50.00~DTP*348*D8*20170101~MSG*OVERALL~EB*G*FAM*30**MH SO MED AB RET**0~DTP*348*D8*20170101~MSG*OVERALL~EB*G*FAM*30***29*0~DTP*292*RD8*20170101-99991231~EB*G*IND*30**MH SO MED AB RET**0~DTP*348*D8*20170101~MSG*OVERALL~EB*G*IND*30***29*0~DTP*292*RD8*20170101-99991231~EB*I**48^98^AL**MH SO MED AB RET~DTP*348*D8*20170101~MSG*OVERALL~MSG*REJ SERVICES NOT COVERED UNDER BENEFIT PLAN REFER TO MBR MATERIALS FOR COVEREDNONCOVERED SERVICES~EB*L**30~DTP*292*RD8*20170101-99991231~LS*2120~NM1*P3*2*NO PCP REQUIRED*****SV*111111~LE*2120~SE*54*624693342~GE*1*000000001~IEA*1*000000001~"
+}

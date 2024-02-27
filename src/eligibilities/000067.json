@@ -1,0 +1,1013 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "00ab9b6d-55eb-9fcf-8aab-12333c004387"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000067",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "address": {
+      "address1": "99 XXXXX XXXX XX",
+      "city": "XXXXXXXXX",
+      "state": "NY",
+      "postalCode": "999999999"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "507923579",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "MEDICARE",
+    "payorIdentification": "MEDA",
+    "contactInformation": {
+      "contacts": [
+        {
+          "communicationMode": "Uniform Resource Locator (URL)",
+          "communicationNumber": "www.cms.gov/HETSHelp/"
+        },
+        {
+          "communicationMode": "Uniform Resource Locator (URL)",
+          "communicationNumber": "www.cms.gov/center/provider.asp"
+        }
+      ]
+    }
+  },
+  "planDateInformation": {
+    "eligibility": "19000101"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": [
+        "88",
+        "30",
+        "BV",
+        "BU",
+        "BT",
+        "AG",
+        "A7",
+        "A5",
+        "83",
+        "76",
+        "69",
+        "49",
+        "48",
+        "45",
+        "42",
+        "10",
+        "30",
+        "UC",
+        "DM",
+        "BV",
+        "BU",
+        "BT",
+        "BG",
+        "BF",
+        "AL",
+        "AK",
+        "AJ",
+        "AI",
+        "AF",
+        "AE",
+        "AD",
+        "A8",
+        "A6",
+        "A4",
+        "98",
+        "86",
+        "83",
+        "76",
+        "73",
+        "69",
+        "67",
+        "53",
+        "52",
+        "51",
+        "50",
+        "42",
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+        "33",
+        "3",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "2",
+        "14",
+        "10"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["54", "41"],
+      "serviceTypes": ["Long Term Care", "Routine (Preventive) Dental"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "30",
+        "BV",
+        "BU",
+        "BT",
+        "AG",
+        "A7",
+        "A5",
+        "83",
+        "76",
+        "69",
+        "49",
+        "48",
+        "45",
+        "42",
+        "10"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Obstetrical/Gynecological",
+        "Obstetrical",
+        "Gynecological",
+        "Skilled Nursing Care",
+        "Psychiatric - Inpatient",
+        "Psychiatric - Room and Board",
+        "Infertility",
+        "Dialysis",
+        "Maternity",
+        "Hospital - Room and Board",
+        "Hospital - Inpatient",
+        "Hospice",
+        "Home Health Care",
+        "Blood Charges"
+      ],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "benefitsDateInformation": {
+        "plan": "19000101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "26",
+      "timeQualifier": "Episode",
+      "benefitAmount": "1184",
+      "benefitsDateInformation": {
+        "plan": "19000101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "1184",
+      "benefitsDateInformation": {
+        "plan": "19000101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["45", "42"],
+      "serviceTypes": ["Hospice", "Home Health Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "26",
+      "timeQualifier": "Episode",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "19000101"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "0",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "60",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "296",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "60",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "90",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "60",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "296",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "30",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "0",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "20",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "148",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "30",
+          "timePeriodQualifier": "Exceeded",
+          "numOfPeriods": "20",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "31",
+          "timePeriodQualifier": "Not Exceeded",
+          "numOfPeriods": "100",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "20",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "148",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      },
+      "benefitsServiceDelivery": [
+        {
+          "unitForMeasurementCode": "Days",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining",
+          "numOfPeriods": "80",
+          "unitForMeasurementQualifierCode": "DA",
+          "unitForMeasurementQualifier": "Days"
+        },
+        {
+          "timePeriodQualifierCode": "26",
+          "timePeriodQualifier": "Episode",
+          "numOfPeriods": "1"
+        }
+      ]
+    },
+    {
+      "code": "K",
+      "name": "Reserve",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "60"
+    },
+    {
+      "code": "K",
+      "name": "Reserve",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "33",
+      "timeQualifier": "Lifetime Remaining",
+      "quantityQualifierCode": "DY",
+      "quantityQualifier": "Days",
+      "benefitQuantity": "60"
+    },
+    {
+      "code": "K",
+      "name": "Reserve",
+      "serviceTypeCodes": ["48", "49"],
+      "serviceTypes": ["Hospital - Inpatient", "Hospital - Room and Board"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "timeQualifierCode": "7",
+      "timeQualifier": "Day",
+      "benefitAmount": "592",
+      "benefitsDateInformation": {
+        "admission": "19000101",
+        "admissions": [
+          {
+            "date": "19000101"
+          }
+        ]
+      }
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": [
+        "30",
+        "UC",
+        "DM",
+        "BV",
+        "BU",
+        "BT",
+        "BG",
+        "BF",
+        "AL",
+        "AK",
+        "AJ",
+        "AI",
+        "AF",
+        "AE",
+        "AD",
+        "A8",
+        "A6",
+        "A4",
+        "98",
+        "86",
+        "83",
+        "76",
+        "73",
+        "69",
+        "67",
+        "53",
+        "52",
+        "51",
+        "50",
+        "42",
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+        "33",
+        "3",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "2",
+        "14",
+        "10"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Urgent Care",
+        "Durable Medical Equipment",
+        "Obstetrical/Gynecological",
+        "Obstetrical",
+        "Gynecological",
+        "Cardiac Rehabilitation",
+        "Pulmonary Rehabilitation",
+        "Vision (Optometry)",
+        "Drug Addiction",
+        "Alcoholism",
+        "Substance Abuse",
+        "Speech Therapy",
+        "Physical Medicine",
+        "Occupational Therapy",
+        "Psychiatric - Outpatient",
+        "Psychotherapy",
+        "Psychiatric",
+        "Professional (Physician) Visit - Office",
+        "Emergency Services",
+        "Infertility",
+        "Dialysis",
+        "Diagnostic Medical",
+        "Maternity",
+        "Smoking Cessation",
+        "Hospital - Ambulatory Surgical",
+        "Hospital - Emergency Medical",
+        "Hospital - Emergency Accident",
+        "Hospital - Outpatient",
+        "Home Health Care",
+        "Oral Surgery",
+        "Prosthodontics",
+        "Orthodontics",
+        "Dental Accident",
+        "Dental Crowns",
+        "Chiropractic",
+        "Consultation",
+        "Adjunctive Dental Services",
+        "Maxillofacial Prosthetics",
+        "Endodontics",
+        "Restorative",
+        "Periodontics",
+        "Diagnostic Dental",
+        "Surgical",
+        "Renal Supplies in the Home",
+        "Blood Charges"
+      ],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "benefitsDateInformation": {
+        "plan": "19000101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "147",
+      "benefitsDateInformation": {
+        "plan": "19000101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "plan": "19000101"
+      }
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": [
+        "UC",
+        "DM",
+        "BV",
+        "BU",
+        "BT",
+        "BG",
+        "BF",
+        "AL",
+        "AF",
+        "AE",
+        "AD",
+        "98",
+        "86",
+        "83",
+        "76",
+        "73",
+        "69",
+        "53",
+        "52",
+        "51",
+        "50",
+        "40",
+        "39",
+        "38",
+        "37",
+        "36",
+        "33",
+        "3",
+        "28",
+        "27",
+        "26",
+        "25",
+        "24",
+        "23",
+        "2",
+        "14",
+        "10"
+      ],
+      "serviceTypes": [
+        "Urgent Care",
+        "Durable Medical Equipment",
+        "Obstetrical/Gynecological",
+        "Obstetrical",
+        "Gynecological",
+        "Cardiac Rehabilitation",
+        "Pulmonary Rehabilitation",
+        "Vision (Optometry)",
+        "Speech Therapy",
+        "Physical Medicine",
+        "Occupational Therapy",
+        "Professional (Physician) Visit - Office",
+        "Emergency Services",
+        "Infertility",
+        "Dialysis",
+        "Diagnostic Medical",
+        "Maternity",
+        "Hospital - Ambulatory Surgical",
+        "Hospital - Emergency Medical",
+        "Hospital - Emergency Accident",
+        "Hospital - Outpatient",
+        "Oral Surgery",
+        "Prosthodontics",
+        "Orthodontics",
+        "Dental Accident",
+        "Dental Crowns",
+        "Chiropractic",
+        "Consultation",
+        "Adjunctive Dental Services",
+        "Maxillofacial Prosthetics",
+        "Endodontics",
+        "Restorative",
+        "Periodontics",
+        "Diagnostic Dental",
+        "Surgical",
+        "Renal Supplies in the Home",
+        "Blood Charges"
+      ],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "27",
+      "timeQualifier": "Visit",
+      "benefitPercent": ".2",
+      "benefitsDateInformation": {
+        "benefit": "19000101"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["AJ", "67", "42"],
+      "serviceTypes": ["Alcoholism", "Smoking Cessation", "Home Health Care"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "19000101"
+      }
+    },
+    {
+      "code": "D",
+      "name": "Benefit Description",
+      "serviceTypeCodes": ["AD", "AE"],
+      "serviceTypes": ["Occupational Therapy", "Physical Medicine"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "benefit": "19000101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Used Amount"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BF"],
+      "serviceTypes": ["Pulmonary Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "CA",
+      "quantityQualifier": "Covered - Actual",
+      "benefitQuantity": "72",
+      "additionalInformation": [
+        {
+          "description": "Technical"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BF"],
+      "serviceTypes": ["Pulmonary Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "quantityQualifierCode": "CA",
+      "quantityQualifier": "Covered - Actual",
+      "benefitQuantity": "72",
+      "additionalInformation": [
+        {
+          "description": "Professional"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Technical"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Professional"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Intensive Cardiac Rehabilitation - Technical"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "serviceTypeCodes": ["BG"],
+      "serviceTypes": ["Cardiac Rehabilitation"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "quantityQualifierCode": "99",
+      "quantityQualifier": "Quantity Used",
+      "benefitQuantity": "0",
+      "additionalInformation": [
+        {
+          "description": "Intensive Cardiac Rehabilitation - Professional"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "name": "Exclusions",
+      "serviceTypeCodes": ["10"],
+      "serviceTypes": ["Blood Charges"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "quantityQualifierCode": "DB",
+      "quantityQualifier": "Deductible Blood Units",
+      "benefitQuantity": "3",
+      "benefitsDateInformation": {
+        "benefit": "19000101"
+      },
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "3",
+          "timePeriodQualifierCode": "29",
+          "timePeriodQualifier": "Remaining"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "planNumber": "X9999 999"
+      },
+      "benefitsDateInformation": {
+        "benefit": "19000101"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "XXXXXXXXXXXXXXXX XXXXXXXXX XXXXXXX XX XXX XXXX",
+        "address": {
+          "address1": "9999 XXXXXXXXXX XXXXX XXXXX",
+          "address2": "XXXXX 999",
+          "city": "XXXXXXXX",
+          "state": "NY",
+          "postalCode": "999999999"
+        },
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "9999999999"
+            },
+            {
+              "communicationMode": "Uniform Resource Locator (URL)",
+              "communicationNumber": "XXX.XXXXXXXXXXXXXX.XXX"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "XXXXXXXXXXXXXXXX XXXXXXXXX XXXXXXX XX XXX XXXX",
+          "address": {
+            "address1": "9999 XXXXXXXXXX XXXXX XXXXX",
+            "address2": "XXXXX 999"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "9999999999"
+              },
+              {
+                "communicationMode": "Uniform Resource Locator (URL)",
+                "communicationNumber": "XXX.XXXXXXXXXXXXXX.XXX"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0533*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*507923579*005010X279A1~BHT*0022*11*00ab9b6d-55eb-9fcf-8aab-12333c004387*20240220*0533~HL*1**20*1~NM1*PR*2*MEDICARE*****PI*MEDA~PER*IC**UR*www.cms.gov/HETSHelp/*UR*www.cms.gov/center/provider.asp~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*507923579*9EMDEON999~NM1*IL*1*******01234567890~N3*99 XXXXX XXXX XX~N4*XXXXXXXXX*NY*999999999~DMG*D8**~DTP*307*D8*19000101~EB*I**54^41~EB*1**88~EB*1**30^BV^BU^BT^AG^A7^A5^83^76^69^49^48^45^42^10*MA~DTP*291*D8*19000101~EB*C**30*MA**26*1184~DTP*291*D8*19000101~EB*C**30*MA**29*1184~DTP*291*D8*19000101~EB*C**45^42*MA**26*0~DTP*292*D8*19000101~EB*B**48^49*MA**7*0~HSD***DA**30*0~HSD***DA**31*60~HSD*****26*1~DTP*435*D8*19000101~EB*B**48^49*MA**7*296~HSD***DA**30*60~HSD***DA**31*90~HSD*****26*1~DTP*435*D8*19000101~EB*B**48^49*MA**7*0~HSD***DA**29*60~HSD*****26*1~DTP*435*D8*19000101~EB*B**48^49*MA**7*296~HSD***DA**29*30~HSD*****26*1~DTP*435*D8*19000101~EB*B**AG*MA**7*0~HSD***DA**30*0~HSD***DA**31*20~HSD*****26*1~DTP*435*D8*19000101~EB*B**AG*MA**7*148~HSD***DA**30*20~HSD***DA**31*100~HSD*****26*1~DTP*435*D8*19000101~EB*B**AG*MA**7*0~HSD***DA**29*20~HSD*****26*1~DTP*435*D8*19000101~EB*B**AG*MA**7*148~HSD***DA**29*80~HSD*****26*1~DTP*435*D8*19000101~EB*K**48^49*MA**32***DY*60~EB*K**48^49*MA**33***DY*60~EB*K**48^49*MA**7*592~DTP*435*D8*19000101~EB*1**30^UC^DM^BV^BU^BT^BG^BF^AL^AK^AJ^AI^AF^AE^AD^A8^A6^A4^98^86^83^76^73^69^67^53^52^51^50^42^40^39^38^37^36^33^3^28^27^26^25^24^23^2^14^10*MB~DTP*291*D8*19000101~EB*C**30*MB**23*147~DTP*291*D8*19000101~EB*C**30*MB**29*0~DTP*291*D8*19000101~EB*A**UC^DM^BV^BU^BT^BG^BF^AL^AF^AE^AD^98^86^83^76^73^69^53^52^51^50^40^39^38^37^36^33^3^28^27^26^25^24^23^2^14^10*MB**27**.2~DTP*292*D8*19000101~EB*C**AJ^67^42*MB**23*0~DTP*292*D8*19000101~EB*D**AD^AE*MB***0~DTP*292*D8*19000101~MSG*Used Amount~EB*F**BF*MB**29***CA*72~MSG*Technical~EB*F**BF*MB**29***CA*72~MSG*Professional~EB*F**BG*MB*****99*0~MSG*Technical~EB*F**BG*MB*****99*0~MSG*Professional~EB*F**BG*MB*****99*0~MSG*Intensive Cardiac Rehabilitation - Technical~EB*F**BG*MB*****99*0~MSG*Intensive Cardiac Rehabilitation - Professional~EB*E**10***23***DB*3~HSD*FL*3***29~DTP*292*D8*19000101~EB*R**88*OT~REF*18*X9999 999~DTP*292*D8*19000101~LS*2120~NM1*PR*2*XXXXXXXXXXXXXXXX XXXXXXXXX XXXXXXX XX XXX XXXX~N3*9999 XXXXXXXXXX XXXXX XXXXX*XXXXX 999~N4*XXXXXXXX*NY*999999999~PER*IC**TE*9999999999*UR*XXX.XXXXXXXXXXXXXX.XXX~LE*2120~SE*102*507923579~GE*1*000000001~IEA*1*000000001~"
+}

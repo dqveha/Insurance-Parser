@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "9b645cb6-6ac7-e890-9d2f-18f8e76c0e5d"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "ABHLA",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "planNumber": "QQQQQQQQQ",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25",
+    "address": {
+      "address1": "PO BOX 11111",
+      "city": "TEST",
+      "state": "WI",
+      "postalCode": "1111111111"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "ABHLA00000011111",
+      "originatingCompanyIdentifier": "9AAA"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "ABHLA00000011111",
+      "originatingCompanyIdentifier": "9AAA"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "ABHLA00000011111",
+      "originatingCompanyIdentifier": "9AAA"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Aetna Better Health of LA",
+    "payorIdentification": "ABHLA"
+  },
+  "planInformation": {
+    "planNumber": "QQQQQQQQQ",
+    "planDescription": "LOUISIANA BAYOU HEALTH"
+  },
+  "planDateInformation": {
+    "plan": "20160201-20781231",
+    "dateOfLastUpdate": "20170508"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "LOUISIANA BAYOU HEALTH",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "LOUISIANA BAYOU HEALTH"
+    },
+    {
+      "code": "L",
+      "name": "Primary Care Provider",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "benefit": "20160201-20781231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "AAAAA",
+        "entityFirstname": "AAAAAA",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "1111111111"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "AAAAA",
+          "entityFirstname": "AAAAAA",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "1111111111"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0543*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*111111111*005010X279A1~BHT*0022*11*9b645cb6-6ac7-e890-9d2f-18f8e76c0e5d*20240220*0543~HL*1**20*1~NM1*PR*2*Aetna Better Health of LA*****PI*ABHLA~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*ABHLA00000011111*9AAA~TRN*2*9536309333*9NNNNNNNNN~TRN*2*05512017081235925187*9AAAAAAAAA~NM1*IL*1*******01234567890~REF*18*QQQQQQQQQ*LOUISIANA BAYOU HEALTH~N3*PO BOX 11111~N4*TEST*WI*1111111111~DMG*D8**~INS*Y*18*001*25~DTP*636*D8*20170508~DTP*291*RD8*20160201-20781231~EB*1**30**LOUISIANA BAYOU HEALTH~EB*L**30*MC~DTP*292*RD8*20160201-20781231~LS*2120~NM1*P3*1*AAAAA*AAAAAA****XX*1111111111~LE*2120~SE*25*111111111~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "5a0bf278-ded5-35c3-ce86-65dc0e1c93d3"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "CT",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001",
+    "address": {
+      "address1": "11 TEST AVENUE",
+      "city": "TEST",
+      "state": "WW",
+      "postalCode": "000000000"
+    }
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "ssn": "000000000",
+    "address": {
+      "address1": "00 TEST DR",
+      "city": "TESTCITY",
+      "state": "TA",
+      "postalCode": "11111"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "CONNECTICUT MEDICAID",
+    "payorIdentification": "111111111"
+  },
+  "planInformation": {
+    "socialSecurityNumber": "000000000"
+  },
+  "planDateInformation": {
+    "eligibility": "20170220-20170220",
+    "planBegin": "20170201"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Qualified Medicare Beneficiary",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "Qualified Medicare Beneficiary",
+      "benefitsDateInformation": {
+        "eligibility": "20170220-20170220"
+      },
+      "additionalInformation": [
+        {
+          "description": "Medicare Covered Services"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "Qualified Medicare Beneficiary",
+      "timeQualifierCode": "22",
+      "timeQualifier": "Service Year",
+      "benefitAmount": "0"
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["MH"],
+      "serviceTypes": ["Mental Health"]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "MEDICARE PART A",
+        "entityIdentification": "Payor Identification",
+        "entityIdentificationValue": "MPA"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "MEDICARE PART A",
+          "entityIdentification": "Payor Identification",
+          "entityIdentificationValue": "MPA"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "MEDICARE PART B",
+        "entityIdentification": "Payor Identification",
+        "entityIdentificationValue": "MPB"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "MEDICARE PART B",
+          "entityIdentification": "Payor Identification",
+          "entityIdentificationValue": "MPB"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "MEDICARE D",
+        "entityIdentification": "Payor Identification",
+        "entityIdentificationValue": "MDD"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "MEDICARE D",
+          "entityIdentification": "Payor Identification",
+          "entityIdentificationValue": "MDD"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0544*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*001*005010X279A1~BHT*0022*11*5a0bf278-ded5-35c3-ce86-65dc0e1c93d3*20240220*0544~HL*1**20*1~NM1*PR*2*CONNECTICUT MEDICAID*****PI*111111111~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~N3*11 TEST AVENUE~N4*TEST*WW*000000000~HL*3*2*22*0~TRN*2*001*9EMDEON999~TRN*1*1705104G1Z*9445498161~NM1*IL*1*******01234567890~REF*SY*000000000~N3*00 TEST DR~N4*TESTCITY*TA*11111~DMG*D8**~DTP*346*D8*20170201~DTP*307*RD8*20170220-20170220~EB*1**30*OT*Qualified Medicare Beneficiary~DTP*307*RD8*20170220-20170220~MSG*Medicare Covered Services~EB*C**30**Qualified Medicare Beneficiary*22*0~EB*I**MH~EB*R~LS*2120~NM1*PR*2*MEDICARE PART A*****PI*MPA~LE*2120~EB*R~LS*2120~NM1*PR*2*MEDICARE PART B*****PI*MPB~LE*2120~EB*R~LS*2120~NM1*PR*2*MEDICARE D*****PI*MDD~LE*2120~SE*36*001~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "53a2e357-16e4-a97e-0211-0e4d61848afb"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "TRICE",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9020698101"
+    },
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "0022",
+      "originatingCompanyIdentifier": "9020698101"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Tricare",
+    "payorIdentification": "TRICE"
+  },
+  "planDateInformation": {
+    "planBegin": "20110110"
+  },
+  "benefitsInformation": [
+    {
+      "code": "U",
+      "name": "Contact Following Entity for Eligibility or Benefit Information",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "PRIMARY PAYER IS WPS TRICARE FOR LIFE",
+        "address": {
+          "address1": "PO BOX 11111",
+          "city": "TEST",
+          "state": "WI",
+          "postalCode": "1111111111"
+        },
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Work Phone Number",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "PRIMARY PAYER IS WPS TRICARE FOR LIFE",
+          "address": {
+            "address1": "PO BOX 11111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Work Phone Number",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0546*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*425142233*005010X279A1~BHT*0022*11*53a2e357-16e4-a97e-0211-0e4d61848afb*20240220*0546~HL*1**20*1~NM1*PR*2*Tricare*****PI*TRICE~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*0022*9020698101~TRN*1*425142233*9EMDEON999~NM1*IL*1*******01234567890~DMG*D8**~DTP*346*D8*20110110~EB*U**48~LS*2120~NM1*PRP*2*PRIMARY PAYER IS WPS TRICARE FOR LIFE~N3*PO BOX 11111~N4*TEST*WI*1111111111~PER*IC**WP*1111111111~LE*2120~SE*20*425142233~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,1038 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "1e92e34f-068f-32ed-c40a-7fe9de3b7aab"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000042",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    },
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000042",
+    "contactInformation": {
+      "name": "Provider Relations",
+      "contacts": [
+        {
+          "communicationMode": "Telephone",
+          "communicationNumber": "1111111111"
+        }
+      ]
+    }
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "CO MEDICAL ASSISTANCE PROGRAMS",
+      "serviceTypeCodes": [
+        "30",
+        "86",
+        "AL",
+        "47",
+        "1",
+        "UC",
+        "MH",
+        "88",
+        "48",
+        "35",
+        "98",
+        "50"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "30",
+        "86",
+        "AL",
+        "47",
+        "1",
+        "UC",
+        "MH",
+        "88",
+        "48",
+        "35",
+        "98",
+        "50"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Emergency Services",
+        "Vision (Optometry)",
+        "Hospital",
+        "Medical Care",
+        "Urgent Care",
+        "Mental Health",
+        "Pharmacy",
+        "Hospital - Inpatient",
+        "Dental Care",
+        "Professional (Physician) Visit - Office",
+        "Hospital - Outpatient"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "CO MEDICAL ASSISTANCE PROGRAMS",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "eligibility": "20160911-20160911"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "162550008302.This eligibility guarantee number does not apply to or cover future dates."
+        },
+        {
+          "description": "This client receives the STANDARD MEDICAID BENEFIT."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "eligibility": "20160911-20160911"
+      },
+      "additionalInformation": [
+        {
+          "description": "COPAY NOT REQUIRED."
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "name": "Managed Care Coordinator",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "eligibility": "20160911-20160911"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Provider",
+        "entityType": "Non-Person Entity",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Provider",
+          "entityType": "Non-Person Entity",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "MHPROV Services"
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "name": "Managed Care Coordinator",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "DENTAL ASO",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "eligibility": "20160911-20160911"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Contracted Service Provider",
+        "entityType": "Non-Person Entity",
+        "entityName": "TEST USA INSURANCE CO INC",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Contracted Service Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "TEST USA INSURANCE CO INC",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "This client is eligible to receive standard Medicaid dental services. All dental services should be coordinated through the Dental ASO vendor listed."
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["48"],
+      "serviceTypes": ["Hospital - Inpatient"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Inpatient"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["47"],
+      "serviceTypes": ["Hospital"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Inpatient Psychiatric"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["50"],
+      "serviceTypes": ["Hospital - Outpatient"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Outpatient"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["AG"],
+      "serviceTypes": ["Skilled Nursing Care"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Skilled Nursing"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["42"],
+      "serviceTypes": ["Home Health Care"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Home Health"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Practitioner"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["5"],
+      "serviceTypes": ["Diagnostic Lab"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Lab X-Ray"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["56"],
+      "serviceTypes": ["Medically Related Transportation"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Transportation"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["18"],
+      "serviceTypes": ["Durable Medical Equipment Rental"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Supplies/DME"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["96"],
+      "serviceTypes": ["Professional (Physician)"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Practitioner/Psych"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Drug"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "serviceTypeCodes": ["68"],
+      "serviceTypes": ["Well Baby Care"],
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "groupNumber": "111111",
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Telephone",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "city": "TEST CITY",
+            "state": "TX",
+            "postalCode": "1111111111"
+          },
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Telephone",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "EPSDT"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Insured or Subscriber",
+        "entityType": "Person"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Insured or Subscriber",
+          "entityType": "Person"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Insured or Subscriber",
+        "entityType": "Person"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Insured or Subscriber",
+          "entityType": "Person"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsAdditionalInformation": {
+        "insurancePolicyNumber": "111111111"
+      },
+      "benefitsDateInformation": {
+        "eligibility": "20130101-99991231"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Insured or Subscriber",
+        "entityType": "Person"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Insured or Subscriber",
+          "entityType": "Person"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0525*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*000000001*005010X279A1~BHT*0022*11*1e92e34f-068f-32ed-c40a-7fe9de3b7aab*20240220*0525~HL*1**20*1~NM1*PR*2*Unknown*****PI*000042~PER*IC*Provider Relations*TE*1111111111~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~TRN*1*000000001*9EMDEON999*~NM1*IL*1*******01234567890~N3*~N4***~DMG*D8**~INS*Y*18*001*25~EB*1*IND*30^86^AL^47^1^UC^MH^88^48^35^98^50*MC*CO MEDICAL ASSISTANCE PROGRAMS~DTP*307*RD8*20160911-20160911~MSG*162550008302.This eligibility guarantee number does not apply to or cover future dates.~MSG*This client receives the STANDARD MEDICAID BENEFIT.~LS*2120~NM1*PR*2*Unknown~LE*2120~EB*B*IND*30****0~DTP*307*RD8*20160911-20160911~MSG*COPAY NOT REQUIRED.~EB*MC~DTP*307*RD8*20160911-20160911~MSG*MHPROV Services~LS*2120~NM1*1P*2*~PER*IC**TE*1111111111~LE*2120~EB*MC*IND*30*MC*DENTAL ASO~DTP*307*RD8*20160911-20160911~MSG*This client is eligible to receive standard Medicaid dental services. All dental services should be coordinated through the Dental ASO vendor listed.~LS*2120~NM1*13*2*TEST USA INSURANCE CO INC~PER*IC**TE*1111111111~LE*2120~EB*R~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**48~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Inpatient~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**47~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Inpatient Psychiatric~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**50~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Outpatient~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**AG~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Skilled Nursing~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**42~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Home Health~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**96~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Practitioner~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**5~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Lab X-Ray~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**56~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Transportation~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**18~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Supplies/DME~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**96~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Practitioner/Psych~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**88~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*Drug~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R**68~REF*IG*111111111~REF*6P*111111~DTP*307*RD8*20130101-99991231~MSG*EPSDT~LS*2120~NM1*PR*2*Unknown~N4*TEST CITY*TX*1111111111~PER*IC**TE*1111111111~LE*2120~EB*R~REF*IG*111111111~DTP*307*RD8*20130101-99991231~LS*2120~NM1*IL*1**~LE*2120~EB*R~REF*IG*111111111~DTP*307*RD8*20130101-99991231~LS*2120~NM1*IL*1**~LE*2120~EB*R~REF*IG*111111111~DTP*307*RD8*20130101-99991231~LS*2120~NM1*IL*1**~LE*2120~SE*196*000000001~GE*1*000000001~IEA*1*000000001~"
+}

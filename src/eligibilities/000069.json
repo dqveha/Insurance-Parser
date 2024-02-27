@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "660cbe85-a35d-5936-d247-39be197dca14"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000069",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "ssn": "222222222",
+    "address": {
+      "city": "TEST",
+      "state": "AA",
+      "postalCode": "11111"
+    }
+  },
+  "dependents": [
+    {
+      "firstName": "XXX",
+      "lastName": "XXXXXX",
+      "middleName": "H",
+      "gender": "F",
+      "entityType": "Person",
+      "dateOfBirth": "19010101",
+      "relationToSubscriber": "Spouse",
+      "relationToSubscriberCode": "01",
+      "insuredIndicator": "N"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "BCBS VIRGINIA  PPO",
+    "payorIdentification": "BCVAC",
+    "aaaErrors": [
+      {
+        "field": "AAA",
+        "code": "42",
+        "description": "Unable to Respond at Current Time",
+        "followupAction": "Resubmission Allowed",
+        "location": "Loop 2100A",
+        "possibleResolutions": "Is what we call the catch-all error.First place to start is look at PIRs to see if payer is having issues processing. If no PIR for payer call Command Center and have them check the system see if they are seeing trouble with the payer.Follow standard troubleshooting flow if no issue happening with payer."
+      }
+    ]
+  },
+  "planInformation": {
+    "socialSecurityNumber": "222222222",
+    "federalTaxpayersIdentificationNumber": "111111111"
+  },
+  "planDateInformation": {
+    "plan": "20170130"
+  },
+  "benefitsInformation": [
+    {
+      "code": "V",
+      "name": "Cannot Process",
+      "additionalInformation": [
+        {
+          "description": "Transaction failed at payer"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "field": "AAA",
+      "code": "42",
+      "description": "Unable to Respond at Current Time",
+      "followupAction": "Resubmission Allowed",
+      "location": "Loop 2100A",
+      "possibleResolutions": "Is what we call the catch-all error.First place to start is look at PIRs to see if payer is having issues processing. If no PIR for payer call Command Center and have them check the system see if they are seeing trouble with the payer.Follow standard troubleshooting flow if no issue happening with payer."
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0534*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*442350985*005010X279A1~BHT*0022*11*660cbe85-a35d-5936-d247-39be197dca14*20240220*0534~HL*1**20*1~NM1*PR*2*BCBS VIRGINIA  PPO*****PI*BCVAC~AAA*Y**42*R~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~REF*TJ*111111111~HL*3*2*22*1~NM1*IL*1*******01234567890~REF*SY*222222222~N4*TEST*AA*11111~DMG*D8**~HL*4*3*23*0~TRN*1*ECW-314881-2349643*0000000000*XXXXXXXX-DTP~NM1*03*1*XXXXXX*XXX*H~DMG*D8*19010101*F~INS*N*01~DTP*291*D8*20170130~EB*V~MSG*Transaction failed at payer~SE*22*442350985~GE*1*000000001~IEA*1*000000001~"
+}

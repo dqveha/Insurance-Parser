@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "bb6a5a8c-ce61-63c5-e51a-bbeaee9a3c67"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "00001",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "healthCareDiagnosisCodes": [
+      {
+        "diagnosisTypeCode": "BK",
+        "diagnosisCode": "8901"
+      },
+      {
+        "diagnosisTypeCode": "BF",
+        "diagnosisCode": "87200"
+      },
+      {
+        "diagnosisTypeCode": "BF",
+        "diagnosisCode": "5559"
+      }
+    ],
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "relationToSubscriber": "Self",
+    "insuredIndicator": "Y",
+    "maintenanceTypeCode": "001",
+    "maintenanceReasonCode": "25",
+    "birthSequenceNumber": "1"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "00001"
+  },
+  "planInformation": {
+    "policyNumber": "0000000000"
+  },
+  "planDateInformation": {
+    "plan": "20131015"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "BEDROCK PLAN",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "serviceTypeCodes": ["88", "90", "89", "54"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "BEDROCK PLAN",
+      "benefitsAdditionalInformation": {
+        "planNumber": "12345",
+        "drugFormularyNumber": "11111",
+        "planNetworkIdNumber": "1111111"
+      },
+      "benefitsDateInformation": {
+        "plan": "20131015"
+      }
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["88"],
+      "serviceTypes": ["Pharmacy"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["90"],
+      "serviceTypes": ["Mail Order Prescription Drug"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["89"],
+      "serviceTypes": ["Free Standing Prescription Drug"]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["54"],
+      "serviceTypes": ["Long Term Care"]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0518*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*0001*005010X279A1~BHT*0022*11*bb6a5a8c-ce61-63c5-e51a-bbeaee9a3c67*20240220*0518~HL*1**20*1~NM1*PR*2*Unknown*****PI*00001~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*1L*0000000000~N3*~N4***~DMG*D8**~INS*Y*18*001*25*************1~HI*BK:8901:D8*BF:87200:D8*BF:5559:D8~DTP*291*D8*20131015~EB*1**30**BEDROCK PLAN~REF*18*12345~REF*FO*11111~REF*N6*1111111~DTP*291*D8*20131015~EB*1**88~EB*1**90~EB*1**89~EB*1**54~SE*26*0001~GE*1*000000001~IEA*1*000000001~"
+}

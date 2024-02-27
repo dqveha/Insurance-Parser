@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "eec14b6a-d096-50c9-0bb0-02898bb68cab"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000040",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "111111"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000040"
+  },
+  "planInformation": {
+    "groupNumber": "111111",
+    "groupDescription": "Test Health & Rehab"
+  },
+  "planDateInformation": {
+    "plan": "20160111",
+    "planBegin": "20160108",
+    "eligibilityEnd": "20160131"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Open Access HMO",
+      "serviceTypeCodes": ["30"]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "Benefit details unavailable",
+      "serviceTypeCodes": ["1", "33", "47", "48", "50", "86", "98", "AL", "UC"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "planCoverage": "Open Access HMO",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Non-Person Entity",
+        "entityName": "No PCP Required"
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Non-Person Entity",
+          "entityName": "No PCP Required"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "Open Access-Self Refer to Specialist (HP) w/ Rx"
+        },
+        {
+          "description": "Deductibles and co-insurance apply. Members must use network providers. (HP)"
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "serviceTypeCodes": ["1", "33", "47", "48", "50", "86", "98", "AL", "UC"],
+      "serviceTypes": [
+        "Medical Care",
+        "Chiropractic",
+        "Hospital",
+        "Hospital - Inpatient",
+        "Hospital - Outpatient",
+        "Emergency Services",
+        "Professional (Physician) Visit - Office",
+        "Vision (Optometry)",
+        "Urgent Care"
+      ],
+      "planCoverage": "Benefit details unavailable"
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "serviceTypeCodes": ["35", "88", "MH"],
+      "serviceTypes": ["Dental Care", "Pharmacy", "Mental Health"],
+      "planCoverage": "No Coverage."
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0525*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*786850700*005010X279A1~BHT*0022*11*eec14b6a-d096-50c9-0bb0-02898bb68cab*20240220*0525~HL*1**20*1~NM1*PR*2*Unknown*****PI*000040~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*000000001*9EMDEON999*~NM1*IL*1*******01234567890~REF*6P*111111*Test Health & Rehab~N3*~N4***~DMG*D8**~DTP*346*D8*20160108~DTP*357*D8*20160131~DTP*291*D8*20160111~EB*1**30**Open Access HMO~MSG*Open Access-Self Refer to Specialist (HP) w/ Rx~MSG*Deductibles and co-insurance apply. Members must use network providers. (HP)~LS*2120~NM1*P3*2*No PCP Required~LE*2120~EB*1**1^33^47^48^50^86^98^AL^UC**Benefit details unavailable~EB*I**35^88^MH**No Coverage.~SE*25*786850700~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "867e5ce7-3000-a3eb-6398-6a6cf5204a71"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "TX",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "ssn": "111111111",
+    "address": {
+      "address1": "123 address1",
+      "city": "city1",
+      "state": "wa",
+      "postalCode": "981010000"
+    }
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "2",
+      "traceType": "Referenced Transaction Trace Numbers",
+      "referenceIdentification": "624684939",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Texas Medicaid/Healthcare Services",
+    "payorIdentification": "TX"
+  },
+  "planInformation": {
+    "policyNumber": "000",
+    "socialSecurityNumber": "111111111"
+  },
+  "planDateInformation": {
+    "planBegin": "20170101"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "100 TRADITIONAL MEDICAID",
+      "serviceTypeCodes": [
+        "30",
+        "98",
+        "48",
+        "47",
+        "33",
+        "MH",
+        "1",
+        "UC",
+        "AL",
+        "86",
+        "50"
+      ]
+    },
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "43STARAETNA BETTER HEALTH",
+      "serviceTypeCodes": [
+        "30",
+        "98",
+        "48",
+        "47",
+        "33",
+        "MH",
+        "1",
+        "UC",
+        "AL",
+        "86",
+        "50"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "30",
+        "98",
+        "48",
+        "47",
+        "33",
+        "MH",
+        "1",
+        "UC",
+        "AL",
+        "86",
+        "50"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Professional (Physician) Visit - Office",
+        "Hospital - Inpatient",
+        "Hospital",
+        "Chiropractic",
+        "Mental Health",
+        "Medical Care",
+        "Urgent Care",
+        "Vision (Optometry)",
+        "Emergency Services",
+        "Hospital - Outpatient"
+      ],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "100 TRADITIONAL MEDICAID",
+      "benefitsDateInformation": {
+        "added": "20161221",
+        "eligibilityBegin": "20161201",
+        "eligibilityEnd": "20170131"
+      },
+      "additionalInformation": [
+        {
+          "description": "40 SINGLE PREGNANT WOMEN"
+        },
+        {
+          "description": "R REGULAR"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "serviceTypeCodes": [
+        "30",
+        "98",
+        "48",
+        "47",
+        "33",
+        "MH",
+        "1",
+        "UC",
+        "AL",
+        "86",
+        "50"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Professional (Physician) Visit - Office",
+        "Hospital - Inpatient",
+        "Hospital",
+        "Chiropractic",
+        "Mental Health",
+        "Medical Care",
+        "Urgent Care",
+        "Vision (Optometry)",
+        "Emergency Services",
+        "Hospital - Outpatient"
+      ],
+      "benefitPercent": "0",
+      "benefitsDateInformation": {
+        "periodStart": "20161201",
+        "periodEnd": "20170131"
+      }
+    },
+    {
+      "code": "B",
+      "name": "Co-Payment",
+      "serviceTypeCodes": [
+        "30",
+        "98",
+        "48",
+        "47",
+        "33",
+        "MH",
+        "1",
+        "UC",
+        "AL",
+        "86",
+        "50"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Professional (Physician) Visit - Office",
+        "Hospital - Inpatient",
+        "Hospital",
+        "Chiropractic",
+        "Mental Health",
+        "Medical Care",
+        "Urgent Care",
+        "Vision (Optometry)",
+        "Emergency Services",
+        "Hospital - Outpatient"
+      ],
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "periodStart": "20161201",
+        "periodEnd": "20170131"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "periodStart": "20161201",
+        "periodEnd": "20170131"
+      }
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "0",
+      "benefitsDateInformation": {
+        "periodStart": "20161201",
+        "periodEnd": "20170131"
+      }
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["35", "88"],
+      "serviceTypes": ["Dental Care", "Pharmacy"],
+      "insuranceTypeCode": "MC",
+      "insuranceType": "Medicaid",
+      "planCoverage": "100 TRADITIONAL MEDICAID",
+      "benefitsDateInformation": {
+        "periodStart": "20161201",
+        "periodEnd": "20170131"
+      }
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["35"],
+      "serviceTypes": ["Dental Care"],
+      "benefitsDateInformation": {
+        "latestVisitOrConsultation": "20111207"
+      }
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["98"],
+      "serviceTypes": ["Professional (Physician) Visit - Office"],
+      "benefitsDateInformation": {
+        "latestVisitOrConsultation": "19990329"
+      }
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "30",
+        "98",
+        "48",
+        "47",
+        "33",
+        "MH",
+        "1",
+        "UC",
+        "AL",
+        "86",
+        "50"
+      ],
+      "serviceTypes": [
+        "Health Benefit Plan Coverage",
+        "Professional (Physician) Visit - Office",
+        "Hospital - Inpatient",
+        "Hospital",
+        "Chiropractic",
+        "Mental Health",
+        "Medical Care",
+        "Urgent Care",
+        "Vision (Optometry)",
+        "Emergency Services",
+        "Hospital - Outpatient"
+      ],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "43STARAETNA BETTER HEALTH",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsDateInformation": {
+        "added": "20161221",
+        "eligibilityBegin": "20170101",
+        "eligibilityEnd": "20170131"
+      },
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Primary Care Provider",
+        "entityType": "Person",
+        "entityName": "TEST",
+        "entityFirstname": "TEST",
+        "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+        "entityIdentificationValue": "1111111111",
+        "contactInformation": {
+          "contacts": [
+            {
+              "communicationMode": "Work Phone Number",
+              "communicationNumber": "1111111111"
+            }
+          ]
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Primary Care Provider",
+          "entityType": "Person",
+          "entityName": "TEST",
+          "entityFirstname": "TEST",
+          "entityIdentification": "Centers for Medicare and Medicaid Services National Provider Identifier",
+          "entityIdentificationValue": "1111111111",
+          "contactInformation": {
+            "contacts": [
+              {
+                "communicationMode": "Work Phone Number",
+                "communicationNumber": "1111111111"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["35", "88"],
+      "serviceTypes": ["Dental Care", "Pharmacy"],
+      "insuranceTypeCode": "OT",
+      "insuranceType": "Other",
+      "planCoverage": "43STARAETNA BETTER HEALTH",
+      "benefitsDateInformation": {
+        "periodStart": "20170101",
+        "periodEnd": "20170131"
+      }
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0546*|*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*000000001*005010X279A1~BHT*0022*11*624684939*20170110*120140~HL*1**20*1~NM1*PR*2*Texas Medicaid/Healthcare Services*****PI*TX~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*2*624684939*9EMDEON999~NM1*IL*1*******01234567890~REF*SY*111111111~REF*1L*000~N3*123 address1~N4*city1*wa*981010000~DMG*D8**~DTP*346*D8*20170101~EB*1*IND*30|98|48|47|33|MH|1|UC|AL|86|50*MC*100 TRADITIONAL MEDICAID~DTP*318*D8*20161221~DTP*356*D8*20161201~DTP*357*D8*20170131~MSG*40 SINGLE PREGNANT WOMEN~MSG*R REGULAR~EB*A**30|98|48|47|33|MH|1|UC|AL|86|50*****0~DTP*193*D8*20161201~DTP*194*D8*20170131~EB*B**30|98|48|47|33|MH|1|UC|AL|86|50****0~DTP*193*D8*20161201~DTP*194*D8*20170131~EB*C**30***23*0~DTP*193*D8*20161201~DTP*194*D8*20170131~EB*C**30***29*0~DTP*193*D8*20161201~DTP*194*D8*20170131~EB*I*IND*35|88*MC*100 TRADITIONAL MEDICAID~DTP*193*D8*20161201~DTP*194*D8*20170131~EB*F*IND*35~DTP*304*D8*20111207~EB*F*IND*98~DTP*304*D8*19990329~EB*1*IND*30|98|48|47|33|MH|1|UC|AL|86|50*OT*43STARAETNA BETTER HEALTH~DTP*318*D8*20161221~DTP*356*D8*20170101~DTP*357*D8*20170131~LS*2120~NM1*P3*1*TEST*TEST****XX*1111111111~PER*IC**WP*1111111111~LE*2120~EB*I*IND*35|88*OT*43STARAETNA BETTER HEALTH~DTP*193*D8*20170101~DTP*194*D8*20170131~SE*52*000000001~GE*1*000000001~IEA*1*000000001~"
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "59241689-f35a-ec89-8181-1408892db73e"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000002",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "ssn": "111111111"
+  },
+  "subscriberTraceNumbers": [
+    {
+      "traceTypeCode": "1",
+      "traceType": "Current Transaction Trace Numbers",
+      "referenceIdentification": "000000001",
+      "originatingCompanyIdentifier": "9EMDEON999"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000002"
+  },
+  "planInformation": {
+    "socialSecurityNumber": "111111111"
+  },
+  "planDateInformation": {
+    "plan": "20160818-20160818"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "QMB",
+      "serviceTypeCodes": ["30"]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "QM",
+      "insuranceType": "Qualified Medicare Beneficiary",
+      "planCoverage": "QMB",
+      "benefitsDateInformation": {
+        "benefit": "20160818-20160818"
+      }
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MA",
+      "insuranceType": "Medicare Part A",
+      "planCoverage": "MEDICARE PART A",
+      "benefitsDateInformation": {
+        "plan": "20160818-20160818"
+      }
+    },
+    {
+      "code": "R",
+      "name": "Other or Additional Payor",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["30"],
+      "serviceTypes": ["Health Benefit Plan Coverage"],
+      "insuranceTypeCode": "MB",
+      "insuranceType": "Medicare Part B",
+      "planCoverage": "MEDICARE PART B",
+      "benefitsDateInformation": {
+        "plan": "20160818-20160818"
+      }
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0521*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*946380841*005010X279A1~BHT*0022*11*59241689-f35a-ec89-8181-1408892db73e*20240220*0521~HL*1**20*1~NM1*PR*2*Unknown*****PI*000002~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*0~TRN*1*000000001*9EMDEON999*~NM1*IL*1*****~REF*SY*111111111~DMG*D8**~DTP*291*RD8*20160818-20160818~EB*1*IND*30*QM*QMB~DTP*292*RD8*20160818-20160818~EB*R*IND*30*MA*MEDICARE PART A~DTP*291*RD8*20160818-20160818~EB*R*IND*30*MB*MEDICARE PART B~DTP*291*RD8*20160818-20160818~SE*19*946380841~GE*1*000000001~IEA*1*000000001~"
+}

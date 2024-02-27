@@ -1,0 +1,699 @@
+{
+  "meta": {
+    "senderId": "APIM_Marketplace_SBX_Native_A2vFYhTtiVkqdwsx",
+    "applicationMode": "sandbox",
+    "traceId": "93e9155b-2139-8863-1328-23ca62fabaed"
+  },
+  "controlNumber": "000000001",
+  "reassociationKey": "000000001",
+  "tradingPartnerServiceId": "000048",
+  "provider": {
+    "entityIdentifier": "Provider",
+    "entityType": "Person",
+    "serviceProviderNumber": "CHCELIGIBILITY001"
+  },
+  "subscriber": {
+    "entityIdentifier": "Insured or Subscriber",
+    "entityType": "Person",
+    "groupNumber": "111111111111111"
+  },
+  "dependents": [
+    {
+      "entityType": "Person",
+      "planNumber": "1111111",
+      "relationToSubscriber": "Child",
+      "relationToSubscriberCode": "19",
+      "insuredIndicator": "N"
+    }
+  ],
+  "payer": {
+    "entityIdentifier": "Payer",
+    "entityType": "Non-Person Entity",
+    "name": "Unknown",
+    "payorIdentification": "000048"
+  },
+  "planInformation": {
+    "planNumber": "1111111",
+    "groupNumber": "111111111111111",
+    "groupDescription": "TEST COUNTY"
+  },
+  "planDateInformation": {
+    "planBegin": "20140101",
+    "eligibilityBegin": "20130101",
+    "service": "20160915"
+  },
+  "planStatus": [
+    {
+      "statusCode": "1",
+      "status": "Active Coverage",
+      "planDetails": "PPO Dental 2000",
+      "serviceTypeCodes": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ]
+    }
+  ],
+  "benefitsInformation": [
+    {
+      "code": "W",
+      "name": "Other Source of Data",
+      "headerLoopIdentifierCode": "2120",
+      "trailerLoopIdentifierCode": "2120",
+      "benefitsRelatedEntity": {
+        "entityIdentifier": "Payer",
+        "entityType": "Non-Person Entity",
+        "entityName": "Unknown",
+        "address": {
+          "address1": "PO Box 11111",
+          "city": "Test",
+          "state": "UT",
+          "postalCode": "11111"
+        }
+      },
+      "benefitsRelatedEntities": [
+        {
+          "entityIdentifier": "Payer",
+          "entityType": "Non-Person Entity",
+          "entityName": "Unknown",
+          "address": {
+            "address1": "PO Box 11111"
+          }
+        }
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Active Coverage",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "serviceTypes": [
+        "Diagnostic Dental",
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Dental Accident",
+        "Orthodontics",
+        "Prosthodontics",
+        "Oral Surgery",
+        "Routine (Preventive) Dental"
+      ],
+      "insuranceTypeCode": "PR",
+      "insuranceType": "Preferred Provider Organization (PPO)",
+      "planCoverage": "PPO Dental 2000"
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["24", "25", "26", "28", "36", "39", "40"],
+      "serviceTypes": [
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Prosthodontics",
+        "Oral Surgery"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "150",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsDateInformation": {
+        "benefitBegin": "20160101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Dent"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "FAM",
+      "coverageLevel": "Family",
+      "serviceTypeCodes": ["24", "25", "26", "28", "36", "39", "40"],
+      "serviceTypes": [
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Prosthodontics",
+        "Oral Surgery"
+      ],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "150",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Dent"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["24", "25", "26", "28", "36", "39", "40"],
+      "serviceTypes": [
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Prosthodontics",
+        "Oral Surgery"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "50",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsDateInformation": {
+        "benefitBegin": "20160101"
+      },
+      "additionalInformation": [
+        {
+          "description": "Dent"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Deductible",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["24", "25", "26", "28", "36", "39", "40"],
+      "serviceTypes": [
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Prosthodontics",
+        "Oral Surgery"
+      ],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "50",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "Dent"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["23", "41"],
+      "serviceTypes": ["Diagnostic Dental", "Routine (Preventive) Dental"],
+      "benefitPercent": "0",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["24", "25", "28", "40"],
+      "serviceTypes": [
+        "Periodontics",
+        "Restorative",
+        "Adjunctive Dental Services",
+        "Oral Surgery"
+      ],
+      "benefitPercent": ".2",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "A",
+      "name": "Co-Insurance",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["26", "36", "38", "39"],
+      "serviceTypes": [
+        "Endodontics",
+        "Dental Crowns",
+        "Orthodontics",
+        "Prosthodontics"
+      ],
+      "benefitPercent": ".5",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable"
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["41"],
+      "serviceTypes": ["Routine (Preventive) Dental"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "VS",
+          "quantityQualifier": "Visits",
+          "quantity": "2",
+          "timePeriodQualifierCode": "23",
+          "timePeriodQualifier": "Calendar Year",
+          "numOfPeriods": "1"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "DENTAL PROPHYLAXIS COUNTER"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "timeQualifierCode": "32",
+      "timeQualifier": "Lifetime",
+      "benefitAmount": "1000",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "DENT ORTHODONT"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "timeQualifierCode": "33",
+      "timeQualifier": "Lifetime Remaining",
+      "benefitAmount": "1000",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "DENT ORTHODONT"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "36",
+        "39",
+        "40",
+        "41"
+      ],
+      "serviceTypes": [
+        "Diagnostic Dental",
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Prosthodontics",
+        "Oral Surgery",
+        "Routine (Preventive) Dental"
+      ],
+      "timeQualifierCode": "23",
+      "timeQualifier": "Calendar Year",
+      "benefitAmount": "1000",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "DENTAL"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "IND",
+      "coverageLevel": "Individual",
+      "serviceTypeCodes": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "36",
+        "39",
+        "40",
+        "41"
+      ],
+      "serviceTypes": [
+        "Diagnostic Dental",
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Prosthodontics",
+        "Oral Surgery",
+        "Routine (Preventive) Dental"
+      ],
+      "timeQualifierCode": "29",
+      "timeQualifier": "Remaining",
+      "benefitAmount": "878",
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "DENTAL"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["23"],
+      "serviceTypes": ["Diagnostic Dental"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "2",
+          "timePeriodQualifierCode": "23",
+          "timePeriodQualifier": "Calendar Year",
+          "numOfPeriods": "1"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "PER FULL MOUTH"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["24"],
+      "serviceTypes": ["Periodontics"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "1",
+          "unitForMeasurementCode": "Months",
+          "sampleSelectionModulus": "24",
+          "unitForMeasurementQualifierCode": "MO",
+          "unitForMeasurementQualifier": "Months"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "PER QUADRANT"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["36"],
+      "serviceTypes": ["Dental Crowns"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "1",
+          "unitForMeasurementCode": "Months",
+          "sampleSelectionModulus": "96",
+          "unitForMeasurementQualifierCode": "MO",
+          "unitForMeasurementQualifier": "Months"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "TOOTH NUMBER 01 TO 32"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["39"],
+      "serviceTypes": ["Prosthodontics"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "benefitsServiceDelivery": [
+        {
+          "quantityQualifierCode": "FL",
+          "quantityQualifier": "Units",
+          "quantity": "1",
+          "unitForMeasurementCode": "Months",
+          "sampleSelectionModulus": "96",
+          "unitForMeasurementQualifierCode": "MO",
+          "unitForMeasurementQualifier": "Months"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "description": "TOOTH NUMBER 01 TO 16"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Non-Covered",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["27"],
+      "serviceTypes": ["Maxillofacial Prosthetics"]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["23", "38", "41"],
+      "serviceTypes": [
+        "Diagnostic Dental",
+        "Orthodontics",
+        "Routine (Preventive) Dental"
+      ],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "DEDUCTIBLE DOES NOT APPLY"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "36",
+        "39",
+        "40",
+        "41"
+      ],
+      "serviceTypes": [
+        "Diagnostic Dental",
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Prosthodontics",
+        "Oral Surgery",
+        "Routine (Preventive) Dental"
+      ],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "FROM AGES 000 TO 099"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["38"],
+      "serviceTypes": ["Orthodontics"],
+      "inPlanNetworkIndicatorCode": "W",
+      "inPlanNetworkIndicator": "Not Applicable",
+      "additionalInformation": [
+        {
+          "description": "FROM AGES 000 TO 020"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["23"],
+      "serviceTypes": ["Diagnostic Dental"],
+      "additionalInformation": [
+        {
+          "description": "Commercial"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "36",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "serviceTypes": [
+        "Diagnostic Dental",
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Orthodontics",
+        "Prosthodontics",
+        "Oral Surgery",
+        "Routine (Preventive) Dental"
+      ],
+      "additionalInformation": [
+        {
+          "description": "CHLD TO 26 OR 26 IF FT STUDENT"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "name": "Limitations",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": ["36"],
+      "serviceTypes": ["Dental Crowns"],
+      "additionalInformation": [
+        {
+          "description": "ALTERNATE BENEFITS MAY APPLY"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "name": "Benefit Description",
+      "coverageLevelCode": "ECH",
+      "coverageLevel": "Employee and Children",
+      "serviceTypeCodes": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "28",
+        "36",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "serviceTypes": [
+        "Diagnostic Dental",
+        "Periodontics",
+        "Restorative",
+        "Endodontics",
+        "Adjunctive Dental Services",
+        "Dental Crowns",
+        "Orthodontics",
+        "Prosthodontics",
+        "Oral Surgery",
+        "Routine (Preventive) Dental"
+      ],
+      "additionalInformation": [
+        {
+          "description": "STANDARD DENTAL NETWORK"
+        },
+        {
+          "description": "PPO II NETWORK"
+        }
+      ]
+    }
+  ],
+  "x12": "ISA*00*          *01*SomePwd   *ZZ*EMDEON         *ZZ*TPG00000       *240220*0529*^*00501*000000001*0*T*:~GS*HB*MTEXE*LLX1210001*20131015*2219*000000001*X*005010X279A1~ST*271*128440114*005010X279A1~BHT*0022*11*93e9155b-2139-8863-1328-23ca62fabaed*20240220*0529~HL*1**20*1~NM1*PR*2*Unknown*****PI*000048~HL*2*1*21*1~NM1*1P*1******SV*CHCELIGIBILITY001~HL*3*2*22*1~NM1*IL*1*******01234567890~REF*6P*111111111111111*TEST COUNTY~HL*4*3*23*0~TRN*2*000000001*9EMDEON999*~NM1*03*1**~REF*18*1111111~N3*~N4***~DMG*D8**~INS*N*19~DTP*346*D8*20140101~DTP*472*D8*20160915~DTP*356*D8*20130101~EB*W~LS*2120~NM1*PR*2*Unknown~N3*PO Box 11111~N4*Test*UT*11111~LE*2120~EB*1*ECH*23^24^25^26^28^36^37^38^39^40^41*PR*PPO Dental 2000~EB*C*FAM*24^25^26^28^36^39^40***23*150*****W~DTP*348*D8*20160101~MSG*Dent~EB*C*FAM*24^25^26^28^36^39^40***29*150*****W~MSG*Dent~EB*C*IND*24^25^26^28^36^39^40***23*50*****W~DTP*348*D8*20160101~MSG*Dent~EB*C*IND*24^25^26^28^36^39^40***29*50*****W~MSG*Dent~EB*A*ECH*23^41*****0****W~EB*A*ECH*24^25^28^40*****.2****W~EB*A*ECH*26^36^38^39*****.5****W~EB*F*ECH*41*********W~HSD*VS*2***23*1~MSG*DENTAL PROPHYLAXIS COUNTER~EB*F*IND*38***32*1000*****W~MSG*DENT ORTHODONT~EB*F*IND*38***33*1000*****W~MSG*DENT ORTHODONT~EB*F*IND*23^24^25^26^28^36^39^40^41***23*1000*****W~MSG*DENTAL~EB*F*IND*23^24^25^26^28^36^39^40^41***29*878*****W~MSG*DENTAL~EB*F*ECH*23*********W~HSD*FL*2***23*1~MSG*PER FULL MOUTH~EB*F*ECH*24*********W~HSD*FL*1*MO*24~MSG*PER QUADRANT~EB*F*ECH*36*********W~HSD*FL*1*MO*96~MSG*TOOTH NUMBER 01 TO 32~EB*F*ECH*39*********W~HSD*FL*1*MO*96~MSG*TOOTH NUMBER 01 TO 16~EB*I*ECH*27~EB*F*ECH*23^38^41*********W~MSG*DEDUCTIBLE DOES NOT APPLY~EB*F*ECH*23^24^25^26^28^36^39^40^41*********W~MSG*FROM AGES 000 TO 099~EB*F*ECH*38*********W~MSG*FROM AGES 000 TO 020~EB*F*ECH*23~MSG*Commercial~EB*F*ECH*23^24^25^26^28^36^38^39^40^41~MSG*CHLD TO 26 OR 26 IF FT STUDENT~EB*F*ECH*36~MSG*ALTERNATE BENEFITS MAY APPLY~EB*D*ECH*23^24^25^26^28^36^38^39^40^41~MSG*STANDARD DENTAL NETWORK~MSG*PPO II NETWORK~SE*80*128440114~GE*1*000000001~IEA*1*000000001~"
+}
