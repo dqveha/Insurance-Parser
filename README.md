@@ -4,10 +4,12 @@
 
 This is a project to parse and sort out insurance eligibility information returned by [Change Healthcare's Eligibility API](https://developers.changehealthcare.com/eligibilityandclaims/reference/medical-network-eligibility-v3-overview). Examples of them are under `src/eligibilities` with descriptions found [here](#from-change-healthcares-sandbox-api-values-and-test-responses).
 
-Two outputs are console logged.
+What this solves:
 
-1. `(a) - UNPARSED LEFTOVER` - An internal validating tool. While the function runs, it assures if the properties were looked and parsed from the Change Healthcare JSON. Any objects leftover is a sign that there are gaps within the `(b) - BENEFIT SUMMARY` and should update the function to include what's in the unparsed leftover.
-2. `(b) - BENEFIT SUMMARY` - The data model is outputted on the basis of this order: `Benefit summary` -> `In-Network / Out-of-Network` -> `Coverage Level` -> `Service Type` -> `Eligibility or Benefit Information`.
+1. Dispersion of the same benefit information and characteristic on different nodes.
+2. Organization of insurance information that would make more sense to a person.
+3. Takes away redundant properties
+4. After parsing, it leaves a O(1) look up instead of O(M x N)
 
 ## Installation
 
@@ -18,7 +20,11 @@ Two outputs are console logged.
 3. Change ID of eligibility on line 1 of `src/app.ts` to desired Change Healthcare Eligibility example, save, then run `npm run test` in terminal for results.
 4. There should be two console log outputs for review: `(a) - UNPARSED LEFTOVER` and `(b) - BENEFIT SUMMARY`
 
-### From Change Healthcare's "[Sandbox API Values and Test Responses](https://developers.changehealthcare.com/eligibilityandclaims/docs/eligibility-sandbox-api-values-and-test-responses)"
+   a. `(a) - UNPARSED LEFTOVER` - An internal validating tool. While the function runs, it assures if the properties were looked and parsed from the Change Healthcare JSON. Any objects leftover is a sign that there are gaps within the `(b) - BENEFIT SUMMARY` and should update the function to include what's in the unparsed leftover.
+
+   b. `(b) - BENEFIT SUMMARY` - The data model is outputted on the basis of this order: `Benefit summary` -> `In-Network / Out-of-Network` -> `Coverage Level` -> `Service Type` -> `Eligibility or Benefit Information`.
+
+## From Change Healthcare's "[Sandbox API Values and Test Responses](https://developers.changehealthcare.com/eligibilityandclaims/docs/eligibility-sandbox-api-values-and-test-responses)"
 
 | ID     | Description                                                                                                                                                                           |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -85,9 +91,9 @@ Two outputs are console logged.
 
 - `trailerLoopIdentifierCode` and `headerLoopIdentifierCode` is noise since there are two 2120 ([C - Subscriber Benefit Related Entity Name Loop](https://www.stedi.com/app/guides/view/hipaa/health-care-eligibility-benefit-response-x279a1/01GS66YHZPB37ABF34DBPSR213#properties.detail.properties.information_source_level_HL_loop.items.properties.information_receiver_level_HL_loop.items.properties.subscriber_level_HL_loop.items.properties.subscriber_name_NM1_loop.properties.subscriber_eligibility_or_benefit_information_EB_loop.items.properties.subscriber_benefit_related_entity_name_NM1_loop) / [D - Dependent Benefit Related Entity Name Loop](https://www.stedi.com/app/guides/view/hipaa/health-care-eligibility-benefit-response-x279a1/01GS66YHZPB37ABF34DBPSR213#properties.detail.properties.information_source_level_HL_loop.items.properties.information_receiver_level_HL_loop.items.properties.subscriber_level_HL_loop.items.properties.dependent_level_HL_loop.items.properties.dependent_name_NM1_loop.properties.dependent_eligibility_or_benefit_information_EB_loop.items.properties.dependent_benefit_related_entity_name_NM1_loop)), but Change Healthcare's API doesn't specify which 2120 loop it is.
 
-### Reflection
+## Reflection
 
-Can improve with:
+**Can improve with:**
 
 1.  Commits -- Should've started with this! Almost feels sacrilegious in hindsight - hah
 2.  Zod schema for integrity of consistent data type and formatting
@@ -96,12 +102,15 @@ Can improve with:
 5.  Testing framework such as Jest
 6.  DRY'ing within the parsing function
 7.  Further type-checking
+8.  Incorporating Docker
+9.  Frontend component
 
-What I've learned:
+**What I've learned:**
 
 1.  Even with the unparsed leftover as an internal validator, it's not perfect. I've come across many edge cases that come from looking manually at the results. At the least, it's another method to help me find the gaps.
 2.  Recently read a post about 10 software engineering golden rules, and the one I resonated with most regarding this project is this: `"There are no universal solutions. Evaluate tradeoffs for each context".`
 3.  Going off from (2), there are so many variations of what a benefit input looks like. That's also why within the function, it appears to have redundant if/else statements when in actuality, they all serve a purpose due to the edge cases.
+4.  As a former healthcare worker, I had to use my experience working with this project to implement the nuances as it's meant to be while making it simpler for the end user to understand what's being outputted.
 
 #
 
